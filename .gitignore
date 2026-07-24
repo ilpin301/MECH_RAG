@@ -1,0 +1,22 @@
+# --- secrets ---
+# .env holds the live Z.ai API key and the LightRAG API key. Never commit it.
+.env
+!.env.example
+
+# --- upstream LightRAG clone ---
+# lightrag/ is a shallow clone of https://github.com/hkuds/lightrag with its own
+# git remote. Only the files this project added are tracked; everything else is
+# upstream and must be fetched with `git clone`, not vendored.
+/lightrag/*
+!/lightrag/data/
+!/lightrag/rag_ingest.py
+!/lightrag/ingest_detached.ps1
+!/lightrag/.env.example
+
+# --- run artifacts ---
+*.log
+/lightrag/ingest_list.txt
+__pycache__/
+*.pyc
+.venv-rag/
+/lightrag/.git-upstream-bak/

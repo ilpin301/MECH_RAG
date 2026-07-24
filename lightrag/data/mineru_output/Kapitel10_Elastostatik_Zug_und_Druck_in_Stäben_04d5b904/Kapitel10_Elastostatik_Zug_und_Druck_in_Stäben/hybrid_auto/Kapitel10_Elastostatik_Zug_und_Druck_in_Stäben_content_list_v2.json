@@ -1,0 +1,5148 @@
+[
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/00608d81313dc92039dc4bc675451d265368d593f72267e087e9079b53215802.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                0,
+                0,
+                1000,
+                333
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Mechanik in der Werkstofftechnik II: Elastostatik"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                362,
+                800,
+                422
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Kapitel 10: Zug und Druck in Stäben"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                503,
+                368,
+                548
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Univ. Prof. Dr.-Ing Sebastian Münstermann <sub>+</sub> <sub>Verformung</sub>Beanspruchung von elastischen Tragwerken"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                592,
+                429,
+                635
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "ibF RWTHAACHENUNIVERSITY"
+                    }
+                ]
+            },
+            "bbox": [
+                782,
+                903,
+                961,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                378,
+                209,
+                651,
+                300
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3769512f78baa5519c58c285e7891d91c4385efc0905afe4a6c67b1661c1b4b6.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                30,
+                116,
+                967,
+                879
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Kinematische Beziehungen"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                692,
+                190,
+                777
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Elastizitätsmodell"
+                    }
+                ]
+            },
+            "bbox": [
+                459,
+                722,
+                570,
+                803
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Betrachtung des Stabs"
+                    }
+                ]
+            },
+            "bbox": [
+                781,
+                716,
+                934,
+                796
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Lernziele"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                68,
+                123,
+                103
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                38,
+                927
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.1 Spannung"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                181,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Betrachtung eines geraden Stabes mit konstanter Querschnittsfläche �."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                170,
+                650,
+                207
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Die Verbindungslinie der Schwerpunkte der Querschnittsflächen heißt Stabachse."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                209,
+                738,
+                250
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/3408cf3660a806f0f0dc75231a32cac25640d52471b75cc7401f15faf4ab5a23.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                753,
+                133,
+                973,
+                255
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Die Wirkungsline von "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ist die Stabachse."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                290,
+                403,
+                325
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Die äußere Belastung � verursacht innere Kräfte."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                329,
+                470,
+                366
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2dda2c7d4d553cd37b984e2cf433d9c69702b5eed8b864395c1d49a444bd8902.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                229,
+                377,
+                526,
+                570
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma = \\frac {N}{A} = \\frac {F}{A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/65f7d07e62de88b6232de336b3bea749c2918fb70f94746b76252523e7f500ca.jpg"
+                }
+            },
+            "bbox": [
+                591,
+                427,
+                686,
+                511
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(Technische Spannung)"
+                    }
+                ]
+            },
+            "bbox": [
+                723,
+                450,
+                925,
+                490
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Bestimmung der inneren Kräfte durch einen geraden Schnitt "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "s - s"
+                    },
+                    {
+                        "type": "text",
+                        "content": "durch den Stab."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                570,
+                739,
+                607
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Flächenkräfte in der Schnittebene Spannungen � [Kraft / Fläche "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\triangleq { \\mathsf { N } } / { \\mathsf { m m } } ^ { 2 } \\triangleq { \\mathsf { M P a } } ]"
+                    },
+                    {
+                        "type": "text",
+                        "content": "nach Augustin Louis Cauchy (1789-1857)"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                609,
+                945,
+                688
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Annahme: Spannungen stehen senkrecht zur Schnittfläche und sind gleichförmig verteilt."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                729,
+                854,
+                770
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Normalspannung N: σ steht normal zu "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { \\Omega } \\mathsf { S } - \\mathsf { \\Omega } \\mathsf { S }"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                811,
+                419,
+                846
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Zugstab: N ist positiv "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": " \\sigma"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ist positiv Zugspannung"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                853,
+                475,
+                892
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sub>3</sub>▪ Druckstab: N ist negativ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": " \\sigma"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ist negativ Druckspannung"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                898,
+                521,
+                935
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                328,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/692f84679bc2d1798d3812bae68bcd928c9eb3452f047573762ec41e9a982106.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                130,
+                131,
+                852,
+                355
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Ungleichförmige Spannungsverteilung in Schnitt "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { \\Omega } \\mathsf { S } - \\mathsf { \\Omega } \\mathsf { S }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(Stabende) und "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { S } ^ { \\prime } - \\mathsf { S } ^ { \\prime }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "(Kerbe) → Spannungsspitzen"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                370,
+                938,
+                409
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Spannungsüberhöhung nimmt mit Abstand zum Stabende schnell ab"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                409,
+                630,
+                450
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": " Bei diesen Fällen kann die Spannungsverteilungen nicht mit der elementaren Theorie des Zugstabes ermittelt werden!"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                488,
+                963,
+                566
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Bei Stäben mit schwach veränderlicher Querschnittfläche gilt als gute Näherung:"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                609,
+                725,
+                650
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma (x) = \\frac {N (x)}{A (x)}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/befabda6eb133c65d76d1d654f6096f73f870b6f5a53847d930258fdfa3ff159.jpg"
+                }
+            },
+            "bbox": [
+                400,
+                685,
+                508,
+                774
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "10.1 Spannung"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                68,
+                181,
+                109
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                38,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.1 Spannung"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                181,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Querschnittsbemessung in der Praxis (Dimensionierung)"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                151,
+                526,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Gewählte Abmessungen Keine Überschreitung vorgegebener maximaler Beanspruchung"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                237,
+                831,
+                277
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mid \\sigma \\mid \\leq \\sigma_{zul}\\quad \\text{zulässige Spannung}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9a3277d1ecc8c289e7e54b37282e54dcffe1d25faf5b2bb2755a3cfbdc632473.jpg"
+                }
+            },
+            "bbox": [
+                314,
+                314,
+                597,
+                355
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Erforderliche Querschnittsfläche "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A _ { e r f }"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                398,
+                375,
+                440
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "A _ {e r f} = | N | / \\sigma_ {z u l}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e93c4786de6fe8d15cf4683c455b0118c90ec059672e84feb234355152a6e2d2.jpg"
+                }
+            },
+            "bbox": [
+                375,
+                466,
+                516,
+                509
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Anmerkung: Ein auf Druck beanspruchter schlanker Stab kann durch Knicken versagen, bevor die Spannung einen unzulässig großen Wert annimmt (wird später behandelt)."
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                601,
+                895,
+                681
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                38,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                664,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.1 Spannung"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                181,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Ein konischer Stab (Länge �) mit kreisförmigem Querschnitt (Endradien "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r _ { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bzw. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "2 r _ { 0 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "wird durch eine Druckkraft � in der Stabachse belastet. Wie groß ist die Normalspannung in einem beliebigen Querschnitt bei einem Schnitt senkrecht zur Stabachse?"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                150,
+                950,
+                268
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1c9aba6588af95a71ee714423459f14f46b0965328963236bc06575d88cae952.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                234,
+                283,
+                758,
+                416
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Radius für den konischen Druckstab "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "r ( x )"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                431,
+                402,
+                468
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "r (x) = r _ {0} + r _ {0} \\cdot \\frac {x}{l} = r _ {0} \\cdot \\left(1 + \\frac {x}{l}\\right)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/955f2c4b2bd6cad1c6afc1fa2b4a3e752ece111e45bd28fdcbc341c11847aa48.jpg"
+                }
+            },
+            "bbox": [
+                354,
+                501,
+                617,
+                574
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Querschnittsfläche "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "A ( x ) = \\pi \\cdot r ( x ) ^ { 2 }"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                590,
+                348,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Normalspannung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma ( x ) = N ( x ) / A ( x )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "mit "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N ( x ) = N = - F"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                709,
+                519,
+                750
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma (x) = - \\frac {F}{\\pi \\cdot \\left[ r _ {0} \\cdot \\left(1 + \\frac {x}{l}\\right) \\right] ^ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3ea31e0d8a695be52d23dc832021a06bbca51adeabf24e8a10c35dab422680d4.jpg"
+                }
+            },
+            "bbox": [
+                253,
+                785,
+                479,
+                901
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(Druckspannung)"
+                    }
+                ]
+            },
+            "bbox": [
+                506,
+                825,
+                654,
+                866
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma (x = 0) = 4 \\cdot \\sigma (x = l)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e0d8b0b88564c5195631299bfc6b21aeccda600bceb7133b16c8f32b0aecbd3a.jpg"
+                }
+            },
+            "bbox": [
+                687,
+                825,
+                881,
+                864
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                38,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.2 Dehnung"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                169,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Untersuchung der Verformung eines elastischen Körpers."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                150,
+                542,
+                190
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0092d0d6ed9c42f1d91c9fc7fefc8633df911d0896ac701408c2c03512f40dc3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                231,
+                220,
+                773,
+                483
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Dehnung ε: Längenänderungsverhältnis zur Ausgangslänge �"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                509,
+                566,
+                551
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon = \\frac {\\Delta l}{l}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/55352f85233222f41fdfd09d74a645acb8d03f5d382144981cc72c348f855417.jpg"
+                }
+            },
+            "bbox": [
+                401,
+                588,
+                461,
+                670
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[dimensionslos] (Technische Dehnung)"
+                    }
+                ]
+            },
+            "bbox": [
+                503,
+                603,
+                844,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Verlängerung des Stabs: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta l > 0 "
+                    },
+                    {
+                        "type": "text",
+                        "content": "positive Dehnung"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                711,
+                495,
+                750
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Verkürzung des Stabs: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta l < 0 "
+                    },
+                    {
+                        "type": "text",
+                        "content": "negative Dehnung"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                755,
+                487,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Betrachtung kleiner Deformationen: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "| \\Delta l | \\ll l"
+                    },
+                    {
+                        "type": "text",
+                        "content": "bzw. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "| \\varepsilon | \\ll 1"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                800,
+                527,
+                838
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d37a191b1d51804bf4fd5ac649b79b6199f07ce9c5523852f0edd61a8d2f3e40.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                326,
+                150,
+                713,
+                438
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "� ≠ konst."
+                    }
+                ]
+            },
+            "bbox": [
+                753,
+                285,
+                843,
+                325
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Dehnung ortsabhängig veränderliche Querschnittfläche"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                472,
+                540,
+                512
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/9c9dc1c0797da0a6e457828e4c81be4a9b89b25002a6f5337c5850285d1a6082.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                336,
+                514,
+                383,
+                564
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Betrachtung eines Stabelements"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                562,
+                328,
+                600
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Verschiebung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u ( x )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ist ortsabhängig"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                605,
+                353,
+                646
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Örtliche Dehnung:"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                646,
+                207,
+                688
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon (x) = \\frac {d u}{d x} = \\frac {\\Delta l}{l}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8945e448182b4dd52dffab5f906d2fde2de1121206d5902a3dd4b79426982a86.jpg"
+                }
+            },
+            "bbox": [
+                238,
+                679,
+                375,
+                762
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Bestimmung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { \\mathrm { u } ( x ) \\mathrm { : u } ( x ) = \\int \\mathfrak { \\varepsilon } ( x ) } \\end{array}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "��"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                783,
+                350,
+                825
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Kinematik"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                435,
+                625,
+                532,
+                664
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Verschiebung � und Dehnung ε beschreiben die Geometrie der Verformung → kinematische Größen"
+                    }
+                ]
+            },
+            "bbox": [
+                580,
+                681,
+                950,
+                809
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "10.2 Dehnung"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                66,
+                169,
+                109
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                907,
+                42,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Spannungen → Kraftgrößen → ein Maß für die Beanspruchung des Materials (eines Körpers)"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                150,
+                838,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Dehnungen → Kinematische Größen → ein Maß für die Verformung"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                194,
+                638,
+                233
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Stoffgesetz/-modell beschreibet die physikalische oder phänomenologische Beziehung zwischen Spannungen und Dehnungen"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                150,
+                257,
+                795,
+                344
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Stoffmodell hängt vom Material ab!"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                370,
+                346,
+                407
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Ermittlung der Stoffmodelle nur mit Experimenten möglich."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                414,
+                540,
+                453
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Zug- bzw. Druckversuch"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                459,
+                295,
+                496
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Probenstab wird gedehnt bzw. gestaucht"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                501,
+                432,
+                542
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rightarrow \\sigma = F / A",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5f2a0532b0203f5a53264091a833f1af6f8949921df165c1cdb7adfee7614003.jpg"
+                }
+            },
+            "bbox": [
+                478,
+                501,
+                575,
+                540
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Gleichzeitige Änderung der Stablänge"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                546,
+                410,
+                585
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rightarrow \\varepsilon = \\Delta l / l",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/20550d7db629144f1e00f5f7f5eaa5864bbe00469f3586aec614f75c9a4e63ef.jpg"
+                }
+            },
+            "bbox": [
+                478,
+                546,
+                573,
+                585
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Darstellung in Spannungs-Dehnungs-Diagramm"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                590,
+                516,
+                631
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/d159c707967ab7ee4e5fe5b80cc1b51969e916f6fcf8012c2ff913e8245d8d1b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "text",
+                        "content": "Fließgrenze (Streckgrenze)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Proportionalitätsgrenze"
+                    }
+                ]
+            },
+            "bbox": [
+                92,
+                638,
+                234,
+                925
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ecf1fc6308d7c60fb1151ea8120e288a2b7ca2079fa85e1887f9205bd3bba7db.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma _ { w } \\colon"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Wahre Spannung"
+                    }
+                ]
+            },
+            "bbox": [
+                644,
+                381,
+                963,
+                903
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "10.3 Stoffgesetz/-modell"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                66,
+                271,
+                107
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Prinzip Zugversuch [Gottstein, S. 209]"
+                    }
+                ]
+            },
+            "bbox": [
+                114,
+                931,
+                217,
+                985
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                905,
+                42,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "�<sub>�</sub>:"
+                    }
+                ]
+            },
+            "bbox": [
+                733,
+                951,
+                759,
+                985
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Wahre Querschnittsfläche"
+                    }
+                ]
+            },
+            "bbox": [
+                732,
+                948,
+                960,
+                985
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                940,
+                665,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.3 Stoffgesetz/-modell"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                271,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lvert \\sigma < \\sigma _ { F } \\rvert"
+                    },
+                    {
+                        "type": "text",
+                        "content": "→ Elastisch: Material nimmt nach vollständiger Entlastung ursprüngliche Länge an"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                148,
+                808,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\lfloor \\sigma > \\sigma _ { F } \\rvert"
+                    },
+                    {
+                        "type": "text",
+                        "content": "→ Plastisch: Bei völliger Entlastung bleibt die plastische Dehnung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\varepsilon _ { p l }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "zurück"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                196,
+                759,
+                238
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma \\leq \\sigma _ { p }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "→ Linear-elastisch (Fokus dieser Veranstaltung!)"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                244,
+                534,
+                283
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Linear-elastisches Materialverhalten:"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                290,
+                362,
+                325
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {\\sigma} = \\boldsymbol {E} \\cdot \\boldsymbol {\\varepsilon}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1650db9ac45e808f7ca96ff54f1af0c547491b1bebc8f6dc5d33f72820b262f9.jpg"
+                }
+            },
+            "bbox": [
+                287,
+                357,
+                363,
+                390
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Hooksches Modell"
+                    }
+                ]
+            },
+            "bbox": [
+                412,
+                353,
+                577,
+                392
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Proportionalitätsfaktor E → Elastizitätsmodul "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "[ \\mathsf { M P a } = \\mathsf { N } / \\mathsf { m m } ^ { 2 } ]"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                422,
+                569,
+                459
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Stabdehnung infolge Zug- und Druckkraft"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                466,
+                401,
+                503
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon = \\sigma / _ {E}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/73a48874c81f3eaedd4a96bc593082237226b0d59ce2b4541397d0a4597df85a.jpg"
+                }
+            },
+            "bbox": [
+                325,
+                525,
+                394,
+                575
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/faec50a420e91bee80f6f296fedea89b15d3377681cc718350070cd670075505.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                588,
+                459,
+                909,
+                920
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                907,
+                42,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Ermittlung der Spannungen und Verformung eines Stabes (unbeweglich, im Gleichgewicht) durch drei verschiedene Arten von Gleichungen"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                150,
+                901,
+                233
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/929a7f22bca33d129c17af6ffa8f45aaa3bb93b1473ef98bcf77c9df2c94a499.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                762,
+                216,
+                912,
+                316
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Einzelkräfte"
+                    }
+                ]
+            },
+            "bbox": [
+                308,
+                346,
+                411,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Linienkräfte"
+                    }
+                ]
+            },
+            "bbox": [
+                689,
+                350,
+                791,
+                388
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{c}\\mid \\leftarrow \\mathrm{d} x \\rightarrow \\mid\\\\x \\qquad x + \\mathrm{d} x\\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c5799680fac70a75997182b5f2ed93e4564d7e02cd4c6d02f1d71dbc8a58a4bc.jpg"
+                }
+            },
+            "bbox": [
+                795,
+                325,
+                886,
+                385
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Gleichgewichtsbedingung:"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                414,
+                300,
+                455
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rightarrow : N + d N + n \\cdot d x - N = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5f231b60ef0dee6e87042c21f33ffe1cec0b1f9cfb80c4ccdc3abbf367bff0a2.jpg"
+                }
+            },
+            "bbox": [
+                67,
+                498,
+                298,
+                535
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d N}{d x} + n = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/22f8d8c7696aa35e13fe21926b3b4487a4299637b143ee389f473f9deac45dda.jpg"
+                }
+            },
+            "bbox": [
+                387,
+                477,
+                489,
+                562
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F _ {1} = F _ {2} + n \\cdot l",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9c7fd39a9075a800a7938113893812a1159a720e9f1f75c685ce98f1a0a8a6ff.jpg"
+                }
+            },
+            "bbox": [
+                734,
+                498,
+                855,
+                540
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Kinematik:"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                590,
+                156,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Elastizitätsmodell"
+                    }
+                ]
+            },
+            "bbox": [
+                708,
+                624,
+                901,
+                659
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon (x) = \\frac {d u}{d x}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/82e85b6b6af551bc74c6af1c6d19201b46a16b291491fa27f8d5253528447548.jpg"
+                }
+            },
+            "bbox": [
+                67,
+                662,
+                156,
+                742
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Elastizitätsgesetz/-modell für den Stab"
+                    }
+                ]
+            },
+            "bbox": [
+                275,
+                696,
+                626,
+                735
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon = \\frac {\\sigma}{E} + \\alpha_ {T} \\Delta T",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9fff6a7ed3c0ce0eaaa86643b0a179d42a0d15696e0d33e1753790c2c2e61ae9.jpg"
+                }
+            },
+            "bbox": [
+                756,
+                681,
+                875,
+                753
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d u}{d x} = \\frac {N}{E A} + \\alpha_ {T} \\Delta T",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/13b8fb91cf74204570089e70933d738de73daddc32a76f84ed270bb6101007e8.jpg"
+                }
+            },
+            "bbox": [
+                364,
+                766,
+                509,
+                850
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma = \\frac {N}{A}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/da7128ac6661e41a7ea6cb57be77fb4f66facc6a37b078850041728197dd8a2e.jpg"
+                }
+            },
+            "bbox": [
+                613,
+                766,
+                671,
+                850
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Dehnsteifigkeit (��)"
+                    }
+                ]
+            },
+            "bbox": [
+                425,
+                890,
+                595,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Verschiebung eines Stabquerschnitts"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                151,
+                366,
+                190
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\varepsilon = \\frac {d u}{d x} \\longrightarrow \\Delta l = u (l) - u (0) = \\int_ {0} ^ {l} \\varepsilon \\cdot d x \\longrightarrow \\Delta l = \\int_ {0} ^ {l} \\left(\\frac {N}{E A} + \\alpha_ {T} \\Delta T\\right) \\cdot d x",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/dc49f7b2ed1b9fbfbd0bcae4612c7ab6854c4c12e2b6949d9b50ec8b9fd8d6f4.jpg"
+                }
+            },
+            "bbox": [
+                52,
+                207,
+                830,
+                377
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sonderfall → konstante Dehnsteifigkeit, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n = 0 , \\Delta T = \\mathsf { k o n s t } ."
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "N = F"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                416,
+                601,
+                453
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l = \\frac {F \\cdot l}{E A} + \\alpha_ {T} \\cdot \\Delta T \\cdot l",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/402c1b703ccd90efa0fb4dfb4b6d670531ef1ced7be927b974cad0adbe063e61.jpg"
+                }
+            },
+            "bbox": [
+                116,
+                507,
+                297,
+                588
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta T = 0 \\colon"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                635,
+                119,
+                670
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "F = 0:",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f9ea96bb76735f1b59a0a012d677c9465623acbf9f15a46b8800f7199a8d730b.jpg"
+                }
+            },
+            "bbox": [
+                314,
+                638,
+                372,
+                672
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l = \\frac{\\boldsymbol{F}\\cdot\\boldsymbol{l}}{EA}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3c75f863fb2576b972cf8b91c6bac27a5da7bd290d68b2ef44d11a41dfdf610a.jpg"
+                }
+            },
+            "bbox": [
+                75,
+                714,
+                156,
+                796
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l = \\alpha_ {T} \\cdot \\Delta T \\cdot l",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c750af58879256d3f818bdc8e74bf81f51b533428f249ec27266ef463b1ea9f9.jpg"
+                }
+            },
+            "bbox": [
+                283,
+                731,
+                408,
+                770
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                664,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Statisch bestimmte Problemstellung:"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                26,
+                196,
+                387,
+                231
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Normalkraft "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { N } ( \\mathsf { x } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "mit Gleichgewichtsbedingungen bestimmbar"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                240,
+                604,
+                279
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Dehnung: � � ; "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma = \\frac { N } { A } ; \\varepsilon = \\frac { \\sigma } { E }"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                329,
+                329,
+                390
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ :Verschiebung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\textstyle \\int d u = \\int \\varepsilon d x"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                435,
+                328,
+                479
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta T \\to \\mathsf { W } \\ddot { \\mathsf { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "rmedehnung; keine zusätzlichen Spannungen"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                529,
+                552,
+                568
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Statisch unbestimmte Problemstellung"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                27,
+                618,
+                404,
+                655
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Normalkraft "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { N } ( \\mathsf { x } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "nicht mit Gleichgewichtsbedingungen bestimmbar"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                662,
+                648,
+                701
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "■ Gleichgewicht; Kinematik; Elastizitätsgesetz"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                750,
+                458,
+                788
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta T \\to \\mathsf { W } \\ddot { \\mathsf { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "rmedehnung; Zusätzliche Spannungen"
+                    }
+                ]
+            },
+            "bbox": [
+                62,
+                838,
+                493,
+                877
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                66,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                907,
+                42,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                68,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Abschließende Differentialgleichung für die Verschiebung �"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                151,
+                550,
+                190
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "(E \\cdot A \\cdot u ^ {\\prime}) ^ {\\prime} = - n + (E \\cdot A \\cdot \\alpha_ {T} \\cdot \\Delta T) ^ {\\prime}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/913da32f5ed302958a73d074ab8384e9efdd17d23637a9e51ee14a901051c4a5.jpg"
+                }
+            },
+            "bbox": [
+                317,
+                238,
+                621,
+                279
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ableitung nach �"
+                    }
+                ]
+            },
+            "bbox": [
+                693,
+                250,
+                840,
+                292
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d u}{d x} = \\frac {N}{E A} + \\alpha_ {T} \\Delta T",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b2642534b5da480f80e504bc67faed9678b6358f8d113fd8e7acf14a9ca617bb.jpg"
+                }
+            },
+            "bbox": [
+                211,
+                450,
+                355,
+                531
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {d N}{d x} + n = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/167cfbd9660f013a6cde3e4459b22d8dd50fbf1db0811e27412805ff94191814.jpg"
+                }
+            },
+            "bbox": [
+                548,
+                444,
+                650,
+                529
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Für "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E \\cdot A = k o n s t ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ". und "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta T = k o n s t ."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                635,
+                344,
+                670
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E \\cdot A \\cdot u ^ {\\prime \\prime} = - n",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/15c589ee869f3dcec70187c13c07a073760d2ae266d128b16693a58f7025a0ec.jpg"
+                }
+            },
+            "bbox": [
+                378,
+                738,
+                511,
+                774
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                664,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Hängender Stab unter Eigengewicht / Statisch bestimmt "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { \\mathrm { / ~ } A ( x ) = \\left. { k o n s t . } \\ : / \\ : \\Delta l ? , \\sigma ? \\right. } \\end{array}"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                150,
+                781,
+                190
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/ecfdf10fc6ce04c232e51bc054810cd181f4b570ac48fa075495c5cd1799a2f3.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                35,
+                220,
+                114,
+                570
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1256030a1a4d1d563cd689d2a1067dde3dbe75b123aca1f814c91700e2e67d99.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                177,
+                231,
+                323,
+                570
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Konstante Streckenlast "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n = G / l"
+                    }
+                ]
+            },
+            "bbox": [
+                366,
+                220,
+                660,
+                255
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E \\cdot A = k o n s t . \\mathsf { u n d } \\Delta T = k o n s t"
+                    }
+                ]
+            },
+            "bbox": [
+                366,
+                261,
+                650,
+                296
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow E \\cdot A \\cdot u ^ {\\prime \\prime} = - n = - \\frac {G}{l}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/67aebba730504642e793a2d3528f00ac0a3baa732a4c092e385a326059e371d7.jpg"
+                }
+            },
+            "bbox": [
+                518,
+                316,
+                731,
+                396
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E \\cdot A \\cdot u ^ {\\prime} = - \\frac {G}{l} \\cdot x + C _ {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1a0502ac17734438b7d928e69363b0e0eed56cb4541872dbbdaa1a8604364f75.jpg"
+                }
+            },
+            "bbox": [
+                375,
+                407,
+                569,
+                488
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "E \\cdot A \\cdot u = - \\frac {G}{2 l} \\cdot x ^ {2} + C _ {1} \\cdot x + C _ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7a435ec6dbd9199adc1ce1e9090e8978ffe4e0e243ff277f4a94f2f14f20cc46.jpg"
+                }
+            },
+            "bbox": [
+                653,
+                407,
+                923,
+                488
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Randbedingungen: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u ( x = 0 ) = 0 \\Rightarrow C _ { 2 } = 0 ; u ^ { \\prime } ( x = l ) = 0 \\Rightarrow C _ { 1 } = G"
+                    }
+                ]
+            },
+            "bbox": [
+                365,
+                538,
+                959,
+                579
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (x) = \\frac {1}{2} \\frac {G l}{E A} \\left(2 \\frac {x}{l} - \\frac {x ^ {2}}{l ^ {2}}\\right);",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c2eaab854bdb24455cc2485d5b26d27a51cefeb74b39017b7d76af2412ccbef6.jpg"
+                }
+            },
+            "bbox": [
+                400,
+                600,
+                606,
+                692
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N (x) = E A u ^ {\\prime} (x) = G (1 - \\frac {x}{l})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ff6c156012c4251b366feac65b94e92041e90d805daaa9201a74a3165a2061c7.jpg"
+                }
+            },
+            "bbox": [
+                628,
+                611,
+                873,
+                685
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l = u (l) - u (0)",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4881c801da8a6812569ce4ee9640ebb25b87a51e7a6737985c696280d91e434e.jpg"
+                }
+            },
+            "bbox": [
+                366,
+                700,
+                532,
+                740
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u (l) = \\frac {1}{2} \\frac {G l}{E A}; u (0) = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0756a4143c60126101e5f8822733d2f7d00187865bfdd593a253296e2cf14ab1.jpg"
+                }
+            },
+            "bbox": [
+                397,
+                753,
+                590,
+                835
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\sigma (x) = \\frac {N (x)}{A} \\Rightarrow \\frac {G}{A} (1 - \\frac {x}{l})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9bd9119dc1ecb060fad4af98c455cd8b492e4670bbd2d597b26f6674188cbbaa.jpg"
+                }
+            },
+            "bbox": [
+                365,
+                857,
+                585,
+                920
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Beidseitig eingespannter Stab / Statisch unbestimmt "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "/ \\ A _ { 1 } , A _ { 2 } \\ ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "/ Gesucht sind Lagerreaktionen für den Fall, wenn der Stab 1 gleichförmig um Δ� erwärmt wird."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                150,
+                942,
+                233
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/bb648f7462afec195c44eb42d43ba3da949fb5c4e3e3c4718a98925dfc6153e0.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                327,
+                246,
+                720,
+                392
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Gleichgewichtsbedingung in ①"
+                    }
+                ]
+            },
+            "bbox": [
+                43,
+                427,
+                357,
+                470
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "→: B − C = 0"
+                    }
+                ]
+            },
+            "bbox": [
+                117,
+                492,
+                268,
+                527
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "N = - B = - C",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/53748b26c9be322fe469ab86864dab978d049f92f8f2521f86a27ad2b4c0f254.jpg"
+                }
+            },
+            "bbox": [
+                358,
+                490,
+                485,
+                525
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Verformungen in ① und ②"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                553,
+                319,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l _ {1} = \\frac {N l}{E A _ {1}} + \\alpha_ {T} \\Delta T l, \\qquad \\Delta l _ {2} = \\frac {N l}{E A _ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c02d3207c436166747ea91ff4f39f12758a17707a380e304efb97a73c35b5d9b.jpg"
+                }
+            },
+            "bbox": [
+                243,
+                609,
+                559,
+                690
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Randbedingung: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta l = \\Delta l _ { 1 } + \\Delta l _ { 2 } = 0"
+                    }
+                ]
+            },
+            "bbox": [
+                44,
+                716,
+                380,
+                755
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\frac {N l}{E A _ {1}} + \\alpha_ {T} \\Delta T l + \\frac {N l}{E A _ {2}} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2f4345483805ada102e1c210792fea8ee767f7f59032b0e2258867efa9ec7b75.jpg"
+                }
+            },
+            "bbox": [
+                148,
+                790,
+                383,
+                875
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "- N = \\frac {E A _ {1} A _ {2} \\alpha_ {T} \\Delta T}{A _ {1} + A _ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/77689067db2e72ef778459200ff416ba412406a06c9c267cfa8a4f32927b21bd.jpg"
+                }
+            },
+            "bbox": [
+                492,
+                788,
+                692,
+                881
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Alternative Lösung:"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                151,
+                209,
+                190
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8eb9bfd1822279f1a37bb0394b872519a05dec7a249e4880d4866c5e73afe809.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                79,
+                251,
+                475,
+                400
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1a0cb5176469e199d2a1ef1713e5d587d6e65c634ffa2096a8ea929d2a198152.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                42,
+                424,
+                511,
+                538
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Statisch bestimmtes "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": ", 0 ^ { 6 6 } = 5"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ystem: reine Wärmeausdehnung ohne Normalkraft"
+                    }
+                ]
+            },
+            "bbox": [
+                600,
+                277,
+                973,
+                361
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l _ {1} ^ {(0)} = u _ {c} ^ {(0)} = \\alpha_ {T} \\cdot \\Delta T \\cdot l",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/275de9e14bd7c039f303b3657689066a0f4bd116175a121ef5fb2c16e3a6ac52.jpg"
+                }
+            },
+            "bbox": [
+                679,
+                379,
+                884,
+                431
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Statisch bestimmtes "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": ", 1 ^ { 6 6 } = 5 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "ystem:"
+                    }
+                ]
+            },
+            "bbox": [
+                600,
+                455,
+                926,
+                494
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u _ {c} ^ {(1)} = \\Delta l _ {1} ^ {(1)} + \\Delta l _ {2} ^ {(1)} = - \\frac {F _ {x} l}{E A _ {1}} - \\frac {F _ {x} l}{E A _ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ec41062a03156ccdc71cb8d3baee801cc9d6839c4635f7633baf8955554bda59.jpg"
+                }
+            },
+            "bbox": [
+                622,
+                518,
+                921,
+                605
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Superposition: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u _ { c } = u _ { c } ^ { ( 0 ) } + u _ { c } ^ { ( 1 ) }"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                627,
+                902,
+                679
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Randbedingung: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "u _ { c } = u _ { c } ^ { ( 0 ) } + u _ { c } ^ { ( 1 ) } = 0"
+                    }
+                ]
+            },
+            "bbox": [
+                606,
+                700,
+                954,
+                751
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\alpha_ {T} \\cdot \\Delta T \\cdot l - \\frac {F _ {x} l}{E A _ {1}} - \\frac {F _ {x} l}{E A _ {2}} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/594d7ef77d7f937a544ae0d22929320d1927c90054fc51bcda48e7a0b410f4fd.jpg"
+                }
+            },
+            "bbox": [
+                669,
+                770,
+                909,
+                857
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Rightarrow \\mathrm{F} _ {\\mathrm{x}} = \\mathrm{C} = \\mathrm{B} = \\frac {\\mathrm{EA} _ {1} \\mathrm{A} _ {2} \\alpha_ {T} \\Delta T}{A _ {1} + A _ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f2edcc0fb0ad9c5cb563d360d39927e3180c71a68e3ed7465d7627f1a5f1e2e3.jpg"
+                }
+            },
+            "bbox": [
+                670,
+                892,
+                908,
+                977
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "10.4 Einzelstab"
+                    }
+                ]
+            },
+            "bbox": [
+                29,
+                66,
+                182,
+                105
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                42,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.5 Statisch bestimmte Stabsysteme"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                405,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Ermittlung der Stabkräfte aus den Gleichgewichtsbedingung."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                150,
+                563,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Berechnung von Spannungen & Längenänderung"
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                194,
+                476,
+                233
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Annahme: Längenänderung sind kleiner als die Stablängen → Aufstellung der Gleichgewichtsbedingung am unverformten System zulässig."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                238,
+                962,
+                322
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Gesucht ist Verschiebung vom Punkt C. Beide Stäbe haben die gleiche Dehnsteifigkeit ��."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                370,
+                867,
+                411
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/e7365f95890c63ba8d25a4b030a09ec5330b0b85a16baa20e90ca07cbc638603.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                41,
+                427,
+                168,
+                609
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/6b0558fa7538e62d4cf5e55810e2a23258bca86cc2f9e4fae2c6684c3d445d25.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                242,
+                468,
+                307,
+                577
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Gleichgewichtsbedingungen am Knoten C:"
+                    }
+                ]
+            },
+            "bbox": [
+                403,
+                450,
+                788,
+                488
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{r l}{\\uparrow :}&{S _ {2} \\sin \\alpha - F = 0}\\\\{\\leftarrow :}&{S _ {1} + S _ {2} \\cos \\alpha = 0}\\end{array}\\quad \\rightarrow \\quad S _ {1} = - \\frac {F}{\\tan \\alpha}, \\quad S _ {2} = \\frac {F}{\\sin \\alpha}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8b36148139d72b702a490f23816fd275a802a3b891c381839a8a47ebe9412068.jpg"
+                }
+            },
+            "bbox": [
+                428,
+                498,
+                903,
+                587
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Längenänderung der Stäbe:"
+                    }
+                ]
+            },
+            "bbox": [
+                404,
+                616,
+                668,
+                655
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l _ {1} = \\frac {S _ {1} l _ {1}}{E A} = - \\frac {F l}{E A} \\frac {1}{\\tan \\alpha}, \\quad \\Delta l _ {2} = \\frac {S _ {2} l _ {2}}{E A} = \\frac {F l}{E A} \\frac {1}{\\sin \\alpha \\cos \\alpha}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8c53197bcfce4549bdcaed869e78131edb871f3dc9315ea3df9240481991bc25.jpg"
+                }
+            },
+            "bbox": [
+                429,
+                672,
+                900,
+                753
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "b"
+                    }
+                ]
+            },
+            "bbox": [
+                263,
+                220,
+                277,
+                248
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.5 Statisch bestimmte Stabsysteme"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                404,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Gesucht ist Verschiebung vom Punkt C. Beide Stäbe haben die gleiche Dehnsteifigkeit ��."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                150,
+                867,
+                192
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/865eeb970888951f59df898cbbb71f8f474cdefd0cf5974be80403f74b5fb1a1.jpg"
+                },
+                "content": "",
+                "image_caption": [
+                    {
+                        "type": "text",
+                        "content": "C"
+                    }
+                ],
+                "image_footnote": []
+            },
+            "bbox": [
+                58,
+                224,
+                212,
+                448
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/8cd35ce64da540601d1dd135cefbd78a030a98023ddd2bf6af386c2d09b7a104.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                111,
+                518,
+                225,
+                750
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/da9fdc292327905c7b7fbafd6706e93f84727da38fc41336740be957ad3c988c.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                258,
+                264,
+                381,
+                759
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• Verschiebungen klein!"
+                    }
+                ]
+            },
+            "bbox": [
+                21,
+                785,
+                235,
+                822
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• Kreisbogen kann durch die Tangente ersetzt werden!"
+                    }
+                ]
+            },
+            "bbox": [
+                21,
+                825,
+                489,
+                864
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Horizontalverschiebung:"
+                    }
+                ]
+            },
+            "bbox": [
+                666,
+                390,
+                891,
+                431
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "u = | \\Delta l _ {1} | = \\frac {F l}{E A} \\frac {1}{\\tan \\alpha}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/aa163576fab6d575c5756bc987243753c396644c4a609a3df6efe7907c770a3b.jpg"
+                }
+            },
+            "bbox": [
+                680,
+                464,
+                858,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Vertikalverschiebung"
+                    }
+                ]
+            },
+            "bbox": [
+                677,
+                575,
+                873,
+                616
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v = \\frac {\\Delta l _ {2}}{\\sin \\alpha} + \\frac {u}{\\tan \\alpha} = \\frac {F l}{E A} \\frac {1 + \\cos^ {3} \\alpha}{\\sin^ {2} \\alpha \\cos \\alpha}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/4a83ac1b3c522cb06d9a9a5b4a67baaac07d3e2fda129c1e23d2aa5d1df73e6e.jpg"
+                }
+            },
+            "bbox": [
+                625,
+                646,
+                915,
+                729
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/0f6cc8f4f934f367472ffd4ca28efced76fa8d94626dc93ba8a13b3d526852a2.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                58,
+                392,
+                485,
+                668
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.6 Statisch unbestimmte Stabsysteme"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                27,
+                66,
+                430,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Betrachtung von Gleichgewicht + Kinematik + Elastizitätsgesetz"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                151,
+                596,
+                190
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Stabsystem bestehend aus drei Stäben mit Dehnsteifigkeiten "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E A _ { 1 } , E A _ { 2 } , E A _ { 3 } = E A _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Die Stäbe sind für � = 0 spannungsfrei. Das System ist einfach statisch unbestimmt. Die Verschiebung vom Punkt K und die Stabkräfte sind gesucht."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                238,
+                956,
+                366
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Gleichgewichtsbedingungen am Knoten K:"
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                375,
+                906,
+                416
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rightarrow : \\quad - S _ {1} \\sin \\alpha + S _ {3} \\sin \\alpha = 0 \\quad \\rightarrow \\quad S _ {1} = S _ {3},",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/624988cd681700045679f2f1464a104bbf6f143cc4599a2665af6bf547045564.jpg"
+                }
+            },
+            "bbox": [
+                519,
+                444,
+                921,
+                485
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "S _ { 1 } \\cos \\alpha + S _ { 2 } + S _ { 3 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "COs a "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { \\Omega } } _ { \\cdot } - F = 0 \\to S _ { 1 } = S _ { 3 } = { \\frac { F - S _ { 2 } } { 2 \\cos \\alpha } }"
+                    }
+                ]
+            },
+            "bbox": [
+                519,
+                505,
+                980,
+                581
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Längenänderung der Stäbe:"
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                600,
+                786,
+                640
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l _ {1} = \\Delta l _ {3} = \\frac {S _ {1} l _ {1}}{E A _ {1}}, \\quad \\Delta l _ {2} = \\frac {S _ {2} l}{E A _ {2}}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/7837d6736a7046d6d7a517e10ad5ab885c9d2e9a0dec4ba2c4753882dab4b9bd.jpg"
+                }
+            },
+            "bbox": [
+                545,
+                659,
+                830,
+                740
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Verschiebungsplan (c):"
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                766,
+                744,
+                807
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\Delta l _ {1} = \\Delta l _ {2} \\cos \\alpha",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/279407a48e5bc82b268611253da40bcc5cb888a6c0675fac1a2a60b3e43b1bda.jpg"
+                }
+            },
+            "bbox": [
+                545,
+                837,
+                672,
+                874
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.6 Statisch unbestimmte Stabsysteme"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                27,
+                66,
+                430,
+                107
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Beispiel: Stabsystem bestehend aus drei Stäben mit Dehnsteifigkeiten "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E A _ { 1 } , E A _ { 2 } , E A _ { 3 } = E A _ { 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". Die Stäbe sind für "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "F = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "spannungsfrei. Das System ist einfach statisch unbestimmt. Die Verschiebung vom Punkt K und die Stabkräfte sind gesucht."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                150,
+                955,
+                277
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/2ae7b181438d03446d9d373f98a51eab7e362618941d3efee7a82e0213d06e5b.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                57,
+                314,
+                198,
+                577
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/aaddc05f7cb0c96b107f6c4d6e9495ebe7d5a1688393a876ce516fcbbb5ca383.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                243,
+                309,
+                486,
+                585
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Einsetzen in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta l _ { 1 } = \\Delta l _ { 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "COs α"
+                    }
+                ]
+            },
+            "bbox": [
+                522,
+                318,
+                796,
+                357
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Stabkraft "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S _ { 2 }"
+                    }
+                ]
+            },
+            "bbox": [
+                523,
+                403,
+                650,
+                442
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "S _ {2} = \\frac {F}{1 + 2 \\frac {E A _ {1}}{E A _ {2}} \\cos^ {3} \\alpha}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/36b3be8ac0f5d09f0942aab0bfb3b668e112fc9fc9c1145689ce0f13a85669f1.jpg"
+                }
+            },
+            "bbox": [
+                550,
+                464,
+                734,
+                583
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Vertikale Verschiebung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\Delta l _ { 2 }"
+                    }
+                ]
+            },
+            "bbox": [
+                33,
+                642,
+                286,
+                683
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "v = \\Delta l _ {2} = \\frac {S _ {2} l}{E A _ {2}} = \\frac {\\frac {F l}{E A _ {2}}}{1 + 2 \\frac {E A _ {1}}{E A _ {2}} \\cos^ {3} \\alpha}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/afc610f049399cd9ef45f1fc269dd7bacb11f9efaed4387201121653bad4e9da.jpg"
+                }
+            },
+            "bbox": [
+                51,
+                705,
+                316,
+                850
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Stabkräfte "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "S _ { 1 , 3 }"
+                    }
+                ]
+            },
+            "bbox": [
+                528,
+                620,
+                675,
+                662
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "S _ {1} = S _ {3} = \\frac {\\frac {E A _ {1}}{E A _ {2}} \\cos^ {2} \\alpha}{1 + 2 \\frac {E A _ {1}}{E A _ {2}} \\cos^ {3} \\alpha} F",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f8d5e86cebdf182684374307f0bab7d1c0b8ad2e855472510baff74836e9e963.jpg"
+                }
+            },
+            "bbox": [
+                552,
+                668,
+                760,
+                803
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "25"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "10.7 Zusammenfassung"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                28,
+                66,
+                269,
+                109
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Normalspannung im Schnitt senkrecht zur Stabachse → "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma = N / A"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                170,
+                598,
+                209
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Dehnung "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": " \\varepsilon = d u / d x ; \\varepsilon \\ll 1"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                253,
+                303,
+                292
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ Hookesches Gesetz/ Modell → "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\sigma = E"
+                    },
+                    {
+                        "type": "text",
+                        "content": "⋅ ε"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                342,
+                390,
+                379
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Längenänderung: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { \\Delta l = \\int _ { 0 } ^ { l } \\left( \\frac { N } { E A } + \\alpha _ { T } \\Delta T \\right) } \\end{array}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "⋅ ��"
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                433,
+                409,
+                494
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "▪ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathsf { F u r } N = F ; \\Delta T = 0 , E A = \\mathsf { k o n s t } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": "→Δ� = <sup>�⋅�</sup> ��"
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                498,
+                488,
+                557
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> F "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ddot { \\mathsf { U } } \\mathsf { r } N = F ; \\Delta T = \\mathsf { k o n s t } ."
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                559,
+                282,
+                596
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\rightarrow \\Delta l = \\alpha_ {T} \\cdot \\Delta T \\cdot l",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e64d827ac5f7af792e3fe1b90e6c6c5021c7c66da2bf93f528e2f9fdf3b660f8.jpg"
+                }
+            },
+            "bbox": [
+                403,
+                559,
+                552,
+                598
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "<sup>▪</sup> Statisch bestimmtes System: N, σ, ε, Δ� und � können der Reihe nach aus Gleichgewicht, Elastizitätsgesetz und Kinematik ermittelt werden. Δ� verursacht keine Spannung."
+                    }
+                ]
+            },
+            "bbox": [
+                26,
+                646,
+                947,
+                731
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Statisch unbestimmtes System: Gleichgewicht, Elastizitätsgesetz und Kinematik müsse gleichzeigt betrachtet werden. Δ� verursacht i.d.R. Wärmespannung."
+                    }
+                ]
+            },
+            "bbox": [
+                25,
+                779,
+                963,
+                862
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "26"
+                    }
+                ]
+            },
+            "bbox": [
+                27,
+                907,
+                43,
+                927
+            ]
+        },
+        {
+            "type": "page_footer",
+            "content": {
+                "page_footer_content": [
+                    {
+                        "type": "text",
+                        "content": "Quelle: Gross, Hauger, Schröder, Wall (2016), Technische Mechanik 1, Springer Vieweg"
+                    }
+                ]
+            },
+            "bbox": [
+                329,
+                942,
+                665,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Vielen Dank für Ihre Aufmerksamkeit!"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                268,
+                357,
+                727,
+                690
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "27"
+                    }
+                ]
+            },
+            "bbox": [
+                28,
+                907,
+                42,
+                927
+            ]
+        }
+    ]
+]
