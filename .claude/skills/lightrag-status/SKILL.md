@@ -5,13 +5,13 @@ description: Check LightRAG server health and list ingested documents with proce
 
 # LightRAG Status
 
-Server: http://localhost:9623 — API key header: `X-API-Key: 73547f1f172e1166f2d7434faa109928`
+Server: http://localhost:9621 — API key header: `X-API-Key: d163d7cc39376b80a18c5bdfc658cec5`
 
 ```powershell
 # Health
-curl.exe -s http://localhost:9623/health -H "X-API-Key: 73547f1f172e1166f2d7434faa109928"
+curl.exe -s http://localhost:9621/health -H "X-API-Key: d163d7cc39376b80a18c5bdfc658cec5"
 # Documents + statuses (PENDING / PROCESSING / PROCESSED / FAILED)
-curl.exe -s http://localhost:9623/documents -H "X-API-Key: 73547f1f172e1166f2d7434faa109928"
+curl.exe -s http://localhost:9621/documents -H "X-API-Key: d163d7cc39376b80a18c5bdfc658cec5"
 ```
 
-Report to the user: server up/down, document count per status, names of failed docs if any. If server down: `docker ps`, then `docker compose up -d` in F:\____IL_AI\MECH_RAG\lightrag. Full API docs: http://localhost:9623/docs
+Report to the user: server up/down, document count per status, names of failed docs if any. If server down: `docker ps`, then `docker compose up -d` in C:\____PETR_AI\MECH_RAG\lightrag. Full API docs: http://localhost:9621/docs

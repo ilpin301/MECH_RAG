@@ -5,10 +5,10 @@ description: Upload text documents (txt, md, normal text PDFs) into the local Li
 
 # LightRAG Upload
 
-Server: http://localhost:9623 — API key header: `X-API-Key: 73547f1f172e1166f2d7434faa109928`
+Server: http://localhost:9621 — API key header: `X-API-Key: d163d7cc39376b80a18c5bdfc658cec5`
 
 ```powershell
-curl.exe -s -X POST http://localhost:9623/documents/upload -H "X-API-Key: 73547f1f172e1166f2d7434faa109928" -F "file=@C:\path\to\document.pdf"
+curl.exe -s -X POST http://localhost:9621/documents/upload -H "X-API-Key: d163d7cc39376b80a18c5bdfc658cec5" -F "file=@C:\path\to\document.pdf"
 ```
 
 For multiple files, run one curl per file. After upload, processing (chunking, entity extraction via GLM, embedding via Ollama bge-m3) runs in the background — can take minutes per document. Check progress with the lightrag-status skill. Warn the user that large documents take a while and consume Z.ai tokens.

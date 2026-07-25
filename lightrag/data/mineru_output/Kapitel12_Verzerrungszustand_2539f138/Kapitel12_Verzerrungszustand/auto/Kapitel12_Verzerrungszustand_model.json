@@ -1,0 +1,6276 @@
+[
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.8581,
+                "bbox": [
+                    74,
+                    544,
+                    2135,
+                    637
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.912,
+                "bbox": [
+                    72,
+                    756,
+                    1328,
+                    825
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9129,
+                "bbox": [
+                    70,
+                    889,
+                    1149,
+                    957
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 9,
+                "label": "footer_image",
+                "score": 0.8534,
+                "bbox": [
+                    2073,
+                    1358,
+                    2645,
+                    1465
+                ],
+                "index": 4
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    546,
+                    2126,
+                    633
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    761,
+                    1319,
+                    821
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    891,
+                    1139,
+                    952
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2069,
+                    1357,
+                    2290,
+                    1470
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2306,
+                    1362,
+                    2646,
+                    1417
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2391,
+                    1408,
+                    2638,
+                    1461
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 0,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.8112,
+                "bbox": [
+                    80,
+                    104,
+                    332,
+                    159
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.6698,
+                "bbox": [
+                    83,
+                    177,
+                    2581,
+                    1321
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8722,
+                "bbox": [
+                    76,
+                    1364,
+                    104,
+                    1391
+                ],
+                "index": 9
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    103,
+                    328,
+                    161
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1367,
+                    98,
+                    1390
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 1,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9557,
+                "bbox": [
+                    78,
+                    102,
+                    746,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9706,
+                "bbox": [
+                    73,
+                    256,
+                    1589,
+                    314
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8961,
+                "bbox": [
+                    689,
+                    367,
+                    1065,
+                    423
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9364,
+                "bbox": [
+                    1477,
+                    364,
+                    1951,
+                    423
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5016,
+                "bbox": [
+                    1711,
+                    365,
+                    1944,
+                    421
+                ],
+                "index": 5,
+                "latex": "\\ell = 0 , 0 , \\ell = 0"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9713,
+                "bbox": [
+                    74,
+                    495,
+                    1277,
+                    555
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9833,
+                "bbox": [
+                    882,
+                    575,
+                    1635,
+                    935
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9807,
+                "bbox": [
+                    71,
+                    976,
+                    2518,
+                    1095
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8702,
+                "bbox": [
+                    75,
+                    1364,
+                    105,
+                    1392
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.959,
+                "bbox": [
+                    880,
+                    1415,
+                    1775,
+                    1448
+                ],
+                "index": 10
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    99,
+                    742,
+                    166
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    257,
+                    1582,
+                    311
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    687,
+                    365,
+                    1067,
+                    425
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1473,
+                    359,
+                    1710,
+                    426
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    514,
+                    104,
+                    533
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    501,
+                    1270,
+                    553
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    978,
+                    2512,
+                    1031
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    1035,
+                    1557,
+                    1090
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1367,
+                    98,
+                    1390
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1421,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 2,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.952,
+                "bbox": [
+                    76,
+                    101,
+                    747,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9664,
+                "bbox": [
+                    70,
+                    253,
+                    2545,
+                    317
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9516,
+                "bbox": [
+                    1239,
+                    375,
+                    1725,
+                    495
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9536,
+                "bbox": [
+                    1793,
+                    402,
+                    2553,
+                    473
+                ],
+                "index": 4,
+                "latex": "\\boldsymbol { r } ( x , y ) = \\boldsymbol { u } ( x , y ) \\cdot \\boldsymbol { e } _ { x } + \\boldsymbol { v } ( x , y ) \\cdot \\boldsymbol { e } _ { y }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8459,
+                "bbox": [
+                    75,
+                    1362,
+                    105,
+                    1392
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9583,
+                "bbox": [
+                    76,
+                    327,
+                    1270,
+                    1323
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8717,
+                "bbox": [
+                    509,
+                    1336,
+                    843,
+                    1401
+                ],
+                "index": 7,
+                "latex": "P  Q \\colon d y = 0"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9549,
+                "bbox": [
+                    1379,
+                    575,
+                    2481,
+                    638
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8676,
+                "bbox": [
+                    1284,
+                    668,
+                    2604,
+                    806
+                ],
+                "index": 9,
+                "latex": "u ( x + d x , y + d y ) = u ( x , y ) + { \\frac { \\partial u ( x , y ) } { \\partial x } } d x + { \\frac { \\partial u ( x , y ) } { \\partial y } } d y + \\cdots"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9178,
+                "bbox": [
+                    1288,
+                    836,
+                    2602,
+                    977
+                ],
+                "index": 10,
+                "latex": "v ( x + d x , y + d y ) = v ( x , y ) + { \\frac { \\partial v ( x , y ) } { \\partial x } } d x + { \\frac { \\partial v ( x , y ) } { \\partial y } } d y + \\cdots"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.5572,
+                "bbox": [
+                    1130,
+                    994,
+                    1382,
+                    1128
+                ],
+                "index": 11,
+                "latex": "\\int ^ { \\mathrm { \\Omega } } v + \\frac { \\partial v } { \\partial x } \\mathrm { d } x"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9658,
+                "bbox": [
+                    1472,
+                    1033,
+                    2436,
+                    1180
+                ],
+                "index": 12,
+                "latex": "{ \\overline { { P ^ { \\prime } Q ^ { \\prime } } } } \\approx d x + \\left( u + { \\frac { \\partial u } { \\partial x } } d x \\right) - u = d x + { \\frac { \\partial u } { \\partial x } } d x"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9756,
+                "bbox": [
+                    1454,
+                    1216,
+                    2410,
+                    1397
+                ],
+                "index": 13,
+                "latex": "\\varepsilon _ { x } = { \\frac { { \\overline { { P ^ { \\prime } Q ^ { \\prime } } } } - { \\overline { { P Q } } } } { \\overline { { P Q } } } } = { \\frac { \\left( d x + { \\frac { \\partial u } { \\partial x } } d x \\right) - d x } { d x } } = { \\frac { \\partial u } { \\partial x } }"
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9433,
+                "bbox": [
+                    878,
+                    1414,
+                    1778,
+                    1449
+                ],
+                "index": 14
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    99,
+                    743,
+                    165
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    252,
+                    2541,
+                    316
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1248,
+                    377,
+                    1716,
+                    433
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1408,
+                    441,
+                    1555,
+                    491
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1367,
+                    98,
+                    1389
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1393,
+                    581,
+                    2472,
+                    632
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    888,
+                    1419,
+                    1769,
+                    1446
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 3,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.964,
+                "bbox": [
+                    76,
+                    101,
+                    385,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9718,
+                "bbox": [
+                    73,
+                    212,
+                    874,
+                    266
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9722,
+                "bbox": [
+                    71,
+                    271,
+                    1634,
+                    327
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9807,
+                "bbox": [
+                    72,
+                    330,
+                    2352,
+                    447
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7484,
+                "bbox": [
+                    105,
+                    521,
+                    186,
+                    576
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9796,
+                "bbox": [
+                    453,
+                    454,
+                    2204,
+                    623
+                ],
+                "index": 6,
+                "latex": "f ( y ) : = \\sum _ { n = 0 } ^ { \\infty } { \\frac { f ^ { ( n ) } ( y _ { 0 } ) } { n ! } } ( y - y _ { 0 } ) ^ { n } = f ( y _ { 0 } ) + f ^ { \\prime } ( y _ { 0 } ) ( y - y _ { 0 } ) + { \\frac { f ^ { \\prime \\prime } ( y _ { 0 } ) } { 2 ! } } ( y - y _ { 0 } ) ^ { 2 } + \\cdots"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9636,
+                "bbox": [
+                    143,
+                    655,
+                    1751,
+                    715
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8878,
+                "bbox": [
+                    148,
+                    727,
+                    308,
+                    776
+                ],
+                "index": 8,
+                "latex": "y _ { 0 } = x"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9296,
+                "bbox": [
+                    145,
+                    780,
+                    404,
+                    835
+                ],
+                "index": 9,
+                "latex": "y = x + d x"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9727,
+                "bbox": [
+                    560,
+                    826,
+                    2100,
+                    949
+                ],
+                "index": 10,
+                "latex": "f ( y = x + d x ) = f ( x ) + f ^ { \\prime } ( x ) ( x + d x - x ) + { \\frac { f ^ { \\prime \\prime } ( x ) } { 2 ! } } ( x + d x - x ) ^ { 2 } + \\cdots"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.882,
+                "bbox": [
+                    103,
+                    1090,
+                    510,
+                    1146
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9665,
+                "bbox": [
+                    646,
+                    1009,
+                    2015,
+                    1178
+                ],
+                "index": 12,
+                "latex": "f ( x , y ) = f ( x , y ) + \\frac { \\frac { \\partial f } { d x } ( x _ { 0 } , y _ { 0 } ) } { 1 ! } ( x - x _ { 0 } ) + \\frac { \\frac { \\partial f } { d y } ( x _ { 0 } , y _ { 0 } ) } { 1 ! } ( y - y _ { 0 } ) +"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9721,
+                "bbox": [
+                    465,
+                    1177,
+                    2194,
+                    1357
+                ],
+                "index": 13,
+                "latex": "\\frac { \\frac { \\partial ^ { 2 } f } { d x ^ { 2 } } ( x _ { 0 } , y _ { 0 } ) } { 2 ! } ( x - x _ { 0 } ) ^ { 2 } + \\frac { \\frac { \\partial ^ { 2 } f } { d y ^ { 2 } } ( x _ { 0 } , y _ { 0 } ) } { 2 ! } ( y - y _ { 0 } ) ^ { 2 } + \\frac { \\frac { \\partial ^ { 2 } f } { d x d y } ( x _ { 0 } , y _ { 0 } ) } { 1 ! } ( x - x _ { 0 } ) ( y - y _ { 0 } )"
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    84,
+                    101,
+                    381,
+                    165
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    148,
+                    213,
+                    868,
+                    265
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    289,
+                    102,
+                    307
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    154,
+                    275,
+                    1629,
+                    328
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    332,
+                    2347,
+                    389
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    153,
+                    398,
+                    597,
+                    445
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    99,
+                    518,
+                    190,
+                    580
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    157,
+                    658,
+                    1742,
+                    712
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    102,
+                    1090,
+                    510,
+                    1146
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 4,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9507,
+                "bbox": [
+                    77,
+                    102,
+                    747,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9677,
+                "bbox": [
+                    71,
+                    253,
+                    2531,
+                    317
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9818,
+                "bbox": [
+                    82,
+                    328,
+                    1378,
+                    1319
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.972,
+                "bbox": [
+                    1484,
+                    695,
+                    2439,
+                    835
+                ],
+                "index": 4,
+                "latex": "{ \\overline { { P ^ { \\prime } S ^ { \\prime } } } } \\approx d y + \\left( v + { \\frac { \\partial v } { \\partial y } } d y \\right) - v = d y + { \\frac { \\partial v } { \\partial y } } d y"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9729,
+                "bbox": [
+                    1494,
+                    868,
+                    2433,
+                    1050
+                ],
+                "index": 5,
+                "latex": "\\varepsilon _ { y } = { \\cfrac { { \\cfrac { - { \\cfrac { - { \\cfrac { 2 } { P ^ { \\prime } S ^ { \\prime } } } } - { \\cfrac { - { \\cfrac { 2 } { P S } } } } { P S } } } } } { \\cfrac { - { \\cfrac { \\cfrac { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\partial } } { \\cfrac { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\partial } } { \\cfrac { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\ c H } } { P S } } } } } } } } } } } } } } } } } } } } } } } } } } } } } = { \\cfrac { \\partial { y } } } } }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8722,
+                "bbox": [
+                    75,
+                    1363,
+                    105,
+                    1393
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.941,
+                "bbox": [
+                    510,
+                    1339,
+                    843,
+                    1399
+                ],
+                "index": 7,
+                "latex": "P  Q \\colon d y = 0"
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9554,
+                "bbox": [
+                    879,
+                    1415,
+                    1775,
+                    1448
+                ],
+                "index": 8
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    84,
+                    97,
+                    743,
+                    167
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    252,
+                    2528,
+                    318
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1367,
+                    98,
+                    1390
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    888,
+                    1419,
+                    1769,
+                    1446
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 5,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8654,
+                "bbox": [
+                    75,
+                    1362,
+                    104,
+                    1393
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9571,
+                "bbox": [
+                    77,
+                    102,
+                    746,
+                    164
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9707,
+                "bbox": [
+                    72,
+                    253,
+                    1732,
+                    316
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9795,
+                "bbox": [
+                    78,
+                    329,
+                    1378,
+                    1322
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8971,
+                "bbox": [
+                    511,
+                    1338,
+                    842,
+                    1399
+                ],
+                "index": 5,
+                "latex": "P  Q \\colon d y = 0"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.4905,
+                "bbox": [
+                    1530,
+                    266,
+                    1576,
+                    309
+                ],
+                "index": 6,
+                "latex": "\\alpha"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8683,
+                "bbox": [
+                    1674,
+                    259,
+                    1721,
+                    313
+                ],
+                "index": 7,
+                "latex": "\\beta \\colon"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9784,
+                "bbox": [
+                    1277,
+                    357,
+                    2469,
+                    601
+                ],
+                "index": 8,
+                "latex": "\\tan \\alpha = { \\frac { { \\frac { \\partial u } { \\partial y } } d y } { d y + { \\frac { \\partial v } { \\partial y } } d y } } = { \\frac { { \\frac { \\partial u } { \\partial y } } d y } { \\left[ 1 + { \\frac { \\partial v } { \\partial y } } \\right] d y } } { \\frac { \\mathrm { V e r f o r m u n g } } { \\left( { \\frac { \\partial v } { \\partial y } } = \\varepsilon _ { y } \\ll 1 \\right) } } \\alpha = { \\frac { \\partial u } { \\partial y } }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9767,
+                "bbox": [
+                    1566,
+                    654,
+                    2388,
+                    866
+                ],
+                "index": 9,
+                "latex": "\\tan \\beta = { \\frac { { \\frac { \\partial v } { \\partial x } } d x } { d x + { \\frac { \\partial u } { \\partial x } } d x } } { \\frac { \\stackrel { \\mathrm { k l e i n e } } { = } } { \\longrightarrow } } \\beta = { \\frac { \\partial v } { \\partial x } }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9683,
+                "bbox": [
+                    1494,
+                    922,
+                    2374,
+                    986
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.956,
+                "bbox": [
+                    2102,
+                    927,
+                    2368,
+                    985
+                ],
+                "index": 11,
+                "latex": "\\gamma _ { x y } = \\alpha + \\beta "
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9297,
+                "bbox": [
+                    1736,
+                    1054,
+                    2212,
+                    1196
+                ],
+                "index": 12,
+                "latex": "1 6 0 ^ { \\circ } = \\frac { 6 \\pi } { 6 0 ^ { \\circ } } = \\frac { 6 \\pi } { 6 0 ^ { \\circ } } = 1 6 0 ^ { \\circ }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9783,
+                "bbox": [
+                    1441,
+                    1264,
+                    2483,
+                    1389
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9596,
+                "bbox": [
+                    879,
+                    1414,
+                    1776,
+                    1449
+                ],
+                "index": 14
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1366,
+                    99,
+                    1391
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    98,
+                    742,
+                    167
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    138,
+                    252,
+                    1529,
+                    313
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1577,
+                    252,
+                    1673,
+                    313
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1504,
+                    923,
+                    2094,
+                    981
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1446,
+                    1268,
+                    2479,
+                    1326
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1449,
+                    1336,
+                    1810,
+                    1389
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    888,
+                    1419,
+                    1769,
+                    1446
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 6,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9667,
+                "bbox": [
+                    77,
+                    102,
+                    746,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9652,
+                "bbox": [
+                    71,
+                    255,
+                    918,
+                    315
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9738,
+                "bbox": [
+                    71,
+                    374,
+                    2489,
+                    437
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9578,
+                "bbox": [
+                    1467,
+                    380,
+                    1710,
+                    438
+                ],
+                "index": 4,
+                "latex": "( \\varepsilon _ { x } , \\varepsilon _ { y } , \\gamma _ { x y } )"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9715,
+                "bbox": [
+                    71,
+                    500,
+                    2167,
+                    560
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9421,
+                "bbox": [
+                    288,
+                    630,
+                    405,
+                    682
+                ],
+                "index": 6,
+                "latex": "\\varepsilon _ { x } , \\varepsilon _ { y }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9258,
+                "bbox": [
+                    507,
+                    630,
+                    582,
+                    683
+                ],
+                "index": 7,
+                "latex": "\\gamma _ { x y }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9744,
+                "bbox": [
+                    71,
+                    618,
+                    2032,
+                    683
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9797,
+                "bbox": [
+                    69,
+                    738,
+                    2529,
+                    937
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9562,
+                "bbox": [
+                    905,
+                    741,
+                    1294,
+                    933
+                ],
+                "index": 10,
+                "latex": "\\pmb { \\varepsilon } = \\left[ \\begin{array} { c c } { \\varepsilon _ { x } } & { \\frac { 1 } { 2 } \\gamma _ { x y } } \\\\ { \\frac { 1 } { 2 } \\gamma _ { x y } } & { \\varepsilon _ { y } } \\end{array} \\right]"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9612,
+                "bbox": [
+                    2194,
+                    783,
+                    2521,
+                    893
+                ],
+                "index": 11,
+                "latex": "\\pmb { \\sigma } = \\left[ \\begin{array} { l l } { \\sigma _ { x } } & { \\tau _ { x y } } \\\\ { \\tau _ { x y } } & { \\sigma _ { y } } \\end{array} \\right]"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9688,
+                "bbox": [
+                    72,
+                    995,
+                    2468,
+                    1056
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8785,
+                "bbox": [
+                    76,
+                    1364,
+                    105,
+                    1392
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9572,
+                "bbox": [
+                    880,
+                    1416,
+                    1774,
+                    1447
+                ],
+                "index": 14
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    98,
+                    742,
+                    167
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    273,
+                    105,
+                    292
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    259,
+                    911,
+                    313
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    375,
+                    1456,
+                    431
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1724,
+                    372,
+                    2484,
+                    431
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    502,
+                    2160,
+                    560
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    617,
+                    285,
+                    679
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    414,
+                    614,
+                    506,
+                    681
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    583,
+                    614,
+                    2026,
+                    681
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    88,
+                    814,
+                    899,
+                    861
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1406,
+                    812,
+                    2187,
+                    866
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    1003,
+                    2461,
+                    1053
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1367,
+                    99,
+                    1390
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1419,
+                    1769,
+                    1446
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 7,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9653,
+                "bbox": [
+                    78,
+                    103,
+                    746,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.983,
+                "bbox": [
+                    72,
+                    256,
+                    2556,
+                    375
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5457,
+                "bbox": [
+                    441,
+                    445,
+                    510,
+                    493
+                ],
+                "index": 3,
+                "latex": "x y \\cdot"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9719,
+                "bbox": [
+                    73,
+                    436,
+                    1915,
+                    497
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.481,
+                "bbox": [
+                    1324,
+                    440,
+                    1451,
+                    494
+                ],
+                "index": 5,
+                "latex": "\\varphi \\ ( \\xi \\eta \\cdot"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9683,
+                "bbox": [
+                    74,
+                    556,
+                    794,
+                    615
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9655,
+                "bbox": [
+                    199,
+                    701,
+                    1327,
+                    824
+                ],
+                "index": 7,
+                "latex": "\\angle B = \\angle C = \\angle C = \\angle D = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = 9 0 ^ { \\circ }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9628,
+                "bbox": [
+                    1515,
+                    677,
+                    1973,
+                    735
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.964,
+                "bbox": [
+                    191,
+                    881,
+                    1322,
+                    1004
+                ],
+                "index": 9,
+                "latex": "\\angle D = \\frac { 1 } { 2 } ( c - 2 0 ) = ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 )"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.4969,
+                "bbox": [
+                    1551,
+                    780,
+                    1945,
+                    906
+                ],
+                "index": 10,
+                "latex": "( \\frac { 1 0 0 } { 1 0 0 } ) \\times 0 . 2 = \\frac { 1 6 0 } { 1 2 0 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9678,
+                "bbox": [
+                    1516,
+                    954,
+                    1990,
+                    1012
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9567,
+                "bbox": [
+                    199,
+                    1061,
+                    1144,
+                    1184
+                ],
+                "index": 12,
+                "latex": "2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9441,
+                "bbox": [
+                    1585,
+                    1074,
+                    2464,
+                    1237
+                ],
+                "index": 13,
+                "latex": "3 4 0 \\div b \\cdots 1 ( - 2 ) = \\frac { 3 } { 2 } ( - 2 )"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.878,
+                "bbox": [
+                    76,
+                    1364,
+                    103,
+                    1392
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9594,
+                "bbox": [
+                    881,
+                    1416,
+                    1774,
+                    1448
+                ],
+                "index": 15
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    99,
+                    742,
+                    167
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    258,
+                    2552,
+                    311
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    318,
+                    1002,
+                    370
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    431,
+                    440,
+                    494
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    511,
+                    431,
+                    1322,
+                    494
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1452,
+                    439,
+                    1908,
+                    492
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    573,
+                    105,
+                    592
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    144,
+                    558,
+                    787,
+                    612
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1530,
+                    694,
+                    1543,
+                    712
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1581,
+                    677,
+                    1967,
+                    734
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1530,
+                    970,
+                    1546,
+                    992
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1580,
+                    956,
+                    1983,
+                    1011
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1367,
+                    98,
+                    1390
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1419,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 8,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.965,
+                "bbox": [
+                    78,
+                    102,
+                    746,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9649,
+                "bbox": [
+                    72,
+                    255,
+                    1723,
+                    345
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8034,
+                "bbox": [
+                    767,
+                    273,
+                    882,
+                    326
+                ],
+                "index": 3,
+                "latex": "( \\sigma , \\tau )"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9489,
+                "bbox": [
+                    1600,
+                    254,
+                    1717,
+                    343
+                ],
+                "index": 4,
+                "latex": "\\left( \\varepsilon , { \\frac { \\gamma } { 2 } } \\right)"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.964,
+                "bbox": [
+                    73,
+                    406,
+                    892,
+                    464
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9653,
+                "bbox": [
+                    172,
+                    535,
+                    1414,
+                    597
+                ],
+                "index": 6,
+                "latex": "\\boldsymbol { r } ( x , y , z ) = \\boldsymbol { u } ( x , y , z ) \\cdot \\boldsymbol { e } _ { x } + \\boldsymbol { v } ( x , y , z ) \\cdot \\boldsymbol { e } _ { y } + w ( x , y , z ) \\cdot \\boldsymbol { e } _ { z _ { i } }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9238,
+                "bbox": [
+                    146,
+                    670,
+                    336,
+                    793
+                ],
+                "index": 7,
+                "latex": "\\varepsilon _ { x } = \\frac { \\partial u } { \\partial x }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9386,
+                "bbox": [
+                    700,
+                    667,
+                    893,
+                    797
+                ],
+                "index": 8,
+                "latex": "\\varepsilon _ { y } = \\frac { \\partial v } { \\partial y }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9471,
+                "bbox": [
+                    1254,
+                    681,
+                    1449,
+                    803
+                ],
+                "index": 9,
+                "latex": "\\varepsilon _ { z } = \\frac { \\partial w } { \\partial z }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9595,
+                "bbox": [
+                    143,
+                    858,
+                    473,
+                    987
+                ],
+                "index": 10,
+                "latex": "\\gamma _ { x y } = \\frac { \\partial u } { \\partial y } + \\frac { \\partial v } { \\partial x }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.954,
+                "bbox": [
+                    630,
+                    862,
+                    962,
+                    989
+                ],
+                "index": 11,
+                "latex": "\\gamma _ { x z } = \\frac { \\partial u } { \\partial z } + \\frac { \\partial w } { \\partial x }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9566,
+                "bbox": [
+                    1116,
+                    857,
+                    1450,
+                    988
+                ],
+                "index": 12,
+                "latex": "\\gamma _ { y z } = \\frac { \\partial v } { \\partial z } + \\frac { \\partial w } { \\partial y }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9736,
+                "bbox": [
+                    142,
+                    1041,
+                    1116,
+                    1401
+                ],
+                "index": 13,
+                "latex": "{ \\boldsymbol { \\varepsilon } } = { \\left[ \\begin{array} { l l l } { \\varepsilon _ { x x } } & { \\varepsilon _ { x y } } & { \\varepsilon _ { x z } } \\\\ { \\varepsilon _ { x y } } & { \\varepsilon _ { y y } } & { \\varepsilon _ { y z } } \\\\ { \\varepsilon _ { x z } } & { \\varepsilon _ { y z } } & { \\varepsilon _ { z z } } \\end{array} \\right] } = { \\left[ \\begin{array} { l l l } { \\varepsilon _ { x } } & { { \\frac { 1 } { 2 } } \\gamma _ { x y } } & { { \\frac { 1 } { 2 } } \\gamma _ { x z } } \\\\ { 1 } & { \\varepsilon _ { y } } & { { \\frac { 1 } { 2 } } \\gamma _ { y z } } \\\\ { { \\frac { 1 } { 2 } } \\gamma _ { x y } } & { \\varepsilon _ { y } } & { { \\frac { 1 } { 2 } } \\gamma _ { y z } } \\end{array} \\right] }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7352,
+                "bbox": [
+                    1945,
+                    1126,
+                    2282,
+                    1185
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5734,
+                "bbox": [
+                    1925,
+                    1186,
+                    2299,
+                    1327
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8787,
+                "bbox": [
+                    79,
+                    1363,
+                    116,
+                    1393
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9577,
+                "bbox": [
+                    880,
+                    1416,
+                    1775,
+                    1448
+                ],
+                "index": 17
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    99,
+                    742,
+                    166
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    268,
+                    757,
+                    330
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    894,
+                    268,
+                    1591,
+                    328
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    88,
+                    422,
+                    105,
+                    443
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    138,
+                    407,
+                    885,
+                    462
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1942,
+                    1123,
+                    2284,
+                    1188
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2130,
+                    1188,
+                    2151,
+                    1213
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1984,
+                    1201,
+                    2170,
+                    1272
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2147,
+                    1205,
+                    2239,
+                    1270
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2130,
+                    1240,
+                    2151,
+                    1266
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1924,
+                    1271,
+                    2298,
+                    1325
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1365,
+                    114,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1420,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 9,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9627,
+                "bbox": [
+                    78,
+                    101,
+                    678,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.953,
+                "bbox": [
+                    73,
+                    250,
+                    1758,
+                    338
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6159,
+                "bbox": [
+                    754,
+                    252,
+                    811,
+                    331
+                ],
+                "index": 3,
+                "latex": "\\stackrel { E } { \\iff }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7836,
+                "bbox": [
+                    1550,
+                    280,
+                    1690,
+                    327
+                ],
+                "index": 4,
+                "latex": "\\sigma = E"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.98,
+                "bbox": [
+                    71,
+                    396,
+                    2529,
+                    516
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9679,
+                "bbox": [
+                    72,
+                    576,
+                    1439,
+                    636
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9671,
+                "bbox": [
+                    72,
+                    697,
+                    1502,
+                    757
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9655,
+                "bbox": [
+                    71,
+                    816,
+                    1709,
+                    876
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9706,
+                "bbox": [
+                    109,
+                    921,
+                    699,
+                    1117
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8861,
+                "bbox": [
+                    869,
+                    954,
+                    926,
+                    999
+                ],
+                "index": 10,
+                "latex": "\\sigma _ { x }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9465,
+                "bbox": [
+                    862,
+                    939,
+                    2359,
+                    1002
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8994,
+                "bbox": [
+                    209,
+                    1136,
+                    702,
+                    1194
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9549,
+                "bbox": [
+                    1499,
+                    1135,
+                    1681,
+                    1244
+                ],
+                "index": 13,
+                "latex": "\\varepsilon _ { x } = \\frac { \\sigma _ { x } } { E }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8183,
+                "bbox": [
+                    1939,
+                    1061,
+                    2310,
+                    1114
+                ],
+                "index": 14
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9594,
+                "bbox": [
+                    1878,
+                    1140,
+                    2371,
+                    1251
+                ],
+                "index": 15,
+                "latex": "\\varepsilon _ { y } = - \\nu \\cdot \\varepsilon _ { x } = - \\nu \\cdot \\frac { \\sigma _ { x } } { E }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9616,
+                "bbox": [
+                    1543,
+                    1297,
+                    2433,
+                    1352
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8751,
+                "bbox": [
+                    77,
+                    1364,
+                    115,
+                    1393
+                ],
+                "index": 17
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9555,
+                "bbox": [
+                    880,
+                    1415,
+                    1775,
+                    1448
+                ],
+                "index": 18
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    98,
+                    674,
+                    168
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    144,
+                    280,
+                    753,
+                    333
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    812,
+                    280,
+                    1542,
+                    333
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1691,
+                    290,
+                    1752,
+                    329
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    89,
+                    293,
+                    98,
+                    313
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    396,
+                    2526,
+                    451
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    463,
+                    1159,
+                    509
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    594,
+                    103,
+                    611
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    144,
+                    578,
+                    1432,
+                    634
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    714,
+                    105,
+                    730
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    143,
+                    695,
+                    1495,
+                    754
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    88,
+                    836,
+                    102,
+                    851
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    818,
+                    1705,
+                    873
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    935,
+                    940,
+                    2352,
+                    994
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    217,
+                    1135,
+                    698,
+                    1195
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1946,
+                    1061,
+                    2302,
+                    1112
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1551,
+                    1295,
+                    2425,
+                    1353
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1365,
+                    112,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1421,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 10,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9572,
+                "bbox": [
+                    78,
+                    102,
+                    678,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8585,
+                "bbox": [
+                    109,
+                    273,
+                    746,
+                    387
+                ],
+                "index": 2,
+                "latex": "\\sigma _ { x } \\Rightarrow \\varepsilon _ { x } = \\frac { \\sigma _ { x } } { E } \\& \\ \\varepsilon _ { y } = - \\nu \\cdot \\frac { \\sigma _ { x } } { E }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8878,
+                "bbox": [
+                    915,
+                    337,
+                    1243,
+                    402
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8929,
+                "bbox": [
+                    109,
+                    454,
+                    751,
+                    570
+                ],
+                "index": 4,
+                "latex": "\\sigma _ { y } \\Rightarrow \\varepsilon _ { y } = \\frac { \\sigma _ { y } } { E } \\& \\ \\varepsilon _ { x } = - \\nu \\cdot \\frac { \\sigma _ { y } } { E }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9405,
+                "bbox": [
+                    1317,
+                    285,
+                    1759,
+                    405
+                ],
+                "index": 5,
+                "latex": "\\varepsilon _ { x } = \\frac { 1 } { E } \\left( \\sigma _ { x } - \\nu \\cdot \\sigma _ { y } \\right)"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9302,
+                "bbox": [
+                    1319,
+                    467,
+                    1760,
+                    589
+                ],
+                "index": 6,
+                "latex": "\\varepsilon _ { y } = { \\frac { 1 } { E } } { \\big ( } \\sigma _ { y } - \\nu \\cdot \\sigma _ { x } { \\big ) }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9188,
+                "bbox": [
+                    1322,
+                    647,
+                    1784,
+                    766
+                ],
+                "index": 7,
+                "latex": "\\mathbf { \\Sigma } _ { \\overset { . } { \\varepsilon } _ { Z } } ^ { \\overset { . } { \\iota } } = - \\frac { \\nu } { E } \\big ( \\sigma _ { x } + \\sigma _ { y } \\big )"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9209,
+                "bbox": [
+                    104,
+                    908,
+                    1764,
+                    966
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.888,
+                "bbox": [
+                    79,
+                    1364,
+                    117,
+                    1392
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9608,
+                "bbox": [
+                    881,
+                    1416,
+                    1775,
+                    1448
+                ],
+                "index": 10
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    96,
+                    674,
+                    170
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    925,
+                    344,
+                    1234,
+                    398
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    102,
+                    906,
+                    1766,
+                    967
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1366,
+                    114,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1419,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 11,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9646,
+                "bbox": [
+                    78,
+                    102,
+                    678,
+                    163
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.97,
+                "bbox": [
+                    71,
+                    256,
+                    1396,
+                    318
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8295,
+                "bbox": [
+                    1296,
+                    267,
+                    1383,
+                    318
+                ],
+                "index": 3,
+                "latex": "\\tau _ { x y } ."
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9759,
+                "bbox": [
+                    139,
+                    346,
+                    679,
+                    711
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8688,
+                "bbox": [
+                    864,
+                    447,
+                    1824,
+                    516
+                ],
+                "index": 5,
+                "latex": "\\begin{array} { r l } { \\tau _ { x y } = G \\cdot \\gamma _ { x y } } & { { } ( \\mathsf { I i n e a r - e l a s t i s c h e r \\ B e r e i c h } ) } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.554,
+                "bbox": [
+                    709,
+                    560,
+                    1312,
+                    624
+                ],
+                "index": 6,
+                "latex": "G : = \\mathsf { S c h u b m o d u l \\Gamma } [ \\mathsf { N } / \\mathsf { m m } ^ { 2 } ]"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9673,
+                "bbox": [
+                    71,
+                    800,
+                    2017,
+                    860
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9679,
+                "bbox": [
+                    70,
+                    980,
+                    2236,
+                    1040
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8593,
+                "bbox": [
+                    1656,
+                    984,
+                    1778,
+                    1038
+                ],
+                "index": 9,
+                "latex": "( E , \\nu )"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9697,
+                "bbox": [
+                    1009,
+                    1080,
+                    1315,
+                    1208
+                ],
+                "index": 10,
+                "latex": "G = \\frac { E } { 2 ( 1 + \\nu ) }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8915,
+                "bbox": [
+                    79,
+                    1363,
+                    117,
+                    1393
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9608,
+                "bbox": [
+                    880,
+                    1415,
+                    1775,
+                    1448
+                ],
+                "index": 12
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    97,
+                    674,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    255,
+                    1287,
+                    316
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    802,
+                    2007,
+                    858
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    975,
+                    1649,
+                    1040
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1786,
+                    980,
+                    2229,
+                    1035
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1365,
+                    114,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1421,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 12,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9427,
+                "bbox": [
+                    78,
+                    102,
+                    678,
+                    163
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9654,
+                "bbox": [
+                    72,
+                    256,
+                    2490,
+                    315
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9803,
+                "bbox": [
+                    83,
+                    370,
+                    1020,
+                    1330
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9797,
+                "bbox": [
+                    1293,
+                    451,
+                    2173,
+                    1152
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8778,
+                "bbox": [
+                    80,
+                    1364,
+                    117,
+                    1392
+                ],
+                "index": 5
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    97,
+                    674,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    261,
+                    2482,
+                    310
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1366,
+                    113,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 13,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9417,
+                "bbox": [
+                    76,
+                    102,
+                    679,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9622,
+                "bbox": [
+                    69,
+                    256,
+                    2491,
+                    315
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.975,
+                "bbox": [
+                    79,
+                    421,
+                    1019,
+                    1304
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9637,
+                "bbox": [
+                    1171,
+                    403,
+                    1600,
+                    1239
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8168,
+                "bbox": [
+                    1651,
+                    735,
+                    1796,
+                    799
+                ],
+                "index": 5,
+                "latex": "l + \\Delta l"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9591,
+                "bbox": [
+                    1949,
+                    390,
+                    2398,
+                    512
+                ],
+                "index": 6,
+                "latex": "\\varepsilon _ { x } = \\frac { 1 } { E } \\left( \\sigma _ { x } - \\nu \\cdot \\sigma _ { y } \\right)"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9515,
+                "bbox": [
+                    2013,
+                    560,
+                    2397,
+                    684
+                ],
+                "index": 7,
+                "latex": "= { \\frac { 1 } { E } } ( - \\sigma - \\nu \\cdot \\sigma )"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9591,
+                "bbox": [
+                    2026,
+                    731,
+                    2466,
+                    844
+                ],
+                "index": 8,
+                "latex": "= { \\frac { - \\sigma } { E } } ( 1 + \\nu ) = - \\varepsilon"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9649,
+                "bbox": [
+                    1949,
+                    904,
+                    2398,
+                    1025
+                ],
+                "index": 9,
+                "latex": "\\varepsilon _ { y } = { \\frac { 1 } { E } } { \\big ( } \\sigma _ { y } - \\nu \\cdot \\sigma _ { x } { \\big ) }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9623,
+                "bbox": [
+                    2021,
+                    1074,
+                    2388,
+                    1186
+                ],
+                "index": 10,
+                "latex": "= { \\frac { \\sigma } { E } } ( 1 + \\nu ) = \\varepsilon"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9658,
+                "bbox": [
+                    1925,
+                    1236,
+                    2327,
+                    1359
+                ],
+                "index": 11,
+                "latex": "\\varepsilon = \\frac { \\Delta l } { l } \\Rightarrow \\Delta l = \\varepsilon l"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8904,
+                "bbox": [
+                    78,
+                    1363,
+                    118,
+                    1393
+                ],
+                "index": 12
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    98,
+                    673,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    261,
+                    2481,
+                    310
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1365,
+                    114,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 14,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9457,
+                "bbox": [
+                    77,
+                    102,
+                    679,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9626,
+                "bbox": [
+                    70,
+                    256,
+                    2491,
+                    315
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9739,
+                "bbox": [
+                    81,
+                    420,
+                    1017,
+                    1316
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9684,
+                "bbox": [
+                    1172,
+                    405,
+                    1588,
+                    1327
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9641,
+                "bbox": [
+                    1915,
+                    398,
+                    2367,
+                    520
+                ],
+                "index": 5,
+                "latex": "\\tan \\left( { \\frac { \\pi } { 4 } } - { \\frac { \\gamma } { 2 } } \\right) = { \\frac { 1 - \\varepsilon } { 1 + \\varepsilon } }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.929,
+                "bbox": [
+                    1651,
+                    735,
+                    1839,
+                    881
+                ],
+                "index": 6,
+                "latex": "\\begin{array} { l } { l + \\Delta l } \\\\ { l ( 1 + \\varepsilon ) } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9706,
+                "bbox": [
+                    1886,
+                    588,
+                    2528,
+                    778
+                ],
+                "index": 7,
+                "latex": "\\tan \\Big ( \\frac { \\pi } { 4 } - \\frac { \\gamma } { 2 } \\Big ) = \\frac { \\tan \\frac { \\pi } { 4 } - \\tan \\frac { \\gamma } { 2 } } { 1 + \\tan \\frac { \\pi } { 4 } \\tan \\frac { \\gamma } { 2 } }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9668,
+                "bbox": [
+                    1909,
+                    850,
+                    2358,
+                    1043
+                ],
+                "index": 8,
+                "latex": " { \\frac { 1 - \\tan { \\frac { \\gamma } { 2 } } } { 1 + \\tan { \\frac { \\gamma } { 2 } } } } = { \\frac { 1 - \\varepsilon } { 1 + \\varepsilon } }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9454,
+                "bbox": [
+                    1870,
+                    1103,
+                    2141,
+                    1195
+                ],
+                "index": 9,
+                "latex": "\\begin{array} { r } {  \\tan { \\frac { \\gamma } { 2 } } = \\varepsilon } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9159,
+                "bbox": [
+                    1871,
+                    1246,
+                    2063,
+                    1336
+                ],
+                "index": 10,
+                "latex": "\\begin{array} { r } { \\to \\frac { \\gamma } { 2 } = \\varepsilon } \\end{array}"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8943,
+                "bbox": [
+                    78,
+                    1363,
+                    118,
+                    1393
+                ],
+                "index": 11
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    97,
+                    673,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    261,
+                    2481,
+                    310
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1365,
+                    114,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 15,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.95,
+                "bbox": [
+                    76,
+                    102,
+                    680,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9634,
+                "bbox": [
+                    68,
+                    256,
+                    2491,
+                    315
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9555,
+                "bbox": [
+                    166,
+                    410,
+                    974,
+                    799
+                ],
+                "index": 3,
+                "latex": "\\begin{array}{c} \\begin{array} { l } { {  \\frac { \\gamma } { 2 } = \\varepsilon } } \\\\ { {  \\varepsilon = \\displaystyle \\frac { \\sigma } { E } ( 1 + \\nu ) ~ [ \\begin{array} { c } { { \\begin{array} { c } { { \\frac { \\gamma } { 2 } = \\frac { \\sigma } { E } ( 1 + \\nu ) } \\end{array} } } } \\end{array} } } \\end{array} ] ~   \\end{array}"
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9771,
+                "bbox": [
+                    1113,
+                    341,
+                    2348,
+                    1042
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9576,
+                "bbox": [
+                    125,
+                    954,
+                    519,
+                    1078
+                ],
+                "index": 5,
+                "latex": "\\to \\gamma = \\tau { \\frac { 2 ( 1 + \\nu ) } { E } }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8709,
+                "bbox": [
+                    123,
+                    1118,
+                    1807,
+                    1257
+                ],
+                "index": 6,
+                "latex": " \\tau = \\frac { E } { 2 ( 1 + \\nu ) } \\gamma \\quad \\longrightarrow \\quad \\tau = G \\gamma \\quad \\qquad \\quad G = \\frac { E } { 2 ( 1 + \\nu ) }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8798,
+                "bbox": [
+                    78,
+                    1364,
+                    117,
+                    1393
+                ],
+                "index": 7
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    97,
+                    673,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    84,
+                    261,
+                    2481,
+                    310
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1365,
+                    114,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 16,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9629,
+                "bbox": [
+                    77,
+                    102,
+                    679,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9367,
+                "bbox": [
+                    73,
+                    256,
+                    638,
+                    311
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9666,
+                "bbox": [
+                    139,
+                    352,
+                    2114,
+                    876
+                ],
+                "index": 3,
+                "latex": "\\begin{array}{c} { \\begin{array} { l } { \\varepsilon _ { x } = { \\cfrac { 1 } { E } } { \\big ( } \\sigma _ { x } - \\nu \\cdot \\sigma _ { y } { \\big ) } } \\\\ { \\varepsilon _ { y } = { \\cfrac { 1 } { E } } { \\big ( } \\sigma _ { y } - \\nu \\cdot \\sigma _ { x } { \\big ) } } \\\\ { \\gamma _ { x y } = { \\cfrac { 1 } { G } } \\cdot \\tau _ { x y } } \\\\ { \\qquad \\quad } \\end{array} } \\quad { \\left[ \\begin{array} { l } { \\sigma _ { x } = { \\cfrac { E } { 1 - \\nu ^ { 2 } } } { \\big ( } \\varepsilon _ { x } + \\nu \\cdot \\varepsilon _ { y } { \\big ) } } \\\\ { \\qquad \\sigma _ { x } = { \\cfrac { E } { 1 - \\nu ^ { 2 } } } { \\big ( } \\varepsilon _ { y } + \\nu \\cdot \\varepsilon _ { x } { \\big ) } } \\\\ { \\qquad \\sigma _ { y } = { \\cfrac { E } { 1 - \\nu ^ { 2 } } } { \\big ( } \\varepsilon _ { y } + \\nu \\cdot \\varepsilon _ { x } { \\big ) } } \\\\ { \\qquad \\quad } \\\\ { \\tau _ { x y } = G \\cdot \\gamma _ { x y } } \\end{array} \\right] }  \\end{array}  \\left[ { \\begin{array} { l } { { \\mathrm { t a n ~ } } \\textstyle { 2 \\varphi ^ { * } } = { \\cfrac { \\gamma _ { x y } } { \\varepsilon _ { x } - \\varepsilon _ { y } } } = { \\cfrac { 2 \\cdot \\tau _ { x y } } { \\sigma _ { x } - \\sigma _ { y } } } } \\\\ { \\qquad \\textstyle { \\mathrm { t a n ~ } } \\textstyle { 2 \\varphi ^ { * } } = { \\cfrac { \\gamma _ { x y } } { \\varepsilon _ { x } - \\varepsilon _ { y } } } = { \\cfrac { 2 \\cdot \\tau _ { x y } } { \\sigma _ { x } - \\sigma _ { y } } } } \\\\ { \\qquad \\textstyle { \\mathrm { t a n ~ } } \\textstyle { 2 \\varphi ^ { * } } = { \\cfrac { \\gamma _ { x y } } { \\varepsilon _ { x } - \\varepsilon _ { y } } } } \\end{array} } \\right] ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.939,
+                "bbox": [
+                    2125,
+                    239,
+                    2490,
+                    456
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9829,
+                "bbox": [
+                    70,
+                    916,
+                    2317,
+                    1036
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9719,
+                "bbox": [
+                    592,
+                    1089,
+                    1029,
+                    1208
+                ],
+                "index": 6,
+                "latex": "\\varepsilon _ { 1 } = { \\frac { 1 } { E } } ( \\sigma _ { 1 } - \\nu \\cdot \\sigma _ { 2 } )"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9705,
+                "bbox": [
+                    1465,
+                    1089,
+                    1901,
+                    1208
+                ],
+                "index": 7,
+                "latex": "\\varepsilon _ { 2 } = { \\frac { 1 } { E } } ( \\sigma _ { 2 } - \\nu \\cdot \\sigma _ { 1 } )"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.9021,
+                "bbox": [
+                    78,
+                    1364,
+                    118,
+                    1393
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9625,
+                "bbox": [
+                    879,
+                    1415,
+                    1775,
+                    1448
+                ],
+                "index": 9
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    97,
+                    673,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    259,
+                    627,
+                    306
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2228,
+                    236,
+                    2386,
+                    288
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2163,
+                    290,
+                    2448,
+                    346
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2213,
+                    346,
+                    2396,
+                    391
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2126,
+                    399,
+                    2486,
+                    453
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    919,
+                    2311,
+                    971
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    983,
+                    810,
+                    1029
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    82,
+                    1365,
+                    113,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    888,
+                    1419,
+                    1769,
+                    1446
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 17,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9642,
+                "bbox": [
+                    77,
+                    102,
+                    679,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9667,
+                "bbox": [
+                    71,
+                    256,
+                    1419,
+                    315
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9587,
+                "bbox": [
+                    186,
+                    370,
+                    954,
+                    491
+                ],
+                "index": 3,
+                "latex": "{ { \\varepsilon } _ { x } } = \\frac { 1 } { E } { { \\left( { { \\sigma } _ { x } } - \\nu \\cdot \\left[ { { \\sigma } _ { y } } + { { \\sigma } _ { z } } \\right] \\right) } } + { { \\alpha } _ { T } } \\Delta T"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9186,
+                "bbox": [
+                    184,
+                    547,
+                    957,
+                    668
+                ],
+                "index": 4,
+                "latex": "{ { \\varepsilon } _ { y } } = \\frac { 1 } { E } { { \\left( { { \\sigma } _ { y } } - \\nu \\cdot [ { { \\sigma } _ { z } } + { { \\sigma } _ { x } } ] \\right) } } + { { \\alpha } _ { T } } \\Delta T"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9761,
+                "bbox": [
+                    1159,
+                    549,
+                    2109,
+                    736
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9533,
+                "bbox": [
+                    187,
+                    746,
+                    954,
+                    867
+                ],
+                "index": 6,
+                "latex": "{ { \\varepsilon } _ { z } } = \\frac { 1 } { E } { { \\left( { { \\sigma } _ { z } } - \\nu \\cdot \\left[ { { \\sigma } _ { x } } + { { \\sigma } _ { y } } \\right] \\right) } } + { { \\alpha } _ { T } } \\Delta T"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9665,
+                "bbox": [
+                    204,
+                    940,
+                    1423,
+                    1065
+                ],
+                "index": 7,
+                "latex": "\\gamma _ { x y } = \\frac { 1 } { G } \\cdot \\tau _ { x y } \\gamma _ { x z } = \\frac { 1 } { G } \\cdot \\tau _ { x z } \\gamma _ { y z } = \\frac { 1 } { G } \\cdot \\tau _ { y z }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8955,
+                "bbox": [
+                    79,
+                    1364,
+                    117,
+                    1392
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9629,
+                "bbox": [
+                    880,
+                    1416,
+                    1775,
+                    1448
+                ],
+                "index": 9
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    97,
+                    673,
+                    169
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    139,
+                    252,
+                    1413,
+                    314
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1173,
+                    554,
+                    2097,
+                    609
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1174,
+                    618,
+                    2100,
+                    667
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1170,
+                    676,
+                    1799,
+                    729
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    81,
+                    1365,
+                    113,
+                    1392
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1420,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 18,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9617,
+                "bbox": [
+                    78,
+                    102,
+                    815,
+                    165
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9837,
+                "bbox": [
+                    71,
+                    256,
+                    2561,
+                    434
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9814,
+                "bbox": [
+                    72,
+                    495,
+                    2379,
+                    619
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9143,
+                "bbox": [
+                    1774,
+                    510,
+                    1865,
+                    555
+                ],
+                "index": 4,
+                "latex": "\\sigma _ { z u l }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9379,
+                "bbox": [
+                    2014,
+                    564,
+                    2201,
+                    614
+                ],
+                "index": 5,
+                "latex": "\\sigma \\leq \\sigma _ { z u l }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9811,
+                "bbox": [
+                    72,
+                    676,
+                    2524,
+                    796
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.983,
+                "bbox": [
+                    72,
+                    855,
+                    2586,
+                    978
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8766,
+                "bbox": [
+                    726,
+                    929,
+                    787,
+                    973
+                ],
+                "index": 8,
+                "latex": "\\sigma _ { V }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9512,
+                "bbox": [
+                    1220,
+                    1044,
+                    1441,
+                    1098
+                ],
+                "index": 9,
+                "latex": "\\sigma _ { V } \\leq \\sigma _ { z u l }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8926,
+                "bbox": [
+                    76,
+                    1364,
+                    116,
+                    1393
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.955,
+                "bbox": [
+                    880,
+                    1416,
+                    1775,
+                    1448
+                ],
+                "index": 11
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    103,
+                    810,
+                    165
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    129,
+                    258,
+                    2460,
+                    307
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    319,
+                    2552,
+                    368
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    374,
+                    458,
+                    432
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    137,
+                    499,
+                    1773,
+                    552
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1866,
+                    499,
+                    2369,
+                    552
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    559,
+                    2005,
+                    606
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    681,
+                    2523,
+                    734
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    142,
+                    743,
+                    865,
+                    789
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    861,
+                    2582,
+                    907
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    921,
+                    725,
+                    968
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    788,
+                    921,
+                    2519,
+                    968
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    78,
+                    1364,
+                    115,
+                    1395
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1420,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 19,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9537,
+                "bbox": [
+                    79,
+                    102,
+                    814,
+                    165
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.96,
+                "bbox": [
+                    74,
+                    256,
+                    1405,
+                    314
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9651,
+                "bbox": [
+                    73,
+                    376,
+                    2421,
+                    437
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.942,
+                "bbox": [
+                    1242,
+                    509,
+                    1421,
+                    556
+                ],
+                "index": 4,
+                "latex": "\\sigma _ { V } = \\sigma _ { 1 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.5944,
+                "bbox": [
+                    1068,
+                    1238,
+                    1594,
+                    1359
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8838,
+                "bbox": [
+                    77,
+                    1364,
+                    113,
+                    1393
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9453,
+                "bbox": [
+                    881,
+                    1416,
+                    1774,
+                    1448
+                ],
+                "index": 7
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    103,
+                    810,
+                    165
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    87,
+                    273,
+                    103,
+                    290
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    145,
+                    257,
+                    1397,
+                    313
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    371,
+                    2420,
+                    437
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1067,
+                    1235,
+                    1594,
+                    1303
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1091,
+                    1302,
+                    1593,
+                    1356
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    79,
+                    1365,
+                    112,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1419,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 20,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9329,
+                "bbox": [
+                    78,
+                    101,
+                    816,
+                    166
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9562,
+                "bbox": [
+                    68,
+                    255,
+                    2549,
+                    318
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7954,
+                "bbox": [
+                    1273,
+                    367,
+                    1394,
+                    418
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9618,
+                "bbox": [
+                    73,
+                    495,
+                    1112,
+                    556
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.9314,
+                "bbox": [
+                    110,
+                    594,
+                    882,
+                    1294
+                ],
+                "index": 5
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9452,
+                "bbox": [
+                    1081,
+                    769,
+                    1429,
+                    881
+                ],
+                "index": 6,
+                "latex": "\\tau _ { m a x } = \\frac { \\sigma _ { 1 } - \\sigma _ { 2 } } { 2 }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8961,
+                "bbox": [
+                    1026,
+                    939,
+                    1486,
+                    1001
+                ],
+                "index": 7,
+                "latex": " \\sigma _ { 1 } = \\sigma _ { V } \\& \\sigma _ { 2 } = 0"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9496,
+                "bbox": [
+                    1107,
+                    1053,
+                    1407,
+                    1164
+                ],
+                "index": 8,
+                "latex": " \\tau _ { m a x } = \\frac { \\sigma _ { V } } { 2 }"
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.5488,
+                "bbox": [
+                    1174,
+                    1212,
+                    1489,
+                    1380
+                ],
+                "index": 10
+            },
+            {
+                "cls_id": 14,
+                "label": "image",
+                "score": 0.7852,
+                "bbox": [
+                    1739,
+                    507,
+                    2530,
+                    1347
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 24,
+                "label": "vision_footnote",
+                "score": 0.8227,
+                "bbox": [
+                    1808,
+                    1360,
+                    2566,
+                    1395
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8868,
+                "bbox": [
+                    76,
+                    1363,
+                    118,
+                    1393
+                ],
+                "index": 16
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9103,
+                "bbox": [
+                    880,
+                    1415,
+                    1775,
+                    1448
+                ],
+                "index": 17
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    101,
+                    811,
+                    166
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    74,
+                    256,
+                    2545,
+                    315
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1275,
+                    364,
+                    1392,
+                    425
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    85,
+                    506,
+                    127,
+                    534
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    500,
+                    1103,
+                    551
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1817,
+                    1367,
+                    2555,
+                    1391
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1366,
+                    114,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    889,
+                    1421,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 21,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9632,
+                "bbox": [
+                    78,
+                    101,
+                    816,
+                    166
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.864,
+                "bbox": [
+                    1616,
+                    52,
+                    1867,
+                    170
+                ],
+                "index": 2
+            },
+            {
+                "cls_id": 12,
+                "label": "header",
+                "score": 0.9518,
+                "bbox": [
+                    1947,
+                    49,
+                    2560,
+                    167
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.973,
+                "bbox": [
+                    71,
+                    211,
+                    2487,
+                    332
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.5947,
+                "bbox": [
+                    732,
+                    267,
+                    782,
+                    322
+                ],
+                "index": 5,
+                "latex": "\\ddot { \\mathsf { A } } \\mathsf { r }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9693,
+                "bbox": [
+                    92,
+                    355,
+                    881,
+                    415
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9395,
+                "bbox": [
+                    583,
+                    365,
+                    717,
+                    413
+                ],
+                "index": 7,
+                "latex": "\\sigma _ { 1 } , \\sigma _ { 2 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.914,
+                "bbox": [
+                    820,
+                    366,
+                    876,
+                    414
+                ],
+                "index": 8,
+                "latex": "\\sigma _ { 3 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9651,
+                "bbox": [
+                    93,
+                    447,
+                    432,
+                    503
+                ],
+                "index": 9
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9648,
+                "bbox": [
+                    158,
+                    507,
+                    811,
+                    591
+                ],
+                "index": 10,
+                "latex": "\\begin{array} { r } {  \\varepsilon _ { 1 } = \\frac { 1 } { E } \\cdot [ \\sigma _ { 1 } - \\nu \\cdot ( \\sigma _ { 2 } + \\sigma _ { 3 } ) ] } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9622,
+                "bbox": [
+                    158,
+                    594,
+                    809,
+                    675
+                ],
+                "index": 11,
+                "latex": "\\begin{array} { r } { \\vec { \\bf \\nabla } \\varepsilon _ { 2 } = \\frac { 1 } { E } \\cdot \\left[ \\boldsymbol { \\sigma } _ { 2 } - \\boldsymbol { \\nu } \\cdot ( \\boldsymbol { \\sigma } _ { 1 } + \\boldsymbol { \\sigma } _ { 3 } ) \\right] } \\end{array}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9671,
+                "bbox": [
+                    93,
+                    793,
+                    551,
+                    850
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9616,
+                "bbox": [
+                    159,
+                    678,
+                    810,
+                    762
+                ],
+                "index": 13,
+                "latex": "\\begin{array} { r } { \\vec { \\bf \\nabla } \\varepsilon _ { 3 } = \\frac { 1 } { \\varepsilon } \\cdot [ \\boldsymbol { \\sigma } _ { 3 } - \\boldsymbol { \\nu } \\cdot ( \\boldsymbol { \\sigma } _ { 1 } + \\boldsymbol { \\sigma } _ { 2 } ) ] } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9676,
+                "bbox": [
+                    157,
+                    853,
+                    943,
+                    940
+                ],
+                "index": 14,
+                "latex": "\\begin{array} { r } {  U = \\frac { 1 } { 2 } \\cdot ( \\sigma _ { 1 } \\cdot \\varepsilon _ { 1 } + \\sigma _ { 2 } \\cdot \\varepsilon _ { 2 } + \\sigma _ { 3 } \\cdot \\varepsilon _ { 3 } ) } \\end{array}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9541,
+                "bbox": [
+                    94,
+                    973,
+                    806,
+                    1032
+                ],
+                "index": 15
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9336,
+                "bbox": [
+                    530,
+                    984,
+                    648,
+                    1031
+                ],
+                "index": 16,
+                "latex": "\\varepsilon _ { 1 } , \\varepsilon _ { 2 }"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8273,
+                "bbox": [
+                    749,
+                    984,
+                    800,
+                    1032
+                ],
+                "index": 17,
+                "latex": "\\varepsilon _ { 3 }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.8211,
+                "bbox": [
+                    158,
+                    1032,
+                    1351,
+                    1118
+                ],
+                "index": 18,
+                "latex": "\\begin{array} { r } {  U = \\frac { 1 } { 2 E } \\cdot [ { \\sigma _ { 1 } } ^ { 2 } + { \\sigma _ { 2 } } ^ { 2 } + { \\sigma _ { 3 } } ^ { 2 } - 2 \\nu ( \\sigma _ { 1 } \\sigma _ { 2 } + \\sigma _ { 1 } \\sigma _ { 3 } + \\sigma _ { 3 } \\sigma _ { 2 } ) ] } \\end{array}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9721,
+                "bbox": [
+                    92,
+                    1150,
+                    962,
+                    1208
+                ],
+                "index": 19
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9648,
+                "bbox": [
+                    1429,
+                    349,
+                    2105,
+                    435
+                ],
+                "index": 20
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9609,
+                "bbox": [
+                    1821,
+                    349,
+                    2100,
+                    433
+                ],
+                "index": 21,
+                "latex": "\\begin{array} { r } { \\sigma = \\frac { \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } } { 3 } } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9644,
+                "bbox": [
+                    158,
+                    1208,
+                    854,
+                    1292
+                ],
+                "index": 22,
+                "latex": "\\begin{array} { r } {  \\sigma _ { 1 } = \\sigma _ { 2 } = \\sigma _ { 3 } = \\sigma = \\frac { \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } } { 3 } } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.966,
+                "bbox": [
+                    158,
+                    1291,
+                    1050,
+                    1383
+                ],
+                "index": 23,
+                "latex": "\\begin{array} { r } {  U _ { h } = \\frac { 1 } { 2 E } [ 3 \\sigma ^ { 2 } - 2 \\nu ( 3 \\sigma ^ { 2 } ) ] = \\frac { 1 - 2 \\nu } { 2 E } \\cdot 3 \\sigma ^ { 2 } } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9693,
+                "bbox": [
+                    1492,
+                    435,
+                    2104,
+                    536
+                ],
+                "index": 24,
+                "latex": "\\begin{array} { r } {  U _ { h } = \\frac { 1 - 2 \\nu } { 2 E } \\cdot 3 ( \\frac { \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } } { 3 } ) ^ { 2 } } \\end{array}"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9679,
+                "bbox": [
+                    1491,
+                    536,
+                    2121,
+                    624
+                ],
+                "index": 25,
+                "latex": "\\begin{array} { r } {  U _ { h } = \\frac { 1 - 2 \\nu } { 6 E } ( \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } ) ^ { 2 } } \\end{array}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9783,
+                "bbox": [
+                    1429,
+                    654,
+                    2532,
+                    771
+                ],
+                "index": 26
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.7133,
+                "bbox": [
+                    1493,
+                    775,
+                    1838,
+                    837
+                ],
+                "index": 27
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8703,
+                "bbox": [
+                    1554,
+                    776,
+                    1835,
+                    836
+                ],
+                "index": 28,
+                "latex": "U _ { f } = U - U _ { h }"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9339,
+                "bbox": [
+                    1488,
+                    840,
+                    2611,
+                    924
+                ],
+                "index": 29,
+                "latex": "\\angle A _ { 1 } = \\frac { 1 } { ( 2 ) ^ { 2 } } = ( \\angle A _ { 1 } - \\angle A _ { 2 } ) \\times ( \\angle A _ { 1 } - \\angle A _ { 2 } ) = ( \\angle B _ { 1 } - \\angle B _ { 2 } ) = ( \\angle B _ { 1 } - \\angle A _ { 2 } ) ."
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.94,
+                "bbox": [
+                    1428,
+                    958,
+                    2574,
+                    1019
+                ],
+                "index": 30
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.6089,
+                "bbox": [
+                    1492,
+                    1021,
+                    2018,
+                    1078
+                ],
+                "index": 31
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8401,
+                "bbox": [
+                    1545,
+                    1022,
+                    2015,
+                    1077
+                ],
+                "index": 32,
+                "latex": "\\sigma _ { 1 } = \\sigma _ { v } , \\sigma _ { 2 } = \\sigma _ { 3 } = 0"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9169,
+                "bbox": [
+                    1492,
+                    1079,
+                    1895,
+                    1166
+                ],
+                "index": 33,
+                "latex": "\\Rightarrow \\psi _ { i } = \\frac { \\sqrt { 1 5 } - 1 } { \\sqrt { 3 } } \\Rightarrow \\psi _ { i } \\psi _ { i } ^ { 2 }"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9622,
+                "bbox": [
+                    1430,
+                    1197,
+                    1811,
+                    1250
+                ],
+                "index": 34
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9697,
+                "bbox": [
+                    1490,
+                    1251,
+                    2554,
+                    1319
+                ],
+                "index": 35,
+                "latex": " 2 { \\sigma _ { v } } ^ { 2 } = [ ( \\sigma _ { 1 } - \\sigma _ { 2 } ) ^ { 2 } + ( \\sigma _ { 1 } - \\sigma _ { 3 } ) ^ { 2 } + ( \\sigma _ { 2 } - \\sigma _ { 3 } ) ^ { 2 } ]"
+            },
+            {
+                "cls_id": 5,
+                "label": "display_formula",
+                "score": 0.9462,
+                "bbox": [
+                    1485,
+                    1326,
+                    2595,
+                    1439
+                ],
+                "index": 36,
+                "latex": "\\therefore \\angle C _ { 1 } = \\angle B = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 1 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 }"
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.6703,
+                "bbox": [
+                    75,
+                    1361,
+                    116,
+                    1394
+                ],
+                "index": 37
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    101,
+                    811,
+                    166
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1619,
+                    53,
+                    1862,
+                    107
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1657,
+                    103,
+                    1836,
+                    173
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1949,
+                    48,
+                    2558,
+                    109
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    2060,
+                    110,
+                    2447,
+                    166
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    216,
+                    2325,
+                    269
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    155,
+                    278,
+                    731,
+                    324
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    783,
+                    278,
+                    2485,
+                    324
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    106,
+                    369,
+                    124,
+                    389
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    164,
+                    356,
+                    575,
+                    411
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    722,
+                    355,
+                    815,
+                    409
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    107,
+                    463,
+                    124,
+                    484
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    164,
+                    449,
+                    425,
+                    506
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    159,
+                    796,
+                    545,
+                    850
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    107,
+                    988,
+                    124,
+                    1009
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    163,
+                    974,
+                    524,
+                    1026
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    651,
+                    974,
+                    745,
+                    1028
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    108,
+                    1167,
+                    125,
+                    1188
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    162,
+                    1153,
+                    954,
+                    1206
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1434,
+                    361,
+                    1816,
+                    415
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1439,
+                    670,
+                    1458,
+                    691
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1497,
+                    655,
+                    2524,
+                    710
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1498,
+                    719,
+                    2290,
+                    769
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1497,
+                    777,
+                    1549,
+                    828
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1431,
+                    961,
+                    2566,
+                    1015
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1500,
+                    1020,
+                    1543,
+                    1076
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1433,
+                    1200,
+                    1803,
+                    1249
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1365,
+                    113,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 22,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9646,
+                "bbox": [
+                    77,
+                    102,
+                    716,
+                    164
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9575,
+                "bbox": [
+                    305,
+                    358,
+                    592,
+                    456
+                ],
+                "index": 2,
+                "latex": "\\pmb { \\varepsilon } = \\left[ \\begin{array} { l l } { \\varepsilon _ { x } } & { \\varepsilon _ { x y } } \\\\ { \\varepsilon _ { x y } } & { \\varepsilon _ { y } } \\end{array} \\right]"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9853,
+                "bbox": [
+                    71,
+                    254,
+                    2533,
+                    459
+                ],
+                "index": 3
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8685,
+                "bbox": [
+                    73,
+                    505,
+                    744,
+                    594
+                ],
+                "index": 4
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.8315,
+                "bbox": [
+                    135,
+                    506,
+                    743,
+                    593
+                ],
+                "index": 5,
+                "latex": "\\begin{array} { r } { \\varepsilon _ { x } = \\frac { \\partial u } { \\partial x } ; \\varepsilon _ { y } = \\frac { \\partial v } { \\partial y } ; \\gamma _ { x y } = \\frac { \\partial u } { d y } + \\frac { \\partial v } { d x } } \\end{array}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9854,
+                "bbox": [
+                    72,
+                    647,
+                    2308,
+                    808
+                ],
+                "index": 6
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.971,
+                "bbox": [
+                    72,
+                    860,
+                    2453,
+                    915
+                ],
+                "index": 7
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.973,
+                "bbox": [
+                    73,
+                    966,
+                    1480,
+                    1044
+                ],
+                "index": 8
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9613,
+                "bbox": [
+                    549,
+                    967,
+                    1473,
+                    1042
+                ],
+                "index": 9,
+                "latex": "\\begin{array} { r } { \\varepsilon _ { x } = \\frac { 1 } { E } { \\left( \\sigma _ { x } - \\nu \\cdot \\left[ \\sigma _ { y } + \\sigma _ { z } \\right] \\right) } + \\alpha _ { T } \\Delta T ; \\gamma _ { x y } = \\frac { 1 } { G } \\cdot \\tau _ { x y } } \\end{array}"
+            },
+            {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.9526,
+                "bbox": [
+                    136,
+                    1095,
+                    345,
+                    1177
+                ],
+                "index": 10,
+                "latex": "\\begin{array} { r } { G = \\frac { E } { 2 ( 1 + \\nu ) } } \\end{array}"
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9593,
+                "bbox": [
+                    76,
+                    1093,
+                    349,
+                    1178
+                ],
+                "index": 11
+            },
+            {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9717,
+                "bbox": [
+                    72,
+                    1233,
+                    1507,
+                    1286
+                ],
+                "index": 12
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8883,
+                "bbox": [
+                    75,
+                    1363,
+                    116,
+                    1392
+                ],
+                "index": 13
+            },
+            {
+                "cls_id": 8,
+                "label": "footer",
+                "score": 0.9599,
+                "bbox": [
+                    881,
+                    1415,
+                    1774,
+                    1448
+                ],
+                "index": 14
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    83,
+                    97,
+                    711,
+                    165
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    77,
+                    254,
+                    2276,
+                    304
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    311,
+                    2527,
+                    359
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    385,
+                    304,
+                    428
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    86,
+                    539,
+                    100,
+                    554
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    144,
+                    651,
+                    2107,
+                    698
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    141,
+                    703,
+                    2300,
+                    749
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    144,
+                    757,
+                    492,
+                    804
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    76,
+                    861,
+                    2449,
+                    914
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    136,
+                    978,
+                    546,
+                    1025
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    84,
+                    1121,
+                    101,
+                    1138
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    88,
+                    1248,
+                    102,
+                    1264
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    140,
+                    1234,
+                    1503,
+                    1285
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1365,
+                    113,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    890,
+                    1421,
+                    1769,
+                    1445
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 23,
+            "width": 2667,
+            "height": 1500
+        }
+    },
+    {
+        "layout_dets": [
+            {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.9575,
+                "bbox": [
+                    718,
+                    538,
+                    1943,
+                    1038
+                ],
+                "index": 1
+            },
+            {
+                "cls_id": 16,
+                "label": "number",
+                "score": 0.8738,
+                "bbox": [
+                    77,
+                    1364,
+                    115,
+                    1392
+                ],
+                "index": 2
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    899,
+                    529,
+                    1771,
+                    674
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    1060,
+                    703,
+                    1603,
+                    862
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    715,
+                    893,
+                    1946,
+                    1036
+                ],
+                "score": 1.0,
+                "text": ""
+            },
+            {
+                "label": "ocr_text",
+                "bbox": [
+                    80,
+                    1366,
+                    113,
+                    1393
+                ],
+                "score": 1.0,
+                "text": ""
+            }
+        ],
+        "page_info": {
+            "page_no": 24,
+            "width": 2667,
+            "height": 1500
+        }
+    }
+]

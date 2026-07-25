@@ -7820,5 +7820,3082 @@
     "create_time": 1784900465,
     "update_time": 1784900465,
     "_id": "1dd1ce2c4812c8e86db87d41ebb51b48"
+  },
+  "b4813031d4430a2e9bfa31d66b88784a": {
+    "content_list": [
+      {
+        "type": "text",
+        "text": "Mechanik in der Werkstofftechnik II: Elastostatik",
+        "text_level": 2,
+        "bbox": [
+          27,
+          361,
+          800,
+          424
+        ],
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Kapitel 12: Verzerrungszustand, Elastizitätsgesetz",
+        "bbox": [
+          26,
+          503,
+          497,
+          550
+        ],
+        "page_idx": 0
+      },
+      {
+        "type": "text",
+        "text": "Univ. Prof. Dr.-Ing Sebastian Münstermann",
+        "bbox": [
+          26,
+          592,
+          430,
+          637
+        ],
+        "page_idx": 0
+      },
+      {
+        "type": "footer",
+        "text": "ibF RWTHAACHENUNIVERSITY",
+        "bbox": [
+          777,
+          903,
+          991,
+          975
+        ],
+        "page_idx": 0
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\6bc3738c5f2abe6798ab21d394ab4a8dfc02bd294aee8be2bbc56e36fe878d06.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          30,
+          116,
+          967,
+          879
+        ],
+        "page_idx": 1,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "header",
+        "text": "Lernziele",
+        "bbox": [
+          29,
+          68,
+          123,
+          105
+        ],
+        "page_idx": 1
+      },
+      {
+        "type": "page_number",
+        "text": "2",
+        "bbox": [
+          28,
+          909,
+          38,
+          925
+        ],
+        "page_idx": 1
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          279,
+          109
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "Die Kinematik bei der einachsigen Deformation eines Zugstabes:",
+        "bbox": [
+          27,
+          170,
+          595,
+          209
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "Verschiebung: �",
+        "bbox": [
+          258,
+          244,
+          398,
+          281
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "Dehnung: $\\ell = 0 , 0 , \\ell = 0$",
+        "bbox": [
+          553,
+          242,
+          731,
+          281
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "■ Verformung von flächenförmigen Körpern: Scheibe",
+        "bbox": [
+          27,
+          329,
+          478,
+          368
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\460891877c21bf35f4a99320daec9a0b35d50861fe8b024a807c44629fb92ab3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          330,
+          383,
+          612,
+          622
+        ],
+        "page_idx": 2,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Verschiebungsvektor � ist ortsabhängig. Beim Quadrat ⓵ ändern sich die Seitenlängen, während sich beim Quadrat ⓵ sowohl die Seitenlängen als auch die Winkel ändern.",
+        "bbox": [
+          26,
+          650,
+          943,
+          729
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "page_number",
+        "text": "3",
+        "bbox": [
+          28,
+          909,
+          38,
+          927
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 2
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          279,
+          109
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Betrachtung der Änderungen der Seitenlänge und der Winkel unter Berücksichtigung kleiner Deformationen!",
+        "bbox": [
+          26,
+          168,
+          954,
+          211
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "Verschiebungsvektor von �:",
+        "bbox": [
+          464,
+          250,
+          646,
+          329
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\b79fdfc126131dc7835e0e251cb89f9ccbf513a4269e73ff9e826814a581b616.jpg",
+        "text": "$$\n\\boldsymbol { r } ( x , y ) = \\boldsymbol { u } ( x , y ) \\cdot \\boldsymbol { e } _ { x } + \\boldsymbol { v } ( x , y ) \\cdot \\boldsymbol { e } _ { y }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          671,
+          266,
+          957,
+          314
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\9266150cdcc6ab95bbbe0e8d841ffec984ace00335d3fb318a6519c373134c19.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          28,
+          216,
+          476,
+          881
+        ],
+        "page_idx": 3,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\41c06d264c76e7e7b1fca23aeecd54b2ad39e2855ac5898aabc9791c40fff9a4.jpg",
+        "text": "$$\nP  Q \\colon d y = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+          190,
+          888,
+          315,
+          933
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "Verschiebung eines zu � benachbarten Punktes:",
+        "bbox": [
+          516,
+          383,
+          930,
+          424
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\de06bb1433e10829677a150fa0f0767ddfe569e35b1332e064f663da4a400516.jpg",
+        "text": "$$\nu ( x + d x , y + d y ) = u ( x , y ) + { \\frac { \\partial u ( x , y ) } { \\partial x } } d x + { \\frac { \\partial u ( x , y ) } { \\partial y } } d y + \\cdots\n$$",
+        "text_format": "latex",
+        "bbox": [
+          481,
+          444,
+          976,
+          537
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\b2035ff3dd21fe46a83266391f2cbf07306fec95587bc3abb092c0d5820d2a08.jpg",
+        "text": "$$\nv ( x + d x , y + d y ) = v ( x , y ) + { \\frac { \\partial v ( x , y ) } { \\partial x } } d x + { \\frac { \\partial v ( x , y ) } { \\partial y } } d y + \\cdots\n$$",
+        "text_format": "latex",
+        "bbox": [
+          482,
+          555,
+          975,
+          650
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e926d113f1d6f1bc9702c4cf2a3d00fc3485299cae7cecdb817a0aa91c9c81e8.jpg",
+        "text": "$$\n\\int ^ { \\mathrm { \\Omega } } v + \\frac { \\partial v } { \\partial x } \\mathrm { d } x\n$$",
+        "text_format": "latex",
+        "bbox": [
+          422,
+          661,
+          517,
+          751
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\4e2a3cb3e499e7008705f46fd4a58e37d2855aeec79ade86f0c5952db19ebfc9.jpg",
+        "text": "$$\n{ \\overline { { P ^ { \\prime } Q ^ { \\prime } } } } \\approx d x + \\left( u + { \\frac { \\partial u } { \\partial x } } d x \\right) - u = d x + { \\frac { \\partial u } { \\partial x } } d x\n$$",
+        "text_format": "latex",
+        "bbox": [
+          551,
+          687,
+          912,
+          785
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\a702b03bc12c237db391d5925857227c98a505710b06e9a04832b88e85ff5d28.jpg",
+        "text": "$$\n\\varepsilon _ { x } = { \\frac { { \\overline { { P ^ { \\prime } Q ^ { \\prime } } } } - { \\overline { { P Q } } } } { \\overline { { P Q } } } } = { \\frac { \\left( d x + { \\frac { \\partial u } { \\partial x } } d x \\right) - d x } { d x } } = { \\frac { \\partial u } { \\partial x } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          544,
+          809,
+          903,
+          929
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "page_number",
+        "text": "4",
+        "bbox": [
+          28,
+          907,
+          38,
+          927
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          666,
+          964
+        ],
+        "page_idx": 3
+      },
+      {
+        "type": "text",
+        "text": "Taylorreihe",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          143,
+          109
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "Taylorreihe ist eine Potenzreihe.",
+        "bbox": [
+          27,
+          140,
+          327,
+          175
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "▪ Jede beliebige Funktion lässt sich durch Taylorreihen beschreiben.",
+        "bbox": [
+          26,
+          179,
+          612,
+          216
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Taylorreihen können als eine Annährung einer Funktion an einem Auswertungs-/Entwicklungspunkt interpretiert werden.",
+        "bbox": [
+          26,
+          218,
+          881,
+          296
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "1d:",
+        "bbox": [
+          38,
+          346,
+          68,
+          383
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\c17a4558dbb64c0ea16b5b44493260bdf89ad446e6664ea86791de2af0a4c3cf.jpg",
+        "text": "$$\nf ( y ) : = \\sum _ { n = 0 } ^ { \\infty } { \\frac { f ^ { ( n ) } ( y _ { 0 } ) } { n ! } } ( y - y _ { 0 } ) ^ { n } = f ( y _ { 0 } ) + f ^ { \\prime } ( y _ { 0 } ) ( y - y _ { 0 } ) + { \\frac { f ^ { \\prime \\prime } ( y _ { 0 } ) } { 2 ! } } ( y - y _ { 0 } ) ^ { 2 } + \\cdots\n$$",
+        "text_format": "latex",
+        "bbox": [
+          169,
+          301,
+          826,
+          414
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "Betrachtung kleiner Verschiebungen an der Stelle � um die Strecke d�:",
+        "bbox": [
+          53,
+          435,
+          656,
+          475
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\3f175b1bfd993558095b5d2ecec57746070b98ceecb7e4d3cd9e656490accbcc.jpg",
+        "text": "$$\ny _ { 0 } = x\n$$",
+        "text_format": "latex",
+        "bbox": [
+          55,
+          483,
+          114,
+          516
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\c16fc4073184cb0a18daf596dc33b1f8cce5d90fd90e08707f46a686340c6763.jpg",
+        "text": "$$\ny = x + d x\n$$",
+        "text_format": "latex",
+        "bbox": [
+          54,
+          518,
+          151,
+          555
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\59324407b63233b91f5f8f90e3c893a109ca308b4358d6a4e340b2eb8c3232e1.jpg",
+        "text": "$$\nf ( y = x + d x ) = f ( x ) + f ^ { \\prime } ( x ) ( x + d x - x ) + { \\frac { f ^ { \\prime \\prime } ( x ) } { 2 ! } } ( x + d x - x ) ^ { 2 } + \\cdots\n$$",
+        "text_format": "latex",
+        "bbox": [
+          209,
+          550,
+          787,
+          631
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "Mehrdimensional:",
+        "bbox": [
+          38,
+          725,
+          190,
+          762
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\0d575925337da370098226f2d40d7efe9bb2ea7a12b7217816b18df662d0ffd9.jpg",
+        "text": "$$\nf ( x , y ) = f ( x , y ) + \\frac { \\frac { \\partial f } { d x } ( x _ { 0 } , y _ { 0 } ) } { 1 ! } ( x - x _ { 0 } ) + \\frac { \\frac { \\partial f } { d y } ( x _ { 0 } , y _ { 0 } ) } { 1 ! } ( y - y _ { 0 } ) +\n$$",
+        "text_format": "latex",
+        "bbox": [
+          241,
+          672,
+          755,
+          785
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\15d1ac04e008a3ea709c560c75a21ce1f6002843d6bbf1e89b844e09e056c671.jpg",
+        "text": "$$\n\\frac { \\frac { \\partial ^ { 2 } f } { d x ^ { 2 } } ( x _ { 0 } , y _ { 0 } ) } { 2 ! } ( x - x _ { 0 } ) ^ { 2 } + \\frac { \\frac { \\partial ^ { 2 } f } { d y ^ { 2 } } ( x _ { 0 } , y _ { 0 } ) } { 2 ! } ( y - y _ { 0 } ) ^ { 2 } + \\frac { \\frac { \\partial ^ { 2 } f } { d x d y } ( x _ { 0 } , y _ { 0 } ) } { 1 ! } ( x - x _ { 0 } ) ( y - y _ { 0 } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          173,
+          783,
+          821,
+          903
+        ],
+        "page_idx": 4
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          279,
+          109
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Betrachtung der Änderungen der Seitenlänge und der Winkel unter Berücksichtigung kleiner Deformationen",
+        "bbox": [
+          26,
+          168,
+          948,
+          211
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\126ef92fb9339fc3a02425ead4bcf068bfa2a5021aa9b4a678037924955496d1.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          30,
+          218,
+          516,
+          877
+        ],
+        "page_idx": 5,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e5a9d448f9304a3f5959556b10e013c8cb47e73c3f54c3ed4d2a1c4c04c17c0f.jpg",
+        "text": "$$\n{ \\overline { { P ^ { \\prime } S ^ { \\prime } } } } \\approx d y + \\left( v + { \\frac { \\partial v } { \\partial y } } d y \\right) - v = d y + { \\frac { \\partial v } { \\partial y } } d y\n$$",
+        "text_format": "latex",
+        "bbox": [
+          556,
+          462,
+          914,
+          555
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\97ba115068f2e6c9fa87222abb5988a6882d066b754202e4e65d9526dcf0c918.jpg",
+        "text": "$$\n\\varepsilon _ { y } = { \\cfrac { { \\cfrac { - { \\cfrac { - { \\cfrac { 2 } { P ^ { \\prime } S ^ { \\prime } } } } - { \\cfrac { - { \\cfrac { 2 } { P S } } } } { P S } } } } } { \\cfrac { - { \\cfrac { \\cfrac { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\partial } } { \\cfrac { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\partial } } { \\cfrac { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\cfrac { \\ c { \\ c H } } { P S } } } } } } } } } } } } } } } } } } } } } } } } } } } } } = { \\cfrac { \\partial { y } } } } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          559,
+          577,
+          911,
+          700
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\ed5db26553543d869130d87d81af3a36a033f40ca33bac111693efae5e23c87f.jpg",
+        "text": "$$\nP  Q \\colon d y = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+          190,
+          892,
+          315,
+          931
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "page_number",
+        "text": "6",
+        "bbox": [
+          28,
+          907,
+          38,
+          927
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 5
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          279,
+          109
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Änderung des ursprünglich rechten Winkels ist gegeben durch $\\alpha$ und $\\beta \\colon$",
+        "bbox": [
+          26,
+          168,
+          648,
+          209
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\bc9b8e43c2404d320df38e9abacf08ff0c48ab35490bfc98b64b86486ab26d43.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          29,
+          218,
+          516,
+          879
+        ],
+        "page_idx": 6,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\17bca891786ecb9379ef797b41a29567f20157bd5e317008330bcafa5de8f303.jpg",
+        "text": "$$\nP  Q \\colon d y = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+          190,
+          890,
+          315,
+          931
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\06a98263e4606bcc00307ee4200c45e0d22fb5551e4099b6937e23019143f983.jpg",
+        "text": "$$\n\\tan \\alpha = { \\frac { { \\frac { \\partial u } { \\partial y } } d y } { d y + { \\frac { \\partial v } { \\partial y } } d y } } = { \\frac { { \\frac { \\partial u } { \\partial y } } d y } { \\left[ 1 + { \\frac { \\partial v } { \\partial y } } \\right] d y } } { \\frac { \\mathrm { V e r f o r m u n g } } { \\left( { \\frac { \\partial v } { \\partial y } } = \\varepsilon _ { y } \\ll 1 \\right) } } \\alpha = { \\frac { \\partial u } { \\partial y } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          478,
+          237,
+          925,
+          400
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\792ed06964f6414394167e63a377f9301cbade5da7b5b62a294db9ab2d39105b.jpg",
+        "text": "$$\n\\tan \\beta = { \\frac { { \\frac { \\partial v } { \\partial x } } d x } { d x + { \\frac { \\partial u } { \\partial x } } d x } } { \\frac { \\stackrel { \\mathrm { k l e i n e } } { = } } { \\longrightarrow } } \\beta = { \\frac { \\partial v } { \\partial x } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          586,
+          435,
+          894,
+          575
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "Gesamte Winkeländerung: $\\gamma _ { x y } = \\alpha + \\beta $",
+        "bbox": [
+          559,
+          612,
+          889,
+          655
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f52eb0f8fdb4dc83400fbae36cd023e107ac959dbe8b66fba5d8a26b679d7856.jpg",
+        "text": "$$\n1 6 0 ^ { \\circ } = \\frac { 6 \\pi } { 6 0 ^ { \\circ } } = \\frac { 6 \\pi } { 6 0 ^ { \\circ } } = 1 6 0 ^ { \\circ }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          650,
+          701,
+          829,
+          796
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "�<sub>��</sub> ≔ Gleitung / Scherung → Winkeländerung in der ��-Ebene",
+        "bbox": [
+          539,
+          842,
+          930,
+          925
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "page_number",
+        "text": "7",
+        "bbox": [
+          28,
+          907,
+          38,
+          927
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 6
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          279,
+          109
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "▪ Verzerrung = Dehnung + Gleitung",
+        "bbox": [
+          26,
+          168,
+          343,
+          209
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Verzerrungen sind durch die kinematischen Beziehungen $( \\varepsilon _ { x } , \\varepsilon _ { y } , \\gamma _ { x y } )$ mit den Verschiebungen geknüpft.",
+        "bbox": [
+          26,
+          248,
+          933,
+          290
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Sind Verschiebungen vorgegeben, lassen sich die Verzerrungen durch Ableiten berechnen.",
+        "bbox": [
+          26,
+          333,
+          812,
+          372
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Durch $\\varepsilon _ { x } , \\varepsilon _ { y }$ und $\\gamma _ { x y }$ ist der ebene Verzerrungszustand (EVZ) im Punkt � festgelegt.",
+        "bbox": [
+          26,
+          411,
+          761,
+          453
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Verzerrungstensor für den EVZ: $\\pmb { \\varepsilon } = \\left[ \\begin{array} { c c } { \\varepsilon _ { x } } & { \\frac { 1 } { 2 } \\gamma _ { x y } } \\\\ { \\frac { 1 } { 2 } \\gamma _ { x y } } & { \\varepsilon _ { y } } \\end{array} \\right]$ Analogie zum Spannungstensor: $\\pmb { \\sigma } = \\left[ \\begin{array} { l l } { \\sigma _ { x } } & { \\tau _ { x y } } \\\\ { \\tau _ { x y } } & { \\sigma _ { y } } \\end{array} \\right]$",
+        "bbox": [
+          25,
+          490,
+          947,
+          624
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Hauptdiagonale besteht aus Dehnungen, während die Nebendiagonale die halben Gleitungen beinhaltet.",
+        "bbox": [
+          26,
+          662,
+          925,
+          703
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "page_number",
+        "text": "8",
+        "bbox": [
+          28,
+          909,
+          38,
+          927
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          664,
+          962
+        ],
+        "page_idx": 7
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          29,
+          68,
+          279,
+          109
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Die Eigenschaften des Spannungstensors bei einem ebenen Spannungszustand können sinngemäß auf den Verzerrungstensor übertragen werden.",
+        "bbox": [
+          26,
+          170,
+          958,
+          250
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Drehung des $x y \\cdot$ -Koordinatensystems um den Winkel $\\varphi \\ ( \\xi \\eta \\cdot$ -Koordinatensystem)",
+        "bbox": [
+          27,
+          288,
+          717,
+          329
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "▪ Transformationsgleichungen:",
+        "bbox": [
+          27,
+          370,
+          296,
+          409
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\d9372d34429697f2968fb77bd31150f730da48d049446c190e0bc310947256ab.jpg",
+        "text": "$$\n\\angle B = \\angle C = \\angle C = \\angle D = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = \\angle C = 9 0 ^ { \\circ }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          73,
+          466,
+          496,
+          548
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "▪ Hauptrichtungen:",
+        "bbox": [
+          567,
+          450,
+          739,
+          488
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\a1c62cf25fbce719a9bcbb406941e10dbe86f87e2b55d6673a401923fcf57a8c.jpg",
+        "text": "$$\n\\angle D = \\frac { 1 } { 2 } ( c - 2 0 ) = ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 ) ( c - 2 0 )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          70,
+          587,
+          494,
+          668
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\71c8efcdecf7b4c9479f5cb5ac60ffd4f33b6ce3a2ea888b4a4f619094ea84f5.jpg",
+        "text": "$$\n( \\frac { 1 0 0 } { 1 0 0 } ) \\times 0 . 2 = \\frac { 1 6 0 } { 1 2 0 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          581,
+          518,
+          729,
+          603
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "▪ Hauptdehnungen:",
+        "bbox": [
+          567,
+          635,
+          745,
+          674
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\6d25a4913a4fbb2a8034691090bf2b82043c3f791f3aab98cf7fa996f432c14b.jpg",
+        "text": "$$\n2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+          73,
+          705,
+          428,
+          788
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\909aca4b647af0b27435cc943f2b167a8f4aa1a4dc554d687a0b618622446c14.jpg",
+        "text": "$$\n3 4 0 \\div b \\cdots 1 ( - 2 ) = \\frac { 3 } { 2 } ( - 2 )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          593,
+          714,
+          923,
+          824
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "page_number",
+        "text": "9",
+        "bbox": [
+          28,
+          909,
+          38,
+          927
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          330,
+          942,
+          664,
+          964
+        ],
+        "page_idx": 8
+      },
+      {
+        "type": "text",
+        "text": "12.1 Verzerrungszustand",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          279,
+          109
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "Mohrscher Spannungskreis $( \\sigma , \\tau )$ <sup></sup> Mohrscher Verzerrungskreis $\\left( \\varepsilon , { \\frac { \\gamma } { 2 } } \\right)$",
+        "bbox": [
+          26,
+          168,
+          645,
+          229
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "▪ Räumlicher Verformungszustand:",
+        "bbox": [
+          27,
+          270,
+          334,
+          309
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\ddf0d135bc78508835bda99a4e429d8ea56c9550f9b915f30b729e3494a5196c.jpg",
+        "text": "$$\n\\boldsymbol { r } ( x , y , z ) = \\boldsymbol { u } ( x , y , z ) \\cdot \\boldsymbol { e } _ { x } + \\boldsymbol { v } ( x , y , z ) \\cdot \\boldsymbol { e } _ { y } + w ( x , y , z ) \\cdot \\boldsymbol { e } _ { z _ { i } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          63,
+          355,
+          530,
+          396
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\d6fd2fbc66ac450ff0df94441c6b6a42518d87371cb97e4db5b39ec445e7663e.jpg",
+        "text": "$$\n\\varepsilon _ { x } = \\frac { \\partial u } { \\partial x }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          54,
+          446,
+          125,
+          527
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\732ced2bcad0df7248c111b15067a21522b97439b4ade5dc5e493001fbaf0a3f.jpg",
+        "text": "$$\n\\varepsilon _ { y } = \\frac { \\partial v } { \\partial y }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          262,
+          444,
+          334,
+          529
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\587e8df83b6b6b520b3f700133922cb745a15c429f17d352fbca5f2582477c1d.jpg",
+        "text": "$$\n\\varepsilon _ { z } = \\frac { \\partial w } { \\partial z }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          469,
+          453,
+          542,
+          535
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\6b13d96d3a01212a433dc8eaec43aa46b9a7e48ad39c7ea6c0c42ba4eb0298ee.jpg",
+        "text": "$$\n\\gamma _ { x y } = \\frac { \\partial u } { \\partial y } + \\frac { \\partial v } { \\partial x }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          53,
+          570,
+          177,
+          657
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\d8906f610eadaaa782f25915d2d94d0564ba032bab8b9c70a681d9af9c81887c.jpg",
+        "text": "$$\n\\gamma _ { x z } = \\frac { \\partial u } { \\partial z } + \\frac { \\partial w } { \\partial x }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          235,
+          574,
+          360,
+          659
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\6ce0e5c9b30b23256bf01fdad477946111a022d8139889d3c0ed2915dd8690a3.jpg",
+        "text": "$$\n\\gamma _ { y z } = \\frac { \\partial v } { \\partial z } + \\frac { \\partial w } { \\partial y }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          417,
+          570,
+          543,
+          657
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\95e1b0ee9a915f7615a78a2e3ad4c63585d8a6e0ce64b714ad1c604b8a51eb8d.jpg",
+        "text": "$$\n{ \\boldsymbol { \\varepsilon } } = { \\left[ \\begin{array} { l l l } { \\varepsilon _ { x x } } & { \\varepsilon _ { x y } } & { \\varepsilon _ { x z } } \\\\ { \\varepsilon _ { x y } } & { \\varepsilon _ { y y } } & { \\varepsilon _ { y z } } \\\\ { \\varepsilon _ { x z } } & { \\varepsilon _ { y z } } & { \\varepsilon _ { z z } } \\end{array} \\right] } = { \\left[ \\begin{array} { l l l } { \\varepsilon _ { x } } & { { \\frac { 1 } { 2 } } \\gamma _ { x y } } & { { \\frac { 1 } { 2 } } \\gamma _ { x z } } \\\\ { 1 } & { \\varepsilon _ { y } } & { { \\frac { 1 } { 2 } } \\gamma _ { y z } } \\\\ { { \\frac { 1 } { 2 } } \\gamma _ { x y } } & { \\varepsilon _ { y } } & { { \\frac { 1 } { 2 } } \\gamma _ { y z } } \\end{array} \\right] }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          53,
+          692,
+          417,
+          933
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "Herleitung von",
+        "bbox": [
+          729,
+          750,
+          855,
+          788
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "1 �<sub>��</sub> = <sub>2</sub> 2 �<sub>��</sub> auf Folien 18-20",
+        "bbox": [
+          721,
+          788,
+          861,
+          883
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "page_number",
+        "text": "10",
+        "bbox": [
+          29,
+          907,
+          42,
+          927
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 9
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "▪ Spannungen � (Belastung) $\\stackrel { E } { \\iff }$ Verzerrungen � (Deformation) → $\\sigma = E$ ⋅ �",
+        "bbox": [
+          27,
+          166,
+          658,
+          224
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Beschreibung des Elastizitätsgesetztes für den ebenen Spannungszustand (ESZ) unter der Annahme eines homogenen und isotropen Materialverhaltens.",
+        "bbox": [
+          26,
+          262,
+          947,
+          342
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "▪ Homogen: Gleiche Materialeigenschaften an jeder Stelle",
+        "bbox": [
+          26,
+          383,
+          539,
+          422
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "▪ Isotrop: Gleiche Materialeigenschaften in allen Richtungen",
+        "bbox": [
+          26,
+          462,
+          562,
+          503
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "▪ Betrachtung eines aus einer Scheibe herausgeschnittenen Rechtecks:",
+        "bbox": [
+          26,
+          542,
+          640,
+          583
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\58d752a91a7b5144e52719da6d70a3417b9ad90847a86f96253ac10ae1818d9e.jpg",
+        "image_caption": [],
+        "image_footnote": [
+          "Einachsige Belastung"
+        ],
+        "bbox": [
+          40,
+          612,
+          261,
+          744
+        ],
+        "page_idx": 10,
+        "img_caption": [],
+        "img_footnote": [
+          "Einachsige Belastung"
+        ]
+      },
+      {
+        "type": "text",
+        "text": "$\\sigma _ { x }$ verursacht eine Vergrößerung der Länge + Reduktion der Breite",
+        "bbox": [
+          322,
+          625,
+          884,
+          666
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\2fca8972c09b54751504e248b33ff1e405ff7a1bab8bd4302fb9752c72f1a80a.jpg",
+        "text": "$$\n\\varepsilon _ { x } = \\frac { \\sigma _ { x } } { E }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          561,
+          755,
+          630,
+          827
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "Querkontraktion",
+        "bbox": [
+          727,
+          705,
+          865,
+          742
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\2ac88fac081d45182fdc81fbfbe45cf343a1c3f5f604eb4d242efebc07529ff7.jpg",
+        "text": "$$\n\\varepsilon _ { y } = - \\nu \\cdot \\varepsilon _ { x } = - \\nu \\cdot \\frac { \\sigma _ { x } } { E }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          704,
+          759,
+          888,
+          833
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "� ≔ Querkontraktions- / Poissonzahl [-]",
+        "bbox": [
+          578,
+          862,
+          911,
+          900
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "page_number",
+        "text": "11",
+        "bbox": [
+          28,
+          909,
+          42,
+          927
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 10
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f5b895a6f3d94777fb42843687c519d5f4e7908a2ce1456dcc423c22f5681489.jpg",
+        "text": "$$\n\\sigma _ { x } \\Rightarrow \\varepsilon _ { x } = \\frac { \\sigma _ { x } } { E } \\& \\ \\varepsilon _ { y } = - \\nu \\cdot \\frac { \\sigma _ { x } } { E }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          40,
+          181,
+          279,
+          257
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "text",
+        "text": "Superposition",
+        "bbox": [
+          342,
+          224,
+          465,
+          266
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\d7932c4c835b2045e31c786f1045170dfbf706e49832e94ef42f5501da9756a8.jpg",
+        "text": "$$\n\\sigma _ { y } \\Rightarrow \\varepsilon _ { y } = \\frac { \\sigma _ { y } } { E } \\& \\ \\varepsilon _ { x } = - \\nu \\cdot \\frac { \\sigma _ { y } } { E }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          40,
+          301,
+          281,
+          379
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\58af9cbb945e50438bc4abe8436ccf8ca14d48160c86d87436d7120ad5ccff71.jpg",
+        "text": "$$\n\\varepsilon _ { x } = \\frac { 1 } { E } \\left( \\sigma _ { x } - \\nu \\cdot \\sigma _ { y } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+          493,
+          188,
+          659,
+          268
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\8af237bc2dbfba2a3bb0e90937b9fe7a8812b89a754cd75bfe97f55b7ab7fb4d.jpg",
+        "text": "$$\n\\varepsilon _ { y } = { \\frac { 1 } { E } } { \\big ( } \\sigma _ { y } - \\nu \\cdot \\sigma _ { x } { \\big ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          493,
+          311,
+          659,
+          392
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\240292c56674928a11ace3590b3c7bde863990d57f607fe3ba58d68c0183345b.jpg",
+        "text": "$$\n\\mathbf { \\Sigma } _ { \\overset { . } { \\varepsilon } _ { Z } } ^ { \\overset { . } { \\iota } } = - \\frac { \\nu } { E } \\big ( \\sigma _ { x } + \\sigma _ { y } \\big )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          494,
+          429,
+          668,
+          509
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "text",
+        "text": "Ebener Spannungszustand führt zu einen räumlichen Verzerrungszustand!",
+        "bbox": [
+          38,
+          603,
+          661,
+          642
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "page_number",
+        "text": "12",
+        "bbox": [
+          29,
+          909,
+          43,
+          927
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          330,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 11
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          254,
+          107
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Belastung einer Scheibe nur durch Schubspanngen $\\tau _ { x y } .$",
+        "bbox": [
+          26,
+          170,
+          522,
+          211
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\2ab41e350e84d00a623de54eea5bdc6b0464d3cdbd3221c1b9c541d36f7cae18.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          52,
+          229,
+          254,
+          472
+        ],
+        "page_idx": 12,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\ab3aed7813d671a3afaffa8d7e7a2cabd2bd017a2b540ced59ff34a2d7111b8c.jpg",
+        "text": "$$\n\\begin{array} { r l } { \\tau _ { x y } = G \\cdot \\gamma _ { x y } } & { { } ( \\mathsf { I i n e a r - e l a s t i s c h e r \\ B e r e i c h } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          323,
+          296,
+          683,
+          342
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\b0f62af16f22c2b877fcc5de4d32ac7e47907accfadd98bc20172d6f25bdee00.jpg",
+        "text": "$$\nG : = \\mathsf { S c h u b m o d u l \\Gamma } [ \\mathsf { N } / \\mathsf { m m } ^ { 2 } ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+          265,
+          372,
+          491,
+          414
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Schubmodul kann durch Torsionsversuch an dünnwandigem Rohr bestimmt werden.",
+        "bbox": [
+          26,
+          533,
+          756,
+          572
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Für isotrope, elastische Werkstoffe existieren nur zwei unabhängige $( E , \\nu )$ Materialkonstanten!",
+        "bbox": [
+          26,
+          651,
+          837,
+          692
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\9c1b402fd722b945d5f5c4c29c0b9b5e795e7d82dee2aabe36f3ddde51cb9c03.jpg",
+        "text": "$$\nG = \\frac { E } { 2 ( 1 + \\nu ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          378,
+          718,
+          492,
+          803
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "page_number",
+        "text": "13",
+        "bbox": [
+          29,
+          907,
+          43,
+          927
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 12
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          254,
+          107
+        ],
+        "page_idx": 13
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Herleitung des Zusammenhanges zwischen E-Modul und Schubmodul anhand biaxial belasteter Scheibe.",
+        "bbox": [
+          26,
+          170,
+          933,
+          209
+        ],
+        "page_idx": 13
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\a7189cb1a24cfdee2bd8b3162791ba2824e3d2c758fa710aedafdfa051011b70.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          30,
+          246,
+          382,
+          885
+        ],
+        "page_idx": 13,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\a9e6bce10d1e2175fe9ab2fb09a31c4444b5bc2b67cd48b8aba444864bcf275b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          484,
+          300,
+          814,
+          766
+        ],
+        "page_idx": 13,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "page_number",
+        "text": "14",
+        "bbox": [
+          29,
+          909,
+          43,
+          927
+        ],
+        "page_idx": 13
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Herleitung des Zusammenhanges zwischen E-Modul und Schubmodul anhand biaxial belasteter Scheibe.",
+        "bbox": [
+          25,
+          170,
+          933,
+          209
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\6db04a747ceb268d63b5b1ae362df7c1459923c65ad8ea7a26d8dc63a3edb002.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          29,
+          279,
+          381,
+          868
+        ],
+        "page_idx": 14,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f0660a6a0770b9d53f850c23b1f3f4f141067b32aca362bd4e27b313e2aeedee.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          438,
+          268,
+          600,
+          825
+        ],
+        "page_idx": 14,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\5648425a6d2d601415286cd45e149ff6e0bf2427d104a83af2e37951c640659d.jpg",
+        "text": "$$\nl + \\Delta l\n$$",
+        "text_format": "latex",
+        "bbox": [
+          618,
+          488,
+          672,
+          531
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\b688167673d28ed4050f56d0793402e59d98d2acdbdaad91426f4da9b0d1eaef.jpg",
+        "text": "$$\n\\varepsilon _ { x } = \\frac { 1 } { E } \\left( \\sigma _ { x } - \\nu \\cdot \\sigma _ { y } \\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+          730,
+          259,
+          898,
+          340
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\4c208df0881168e9d3eecf2cfeaa1ff887e35de4bfbaae183de97f6d90d3b463.jpg",
+        "text": "$$\n= { \\frac { 1 } { E } } ( - \\sigma - \\nu \\cdot \\sigma )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          754,
+          372,
+          897,
+          455
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\ba756f509ab259438d26798c4051e5ed3d1c9d194f561d38f3f3fec8d6211ac0.jpg",
+        "text": "$$\n= { \\frac { - \\sigma } { E } } ( 1 + \\nu ) = - \\varepsilon\n$$",
+        "text_format": "latex",
+        "bbox": [
+          759,
+          487,
+          923,
+          561
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e52c9e249eec3f16196a366bb408edfbca65beb7e030e2aa0a346f3677cd371e.jpg",
+        "text": "$$\n\\varepsilon _ { y } = { \\frac { 1 } { E } } { \\big ( } \\sigma _ { y } - \\nu \\cdot \\sigma _ { x } { \\big ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          730,
+          601,
+          898,
+          683
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\af2d8d48af6cb9e401b1eebbf6eaabc034e29ed5877bd11fbcd7d0300fde7312.jpg",
+        "text": "$$\n= { \\frac { \\sigma } { E } } ( 1 + \\nu ) = \\varepsilon\n$$",
+        "text_format": "latex",
+        "bbox": [
+          757,
+          714,
+          894,
+          788
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\2bf1b0cccfdc76c502d1ac05bd49cc961981185e8d27412c516af194923393b7.jpg",
+        "text": "$$\n\\varepsilon = \\frac { \\Delta l } { l } \\Rightarrow \\Delta l = \\varepsilon l\n$$",
+        "text_format": "latex",
+        "bbox": [
+          721,
+          822,
+          871,
+          905
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "page_number",
+        "text": "15",
+        "bbox": [
+          29,
+          907,
+          43,
+          927
+        ],
+        "page_idx": 14
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Herleitung des Zusammenhanges zwischen E-Modul und Schubmodul anhand biaxial belasteter Scheibe.",
+        "bbox": [
+          26,
+          170,
+          933,
+          209
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f92a3c835d03c8f8f83c850639b193877de3a5baf9bd9dbed48ee8288484821a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          30,
+          279,
+          381,
+          875
+        ],
+        "page_idx": 15,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\519e4df09f39da4f087366ff6260068f41760a276c670d1d208df9a703ad60b5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          438,
+          268,
+          594,
+          883
+        ],
+        "page_idx": 15,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e5d6b253de2b1edd81401a1e94ce34cdea56f9cc7b1313b8526c069fa9940284.jpg",
+        "text": "$$\n\\tan \\left( { \\frac { \\pi } { 4 } } - { \\frac { \\gamma } { 2 } } \\right) = { \\frac { 1 - \\varepsilon } { 1 + \\varepsilon } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          717,
+          264,
+          887,
+          346
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f73f4c89fbddcfc2251fa70eb0293cebaef345f36857fb26cd004b7aae7307c0.jpg",
+        "text": "$$\n\\begin{array} { l } { l + \\Delta l } \\\\ { l ( 1 + \\varepsilon ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          618,
+          488,
+          689,
+          587
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\a856fa27555334a5a12284db886a31bd05cd2ce82cf19bd9b1349d8f00b9baff.jpg",
+        "text": "$$\n\\tan \\Big ( \\frac { \\pi } { 4 } - \\frac { \\gamma } { 2 } \\Big ) = \\frac { \\tan \\frac { \\pi } { 4 } - \\tan \\frac { \\gamma } { 2 } } { 1 + \\tan \\frac { \\pi } { 4 } \\tan \\frac { \\gamma } { 2 } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          706,
+          390,
+          947,
+          518
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\24deb2a108ef7b6e0430afa49845f4c3d390c91c4467b68cf0b006ea3a44108f.jpg",
+        "text": "$$\n { \\frac { 1 - \\tan { \\frac { \\gamma } { 2 } } } { 1 + \\tan { \\frac { \\gamma } { 2 } } } } = { \\frac { 1 - \\varepsilon } { 1 + \\varepsilon } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          715,
+          566,
+          883,
+          694
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\84824d81bd23630533fde4692ae36169716e3459a24b049322af07aca46cc48b.jpg",
+        "text": "$$\n\\begin{array} { r } {  \\tan { \\frac { \\gamma } { 2 } } = \\varepsilon } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          701,
+          735,
+          802,
+          796
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\33f1a63ff7b29ce5fb2b83fc26a5eca56333ef030c7abfc95a350db92286de83.jpg",
+        "text": "$$\n\\begin{array} { r } { \\to \\frac { \\gamma } { 2 } = \\varepsilon } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          701,
+          829,
+          772,
+          888
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "page_number",
+        "text": "16",
+        "bbox": [
+          29,
+          907,
+          43,
+          927
+        ],
+        "page_idx": 15
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 16
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Herleitung des Zusammenhanges zwischen E-Modul und Schubmodul anhand biaxial belasteter Scheibe.",
+        "bbox": [
+          25,
+          170,
+          933,
+          209
+        ],
+        "page_idx": 16
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\fa5607c849bc9305ce8d4ea747aba904e46349d19661b58f27420388625e2f95.jpg",
+        "text": "$$\n\\begin{array}{c} \\begin{array} { l } { {  \\frac { \\gamma } { 2 } = \\varepsilon } } \\\\ { {  \\varepsilon = \\displaystyle \\frac { \\sigma } { E } ( 1 + \\nu ) ~ [ \\begin{array} { c } { { \\begin{array} { c } { { \\frac { \\gamma } { 2 } = \\frac { \\sigma } { E } ( 1 + \\nu ) } \\end{array} } } } \\end{array} } } \\end{array} ] ~   \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          61,
+          272,
+          364,
+          531
+        ],
+        "page_idx": 16
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\c3b6b61dd9f498a8353097d9860dc3dc1a1776c0ae42b9fb81d9ad75f25abc2f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          416,
+          225,
+          880,
+          694
+        ],
+        "page_idx": 16,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\89aeb05f42111efa7f1dab6c6b8816b217497bd49e7ab47d6894567db5dbe212.jpg",
+        "text": "$$\n\\to \\gamma = \\tau { \\frac { 2 ( 1 + \\nu ) } { E } }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          46,
+          635,
+          193,
+          718
+        ],
+        "page_idx": 16
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\d338bf1a64fd72934d9e66b4c83e1fc38178a50733100e96c493c3c410661c51.jpg",
+        "text": "$$\n \\tau = \\frac { E } { 2 ( 1 + \\nu ) } \\gamma \\quad \\longrightarrow \\quad \\tau = G \\gamma \\quad \\qquad \\quad G = \\frac { E } { 2 ( 1 + \\nu ) }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          45,
+          744,
+          677,
+          837
+        ],
+        "page_idx": 16
+      },
+      {
+        "type": "page_number",
+        "text": "17",
+        "bbox": [
+          29,
+          909,
+          43,
+          927
+        ],
+        "page_idx": 16
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Hookesches Modell:",
+        "bbox": [
+          27,
+          170,
+          238,
+          205
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\49c0cabd4fc8820de5297979c27c1f7a4a042ea405e1c2b23fe580378d8c5ed8.jpg",
+        "text": "$$\n\\begin{array}{c} { \\begin{array} { l } { \\varepsilon _ { x } = { \\cfrac { 1 } { E } } { \\big ( } \\sigma _ { x } - \\nu \\cdot \\sigma _ { y } { \\big ) } } \\\\ { \\varepsilon _ { y } = { \\cfrac { 1 } { E } } { \\big ( } \\sigma _ { y } - \\nu \\cdot \\sigma _ { x } { \\big ) } } \\\\ { \\gamma _ { x y } = { \\cfrac { 1 } { G } } \\cdot \\tau _ { x y } } \\\\ { \\qquad \\quad } \\end{array} } \\quad { \\left[ \\begin{array} { l } { \\sigma _ { x } = { \\cfrac { E } { 1 - \\nu ^ { 2 } } } { \\big ( } \\varepsilon _ { x } + \\nu \\cdot \\varepsilon _ { y } { \\big ) } } \\\\ { \\qquad \\sigma _ { x } = { \\cfrac { E } { 1 - \\nu ^ { 2 } } } { \\big ( } \\varepsilon _ { y } + \\nu \\cdot \\varepsilon _ { x } { \\big ) } } \\\\ { \\qquad \\sigma _ { y } = { \\cfrac { E } { 1 - \\nu ^ { 2 } } } { \\big ( } \\varepsilon _ { y } + \\nu \\cdot \\varepsilon _ { x } { \\big ) } } \\\\ { \\qquad \\quad } \\\\ { \\tau _ { x y } = G \\cdot \\gamma _ { x y } } \\end{array} \\right] }  \\end{array}  \\left[ { \\begin{array} { l } { { \\mathrm { t a n ~ } } \\textstyle { 2 \\varphi ^ { * } } = { \\cfrac { \\gamma _ { x y } } { \\varepsilon _ { x } - \\varepsilon _ { y } } } = { \\cfrac { 2 \\cdot \\tau _ { x y } } { \\sigma _ { x } - \\sigma _ { y } } } } \\\\ { \\qquad \\textstyle { \\mathrm { t a n ~ } } \\textstyle { 2 \\varphi ^ { * } } = { \\cfrac { \\gamma _ { x y } } { \\varepsilon _ { x } - \\varepsilon _ { y } } } = { \\cfrac { 2 \\cdot \\tau _ { x y } } { \\sigma _ { x } - \\sigma _ { y } } } } \\\\ { \\qquad \\textstyle { \\mathrm { t a n ~ } } \\textstyle { 2 \\varphi ^ { * } } = { \\cfrac { \\gamma _ { x y } } { \\varepsilon _ { x } - \\varepsilon _ { y } } } } \\end{array} } \\right] .\n$$",
+        "text_format": "latex",
+        "bbox": [
+          52,
+          233,
+          792,
+          583
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "text",
+        "text": "Gleiche   \nHauptrichtung   \nwie beim   \nSpannungstensor",
+        "bbox": [
+          796,
+          159,
+          933,
+          303
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Das Hookesche Modell gilt in jedem beliebigen kartesischen Koordinatensystem. Es lautet für das Hauptachsensystem wie folgt:",
+        "bbox": [
+          26,
+          609,
+          868,
+          688
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\14e2ab210e3f0fe98811de9ae583b0b551753fe460a341601165e8ce15be58a2.jpg",
+        "text": "$$\n\\varepsilon _ { 1 } = { \\frac { 1 } { E } } ( \\sigma _ { 1 } - \\nu \\cdot \\sigma _ { 2 } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          221,
+          725,
+          385,
+          803
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\302ae4150b5b42924ed0fd064e665286b5a637d671f0a20b4c3eec2aac92a743.jpg",
+        "text": "$$\n\\varepsilon _ { 2 } = { \\frac { 1 } { E } } ( \\sigma _ { 2 } - \\nu \\cdot \\sigma _ { 1 } )\n$$",
+        "text_format": "latex",
+        "bbox": [
+          548,
+          725,
+          712,
+          803
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "page_number",
+        "text": "18",
+        "bbox": [
+          29,
+          909,
+          43,
+          927
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 17
+      },
+      {
+        "type": "text",
+        "text": "12.2 Elastizitätsgesetz",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          254,
+          109
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "text",
+        "text": "Hookesches Modell in 3d unter Temperaturänderung:",
+        "bbox": [
+          26,
+          170,
+          531,
+          209
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\d20096bb9633629202b0e7a38cb01a422e04955e6d1994ac6fcdbb68a638a2b3.jpg",
+        "text": "$$\n{ { \\varepsilon } _ { x } } = \\frac { 1 } { E } { { \\left( { { \\sigma } _ { x } } - \\nu \\cdot \\left[ { { \\sigma } _ { y } } + { { \\sigma } _ { z } } \\right] \\right) } } + { { \\alpha } _ { T } } \\Delta T\n$$",
+        "text_format": "latex",
+        "bbox": [
+          68,
+          246,
+          357,
+          325
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f3ead58c373dddca7e377141d3708fa668adc6df02896c60bf518f6cf780feef.jpg",
+        "text": "$$\n{ { \\varepsilon } _ { y } } = \\frac { 1 } { E } { { \\left( { { \\sigma } _ { y } } - \\nu \\cdot [ { { \\sigma } _ { z } } + { { \\sigma } _ { x } } ] \\right) } } + { { \\alpha } _ { T } } \\Delta T\n$$",
+        "text_format": "latex",
+        "bbox": [
+          68,
+          362,
+          358,
+          444
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "text",
+        "text": "Eine Temperaturänderung führt bei einem isotropen Material nur zu Dehnungen. Es treten keine Gleitungen auf!",
+        "bbox": [
+          434,
+          364,
+          790,
+          488
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\c5c57c8198dd97399ac12d655158b45aad49720344b5ff24ad589bd1e3523a07.jpg",
+        "text": "$$\n{ { \\varepsilon } _ { z } } = \\frac { 1 } { E } { { \\left( { { \\sigma } _ { z } } - \\nu \\cdot \\left[ { { \\sigma } _ { x } } + { { \\sigma } _ { y } } \\right] \\right) } } + { { \\alpha } _ { T } } \\Delta T\n$$",
+        "text_format": "latex",
+        "bbox": [
+          69,
+          496,
+          357,
+          577
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\ea1cfd175d691d14c06f2c874dc941ddc83e80993774124a82000fbde2d7f041.jpg",
+        "text": "$$\n\\gamma _ { x y } = \\frac { 1 } { G } \\cdot \\tau _ { x y } \\gamma _ { x z } = \\frac { 1 } { G } \\cdot \\tau _ { x z } \\gamma _ { y z } = \\frac { 1 } { G } \\cdot \\tau _ { y z }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          76,
+          625,
+          533,
+          709
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "page_number",
+        "text": "19",
+        "bbox": [
+          29,
+          909,
+          43,
+          927
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 18
+      },
+      {
+        "type": "text",
+        "text": "12.3 Festigkeitshypothesen",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          305,
+          109
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "text",
+        "text": "Für einen Stab unter Zugbelastung kann man aus dem Spannungs-Dehnungs-Diagramm entnehmen bei welcher Spannung (oder Dehnung) ein Versagen der Tragfähigkeit des Stabes (z.B. plastisches Fließen oder Bruch) eintritt.",
+        "bbox": [
+          26,
+          170,
+          959,
+          288
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "text",
+        "text": "Um ein solches Versagen auszuschließen, wird eine zulässige Spannung $\\sigma _ { z u l }$ eingeführt und es wird gefordert, dass die Spannungen im Stab diesen zulässigen Wert nicht überschreiten $\\sigma \\leq \\sigma _ { z u l }$",
+        "bbox": [
+          26,
+          329,
+          891,
+          411
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> In einem beibiegen Bauteil herrscht jedoch ein räumlicher Spannungszustand, welcher die Bestimmung der zulässigen Spannung erschwert.",
+        "bbox": [
+          26,
+          450,
+          945,
+          529
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "text",
+        "text": "➢ Aufstellung einer Festigkeitshypothese: Reduzierung des räumlichen Spannungszustands in einen skalaren Vergleichsspannungswert $\\sigma _ { V }$ , den man mit der einachsigen Belastung des Stabes in Relation setzen kann!",
+        "bbox": [
+          26,
+          568,
+          968,
+          651
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e7d369c4d3b8b4f54f1640533f593c80d80946700b6862d8dbb316e0970824bc.jpg",
+        "text": "$$\n\\sigma _ { V } \\leq \\sigma _ { z u l }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          457,
+          694,
+          539,
+          731
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "page_number",
+        "text": "20",
+        "bbox": [
+          28,
+          909,
+          42,
+          927
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 19
+      },
+      {
+        "type": "text",
+        "text": "12.3 Festigkeitshypothesen",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          305,
+          109
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "text",
+        "text": "▪ Drei Festigkeitshypothesen unter der Annahme der ESZ:",
+        "bbox": [
+          27,
+          170,
+          526,
+          209
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "text",
+        "text": "1. Normalspannungshypothese: Max. Normalspannung ist maßgeblich für die Materialbeanspruchung.",
+        "bbox": [
+          27,
+          250,
+          907,
+          290
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\b7d5a0101dff7a70e67d7de62355207a6d94cf8fc8041173e954e89a111e12d5.jpg",
+        "text": "$$\n\\sigma _ { V } = \\sigma _ { 1 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          465,
+          338,
+          532,
+          370
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "text",
+        "text": "Gute Übereinstimmung bei sprödem Material",
+        "bbox": [
+          400,
+          824,
+          596,
+          905
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "page_number",
+        "text": "21",
+        "bbox": [
+          28,
+          909,
+          41,
+          927
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          330,
+          942,
+          664,
+          964
+        ],
+        "page_idx": 20
+      },
+      {
+        "type": "text",
+        "text": "12.3 Festigkeitshypothesen",
+        "text_level": 2,
+        "bbox": [
+          29,
+          66,
+          305,
+          109
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "text",
+        "text": "2. Schubspannungshypothese: Materialbeanspruchung wird durch die max. Schubspannung charakterisiert.",
+        "bbox": [
+          25,
+          168,
+          955,
+          211
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "text",
+        "text": "�<sub>���</sub>",
+        "bbox": [
+          477,
+          244,
+          521,
+          277
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "text",
+        "text": "➢ Betrachtung des einachsigen Zugversuchs:",
+        "bbox": [
+          27,
+          329,
+          416,
+          370
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\17ccec9fb2d09ff618d7b47e9009b1b0c218cca34151240a730f15be8361e22f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          40,
+          394,
+          330,
+          861
+        ],
+        "page_idx": 21,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\6c0241ba97be4048adbd8a7c70b30e74627d83c589c764c66693f784bd222c8d.jpg",
+        "text": "$$\n\\tau _ { m a x } = \\frac { \\sigma _ { 1 } - \\sigma _ { 2 } } { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          405,
+          511,
+          535,
+          587
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\cb44b94bc7c55c9b38b5330281701475ff703e8afd4ed7f0c0765ef7dac23d23.jpg",
+        "text": "$$\n \\sigma _ { 1 } = \\sigma _ { V } \\& \\sigma _ { 2 } = 0\n$$",
+        "text_format": "latex",
+        "bbox": [
+          384,
+          625,
+          556,
+          666
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e0e50e36da2a94da0b9caddf5dfba15377911e809ac9960bed81a795cc4c327f.jpg",
+        "text": "$$\n \\tau _ { m a x } = \\frac { \\sigma _ { V } } { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          414,
+          701,
+          527,
+          775
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\07eecdfbabd23526f182dd21125a716efa634df37df7310f3b8c61e8c526d0d2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "bbox": [
+          439,
+          807,
+          558,
+          918
+        ],
+        "page_idx": 21,
+        "img_caption": [],
+        "img_footnote": []
+      },
+      {
+        "type": "image",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\38236c4d26554e7f90fb409f8f8ff2cef154fb4f64ba2b22d252eefaf378fb2a.jpg",
+        "image_caption": [],
+        "image_footnote": [
+          "Quelle: Umformende Fertigungstechnologie/Vorlesung 2/IUL/TU-Dortmund"
+        ],
+        "bbox": [
+          652,
+          337,
+          947,
+          896
+        ],
+        "page_idx": 21,
+        "img_caption": [],
+        "img_footnote": [
+          "Quelle: Umformende Fertigungstechnologie/Vorlesung 2/IUL/TU-Dortmund"
+        ]
+      },
+      {
+        "type": "page_number",
+        "text": "22",
+        "bbox": [
+          28,
+          907,
+          43,
+          927
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          329,
+          942,
+          665,
+          964
+        ],
+        "page_idx": 21
+      },
+      {
+        "type": "text",
+        "text": "3. Hypothese der Gestaltänderungsenergie: Materialbeanspruchung wird durch den Energieanteil charakterisiert, der für die $\\ddot { \\mathsf { A } } \\mathsf { r }$ nderung der „Gestalt“ notwendig ist. Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          26,
+          138,
+          932,
+          220
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "▪ Hauptspannungen $\\sigma _ { 1 } , \\sigma _ { 2 }$ und $\\sigma _ { 3 }$",
+        "bbox": [
+          34,
+          235,
+          330,
+          275
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "▪ Dehnungen",
+        "bbox": [
+          34,
+          296,
+          161,
+          335
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\f381894be76a5882162bbbb0bc07776fce42ee653715645eefb9c41effe9bd34.jpg",
+        "text": "$$\n\\begin{array} { r } {  \\varepsilon _ { 1 } = \\frac { 1 } { E } \\cdot [ \\sigma _ { 1 } - \\nu \\cdot ( \\sigma _ { 2 } + \\sigma _ { 3 } ) ] } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          58,
+          337,
+          303,
+          392
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\b2c61989ab93fcda2830cf07559a43038ddd97b2739caf50e2bf16bdbc69f64c.jpg",
+        "text": "$$\n\\begin{array} { r } { \\vec { \\bf \\nabla } \\varepsilon _ { 2 } = \\frac { 1 } { E } \\cdot \\left[ \\boldsymbol { \\sigma } _ { 2 } - \\boldsymbol { \\nu } \\cdot ( \\boldsymbol { \\sigma } _ { 1 } + \\boldsymbol { \\sigma } _ { 3 } ) \\right] } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          58,
+          394,
+          303,
+          450
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "Innere Energie U",
+        "bbox": [
+          34,
+          527,
+          206,
+          566
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\4c4b0ed95e90d49b7d135ededf233823cb82b42ea979d00d2822bab069bedb72.jpg",
+        "text": "$$\n\\begin{array} { r } { \\vec { \\bf \\nabla } \\varepsilon _ { 3 } = \\frac { 1 } { \\varepsilon } \\cdot [ \\boldsymbol { \\sigma } _ { 3 } - \\boldsymbol { \\nu } \\cdot ( \\boldsymbol { \\sigma } _ { 1 } + \\boldsymbol { \\sigma } _ { 2 } ) ] } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          59,
+          451,
+          303,
+          507
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\10b9ecc8f63cd7f90e29596c0281fc913e59ead58851462ae3eb54571ae9047e.jpg",
+        "text": "$$\n\\begin{array} { r } {  U = \\frac { 1 } { 2 } \\cdot ( \\sigma _ { 1 } \\cdot \\varepsilon _ { 1 } + \\sigma _ { 2 } \\cdot \\varepsilon _ { 2 } + \\sigma _ { 3 } \\cdot \\varepsilon _ { 3 } ) } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          58,
+          568,
+          353,
+          625
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "▪ Substitution von $\\varepsilon _ { 1 } , \\varepsilon _ { 2 }$ und $\\varepsilon _ { 3 }$",
+        "bbox": [
+          34,
+          648,
+          302,
+          687
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\c56c0a48568f5f18260cc99838490e42711600ac96f07aea5b6eeb115364f091.jpg",
+        "text": "$$\n\\begin{array} { r } {  U = \\frac { 1 } { 2 E } \\cdot [ { \\sigma _ { 1 } } ^ { 2 } + { \\sigma _ { 2 } } ^ { 2 } + { \\sigma _ { 3 } } ^ { 2 } - 2 \\nu ( \\sigma _ { 1 } \\sigma _ { 2 } + \\sigma _ { 1 } \\sigma _ { 3 } + \\sigma _ { 3 } \\sigma _ { 2 } ) ] } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          58,
+          687,
+          506,
+          744
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "▪ Hydrostatischer Spannungszustand",
+        "bbox": [
+          34,
+          766,
+          360,
+          803
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Einsetzen von $\\begin{array} { r } { \\sigma = \\frac { \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } } { 3 } } \\end{array}$",
+        "bbox": [
+          535,
+          231,
+          788,
+          288
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\91b0db596ee82ddf75bd73d710193600f4bcdbec5437a91b1591863010d090db.jpg",
+        "text": "$$\n\\begin{array} { r } {  \\sigma _ { 1 } = \\sigma _ { 2 } = \\sigma _ { 3 } = \\sigma = \\frac { \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } } { 3 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          58,
+          803,
+          319,
+          861
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\85a13cb828c934c69a91ec41c9aca84a36747f1252d6fad2b92f95aea5853e54.jpg",
+        "text": "$$\n\\begin{array} { r } {  U _ { h } = \\frac { 1 } { 2 E } [ 3 \\sigma ^ { 2 } - 2 \\nu ( 3 \\sigma ^ { 2 } ) ] = \\frac { 1 - 2 \\nu } { 2 E } \\cdot 3 \\sigma ^ { 2 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          58,
+          859,
+          393,
+          920
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\57d6da7e0f79fee8132bb69be523522616abd9d4b05e9f29a2a567eb61125c46.jpg",
+        "text": "$$\n\\begin{array} { r } {  U _ { h } = \\frac { 1 - 2 \\nu } { 2 E } \\cdot 3 ( \\frac { \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } } { 3 } ) ^ { 2 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          559,
+          288,
+          788,
+          355
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\1c86d56c8efc28a2964e5fb542e8be2da9268d8d52eb62a60823ed8fb8b3a9c1.jpg",
+        "text": "$$\n\\begin{array} { r } {  U _ { h } = \\frac { 1 - 2 \\nu } { 6 E } ( \\sigma _ { 1 } + \\sigma _ { 2 } + \\sigma _ { 3 } ) ^ { 2 } } \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+          558,
+          355,
+          794,
+          414
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "▪ Substraktion der für die plastische Verformung irrelevanten hydrostatischen Anteile",
+        "bbox": [
+          535,
+          435,
+          948,
+          512
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "→ $U _ { f } = U - U _ { h }$",
+        "bbox": [
+          559,
+          516,
+          688,
+          557
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\e85ba6bc9ff2820b179b06bcbd517844fafa2ba1a0b00c68a97fc729ff3c08ec.jpg",
+        "text": "$$\n\\angle A _ { 1 } = \\frac { 1 } { ( 2 ) ^ { 2 } } = ( \\angle A _ { 1 } - \\angle A _ { 2 } ) \\times ( \\angle A _ { 1 } - \\angle A _ { 2 } ) = ( \\angle B _ { 1 } - \\angle B _ { 2 } ) = ( \\angle B _ { 1 } - \\angle A _ { 2 } ) .\n$$",
+        "text_format": "latex",
+        "bbox": [
+          557,
+          559,
+          978,
+          614
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Im Zugversuch: Einachsige Vergleichsspannung",
+        "bbox": [
+          535,
+          637,
+          964,
+          677
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "→ $\\sigma _ { 1 } = \\sigma _ { v } , \\sigma _ { 2 } = \\sigma _ { 3 } = 0$",
+        "bbox": [
+          559,
+          679,
+          756,
+          718
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\66e3f2f9937a92b7a45098174bd4063cc98db9ca1b3076e18696fc864bdd5346.jpg",
+        "text": "$$\n\\Rightarrow \\psi _ { i } = \\frac { \\sqrt { 1 5 } - 1 } { \\sqrt { 3 } } \\Rightarrow \\psi _ { i } \\psi _ { i } ^ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          559,
+          718,
+          710,
+          775
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Gleichsetzen!",
+        "bbox": [
+          535,
+          796,
+          678,
+          833
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\eaec2497685552e8e7a48d938c225ca341ab274929d2020e020e009cbaa98db5.jpg",
+        "text": "$$\n 2 { \\sigma _ { v } } ^ { 2 } = [ ( \\sigma _ { 1 } - \\sigma _ { 2 } ) ^ { 2 } + ( \\sigma _ { 1 } - \\sigma _ { 3 } ) ^ { 2 } + ( \\sigma _ { 2 } - \\sigma _ { 3 } ) ^ { 2 } ]\n$$",
+        "text_format": "latex",
+        "bbox": [
+          558,
+          833,
+          957,
+          877
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "equation",
+        "img_path": "C:\\____PETR_AI\\MECH_RAG\\lightrag\\data\\mineru_output\\Kapitel12_Verzerrungszustand_2539f138\\Kapitel12_Verzerrungszustand\\auto\\images\\7b953f2325a9ff725c237c9a17e8347bc7c2af678b7c37ae80d39d2a4f42d52e.jpg",
+        "text": "$$\n\\therefore \\angle C _ { 1 } = \\angle B = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 1 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 } = \\angle C _ { 2 }\n$$",
+        "text_format": "latex",
+        "bbox": [
+          556,
+          883,
+          972,
+          959
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "header",
+        "text": "12.3 Festigkeitshypothesen",
+        "bbox": [
+          29,
+          66,
+          305,
+          109
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "header",
+        "text": "von Mises (1883)",
+        "bbox": [
+          605,
+          33,
+          700,
+          112
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "header",
+        "text": "Gute Übereinstimmung bei duktilem Material",
+        "bbox": [
+          729,
+          31,
+          959,
+          111
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "page_number",
+        "text": "23",
+        "bbox": [
+          28,
+          905,
+          42,
+          927
+        ],
+        "page_idx": 22
+      },
+      {
+        "type": "text",
+        "text": "11.4 Zusammenfassung",
+        "text_level": 2,
+        "bbox": [
+          28,
+          66,
+          267,
+          109
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Der Deformationszustand in einem Punkt eines Körpers ist durch den Verschiebungsvektor � und durch den Verzerrungstensor � beschrieben. Er hat im räumlichen Fall 3x3 Komponenten (beachte Symmetrie). Im EVZ reduziert er sich auf $\\pmb { \\varepsilon } = \\left[ \\begin{array} { l l } { \\varepsilon _ { x } } & { \\varepsilon _ { x y } } \\\\ { \\varepsilon _ { x y } } & { \\varepsilon _ { y } } \\end{array} \\right]$",
+        "bbox": [
+          26,
+          168,
+          948,
+          305
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "■ $\\begin{array} { r } { \\varepsilon _ { x } = \\frac { \\partial u } { \\partial x } ; \\varepsilon _ { y } = \\frac { \\partial v } { \\partial y } ; \\gamma _ { x y } = \\frac { \\partial u } { d y } + \\frac { \\partial v } { d x } } \\end{array}$",
+        "bbox": [
+          27,
+          335,
+          278,
+          394
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "Die Transformationsbeziehungen sowie die Gleichungen zur Bestimmung der Hauptdehnungen und Hauptdehnungsrichtungen sind analog zu denen für die Spannungen. Entsprechendes gilt für den Mohrschen Verzerrungskreis.",
+        "bbox": [
+          26,
+          429,
+          864,
+          537
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "<sup>▪</sup> Die Hauptspannungsrichtungen und Hauptdehnungsrichtungen stimmen beim isotropen elastischen Material überein.",
+        "bbox": [
+          26,
+          572,
+          919,
+          609
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "Hookesches Modell: $\\begin{array} { r } { \\varepsilon _ { x } = \\frac { 1 } { E } { \\left( \\sigma _ { x } - \\nu \\cdot \\left[ \\sigma _ { y } + \\sigma _ { z } \\right] \\right) } + \\alpha _ { T } \\Delta T ; \\gamma _ { x y } = \\frac { 1 } { G } \\cdot \\tau _ { x y } } \\end{array}$",
+        "bbox": [
+          27,
+          642,
+          554,
+          694
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "▪ $\\begin{array} { r } { G = \\frac { E } { 2 ( 1 + \\nu ) } } \\end{array}$",
+        "bbox": [
+          28,
+          727,
+          130,
+          785
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "▪ Beurteilung der Materialbeanspruchung durch Festigkeitshypothesen",
+        "bbox": [
+          26,
+          820,
+          564,
+          855
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "page_number",
+        "text": "24",
+        "bbox": [
+          28,
+          907,
+          42,
+          927
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "footer",
+        "text": "Quelle: Gross, Hauger, Schröder, Wall (2017), Technische Mechanik 2, Springer Vieweg",
+        "bbox": [
+          330,
+          942,
+          664,
+          964
+        ],
+        "page_idx": 23
+      },
+      {
+        "type": "text",
+        "text": "Vielen Dank für Ihre Aufmerksamkeit!",
+        "text_level": 2,
+        "bbox": [
+          268,
+          357,
+          728,
+          690
+        ],
+        "page_idx": 24
+      },
+      {
+        "type": "page_number",
+        "text": "25",
+        "bbox": [
+          28,
+          909,
+          42,
+          927
+        ],
+        "page_idx": 24
+      }
+    ],
+    "doc_id": "doc-d4e48f780c214c48a682a8ccd2b8aa87",
+    "mtime": 1779276147.91416,
+    "parse_config": {
+      "parser": "mineru",
+      "parse_method": "auto",
+      "backend": "pipeline"
+    },
+    "cached_at": 1784914866.8180068,
+    "cache_version": "1.0",
+    "create_time": 1784914866,
+    "update_time": 1784914866,
+    "_id": "b4813031d4430a2e9bfa31d66b88784a"
   }
 }
