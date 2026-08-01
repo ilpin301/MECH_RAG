@@ -40,13 +40,42 @@ def _rebuild_and_mirror(self):
 
 _LightRAG._rebuild_role_llm_funcs = _rebuild_and_mirror
 
+# Workaround #3: raganything's separate_content() routes ALL non-text types
+# (image, table, equation, page_number, header, footer, etc.) to LLM multimodal
+# processing. page_number, header, and footer are structural metadata that waste
+# rate-limited API calls and add noise. Filter them before separate_content()
+# processes the content_list.
+import raganything.utils as _rg_utils
+import raganything.processor as _rg_processor
+
+_orig_separate_content = _rg_utils.separate_content
+
+def _separate_content_filtered(content_list):
+    """Wrapper that filters junk multimodal types before separating content."""
+    # Filter out junk types that should never reach LLM processing
+    junk_types = {"page_number", "header", "footer"}
+    filtered_list = [
+        item for item in content_list
+        if item.get("type") not in junk_types
+    ]
+
+    if len(filtered_list) < len(content_list):
+        removed_count = len(content_list) - len(filtered_list)
+        from lightrag.utils import logger as _logger
+        _logger.debug(f"Filtered out {removed_count} junk multimodal items (page_number/header/footer)")
+
+    return _orig_separate_content(filtered_list)
+
+_rg_utils.separate_content = _separate_content_filtered
+_rg_processor.separate_content = _separate_content_filtered
+
 ZAI_KEY = os.environ["ZAI_API_KEY"]
 BASE_URL = "https://api.z.ai/api/coding/paas/v4"
 LLM_MODEL = "glm-5.2"
 VISION_MODEL = "glm-4.5v"
-# MinerU parsing backend: 'pipeline' (low RAM) or 'hybrid-engine' (default, VLM, needs >32 GB on 34+ page docs)
-MINERU_BACKEND = os.environ.get("RAG_MINERU_BACKEND", "pipeline")
 WORKING_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "rag_storage")
+
+_VLM_SEMAPHORE = asyncio.Semaphore(2)
 
 
 async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwargs):
@@ -64,45 +93,46 @@ async def llm_model_func(prompt, system_prompt=None, history_messages=[], **kwar
 async def vision_model_func(
     prompt, system_prompt=None, history_messages=[], image_data=None, messages=None, **kwargs
 ):
-    # Multimodal VLM enhanced query: pre-built messages take priority
-    if messages:
-        return await openai_complete_if_cache(
-            VISION_MODEL,
-            "",
-            system_prompt=None,
-            history_messages=[],
-            messages=messages,
-            api_key=ZAI_KEY,
-            base_url=BASE_URL,
-            **kwargs,
-        )
-    if image_data:
-        vision_messages = []
-        if system_prompt:
-            vision_messages.append({"role": "system", "content": system_prompt})
-        vision_messages.append(
-            {
-                "role": "user",
-                "content": [
-                    {"type": "text", "text": prompt},
-                    {
-                        "type": "image_url",
-                        "image_url": {"url": f"data:image/jpeg;base64,{image_data}"},
-                    },
-                ],
-            }
-        )
-        return await openai_complete_if_cache(
-            VISION_MODEL,
-            "",
-            system_prompt=None,
-            history_messages=[],
-            messages=vision_messages,
-            api_key=ZAI_KEY,
-            base_url=BASE_URL,
-            **kwargs,
-        )
-    return await llm_model_func(prompt, system_prompt, history_messages, **kwargs)
+    async with _VLM_SEMAPHORE:
+        # Multimodal VLM enhanced query: pre-built messages take priority
+        if messages:
+            return await openai_complete_if_cache(
+                VISION_MODEL,
+                "",
+                system_prompt=None,
+                history_messages=[],
+                messages=messages,
+                api_key=ZAI_KEY,
+                base_url=BASE_URL,
+                **kwargs,
+            )
+        if image_data:
+            vision_messages = []
+            if system_prompt:
+                vision_messages.append({"role": "system", "content": system_prompt})
+            vision_messages.append(
+                {
+                    "role": "user",
+                    "content": [
+                        {"type": "text", "text": prompt},
+                        {
+                            "type": "image_url",
+                            "image_url": {"url": f"data:image/jpeg;base64,{image_data}"},
+                        },
+                    ],
+                }
+            )
+            return await openai_complete_if_cache(
+                VISION_MODEL,
+                "",
+                system_prompt=None,
+                history_messages=[],
+                messages=vision_messages,
+                api_key=ZAI_KEY,
+                base_url=BASE_URL,
+                **kwargs,
+            )
+        return await llm_model_func(prompt, system_prompt, history_messages, **kwargs)
 
 
 # NOTE: plain single wrap — repo examples double-wrap openai_embed (known bug)
@@ -136,7 +166,6 @@ async def main(paths):
             file_path=path,
             output_dir=os.path.join(os.path.dirname(WORKING_DIR), "mineru_output"),
             parse_method="auto",
-            backend=MINERU_BACKEND,
         )
         print(f"--- done {path}")
 
