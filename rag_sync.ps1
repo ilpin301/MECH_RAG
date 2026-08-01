@@ -48,6 +48,18 @@ if (-not $KeepRunning) {
         "WARNING: pipeline busy, -Force given - the running ingest will be killed."
     }
 
+    # The /health flags only cover server-side ingests. ingest_detached.ps1 runs python
+    # outside the container and writes rag_storage directly, so a snapshot taken during
+    # one is truncated. Detect it by command line - a PID file would go stale on a crash.
+    $ingest = @(Get-CimInstance Win32_Process -Filter "Name='python.exe'" -ErrorAction SilentlyContinue |
+        Where-Object { $_.CommandLine -like '*rag_ingest.py*' })
+    if ($ingest) {
+        if (-not $Force) {
+            throw "A detached ingest is running (PID $($ingest.ProcessId -join ', ')).`nWait for it to finish, or pass -Force to snapshot anyway."
+        }
+        "WARNING: detached ingest running, -Force given - the snapshot may be inconsistent."
+    }
+
     if (Get-Command docker -ErrorAction SilentlyContinue) {
         $container = @(docker ps -a --filter 'name=lightrag' --format '{{.Names}}')[0]
         if (-not $container) { $container = "$($project.ToLower())-lightrag-1" }
