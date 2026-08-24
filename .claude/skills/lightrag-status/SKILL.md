@@ -5,13 +5,28 @@ description: Check LightRAG server health and list ingested documents with proce
 
 # LightRAG Status
 
-Server: http://localhost:9621 — API key header: `X-API-Key: d163d7cc39376b80a18c5bdfc658cec5`
+Server: http://localhost:9623 (NOT the LightRAG default 9621). Container: `mech_rag-lightrag-1`.
 
 ```powershell
+$key = (Get-Content F:\____IL_AI\MECH_RAG\lightrag\.env | Select-String '^LIGHTRAG_API_KEY=').Line.Split('=',2)[1].Trim()
+$h = @{'X-API-Key'=$key}
 # Health
-curl.exe -s http://localhost:9621/health -H "X-API-Key: d163d7cc39376b80a18c5bdfc658cec5"
+Invoke-RestMethod http://localhost:9623/health -Headers $h
 # Documents + statuses (PENDING / PROCESSING / PROCESSED / FAILED)
-curl.exe -s http://localhost:9621/documents -H "X-API-Key: d163d7cc39376b80a18c5bdfc658cec5"
+$r = Invoke-RestMethod http://localhost:9623/documents -Headers $h
+$r.statuses.PSObject.Properties.Value | ForEach-Object { $_ } | ForEach-Object { "{0,-52} {1,-10} chunks={2}" -f $_.file_path, $_.status, $_.chunks_count }
 ```
 
-Report to the user: server up/down, document count per status, names of failed docs if any. If server down: `docker ps`, then `docker compose up -d` in C:\____PETR_AI\MECH_RAG\lightrag. Full API docs: http://localhost:9621/docs
+Report to the user: server up/down, document count per status, names of failed docs if any.
+
+If server down:
+
+```powershell
+docker start mech_rag-lightrag-1
+# or, fresh: Set-Location F:\____IL_AI\MECH_RAG\lightrag ; docker compose up -d
+docker logs --tail 50 mech_rag-lightrag-1   # this server logs to stdout only, there is no log file
+```
+
+Full API docs: http://localhost:9623/docs
+
+Known: a `dup-*` entry with status `failed` is a duplicate-filename stub from an interrupted run, not a real ingest failure.

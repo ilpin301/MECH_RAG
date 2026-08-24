@@ -5,18 +5,19 @@ description: Query the local LightRAG knowledge graph (GraphRAG over ingested do
 
 # LightRAG Query
 
-Server: http://localhost:9621 — API key header required: `X-API-Key: d163d7cc39376b80a18c5bdfc658cec5`
-
-Query with PowerShell (write JSON body to a temp file first to avoid quoting issues):
+Server: http://localhost:9623 (NOT the LightRAG default 9621).
 
 ```powershell
+$key = (Get-Content F:\____IL_AI\MECH_RAG\lightrag\.env | Select-String '^LIGHTRAG_API_KEY=').Line.Split('=',2)[1].Trim()
+$h = @{'X-API-Key'=$key; 'Content-Type'='application/json'}
 $body = '{"query":"USER QUESTION HERE","mode":"hybrid"}'
-$tmp = New-TemporaryFile; Set-Content $tmp $body -NoNewline
-curl.exe -s http://localhost:9621/query -H "Content-Type: application/json" -H "X-API-Key: d163d7cc39376b80a18c5bdfc658cec5" -d "@$tmp"
+(Invoke-RestMethod http://localhost:9623/query -Method Post -Headers $h -Body $body).response
 ```
+
+Answers can take 30-60s. Raise the tool timeout accordingly.
 
 Modes: `hybrid` (default, best), `local` (entity-focused), `global` (relationship/theme-focused), `naive` (plain vector search), `mix`.
 
-Response JSON has `response` field with the answer including reference markers. Summarize the answer for the user and list the cited sources. If the user asks for raw output, show `response` verbatim.
+Response JSON has a `response` field with the answer including reference markers. Summarize it for the user and list the cited sources. If the user asks for raw output, show `response` verbatim.
 
-If connection refused: check `docker ps` — container `rag-lightrag-1` must be Up; if not, `docker compose up -d` in C:\____PETR_AI\MECH_RAG\lightrag.
+If connection refused: `docker ps --filter name=mech_rag` — container `mech_rag-lightrag-1` must be Up; if not, `docker start mech_rag-lightrag-1`.
