@@ -43,5 +43,13 @@ Technische Mechanik 3 Theorie.pdf
 # --- in FOUND\ but NOT ingested; these are backlog, not done ---
 # Technische Mechanik 1 Aufgabenbuch.pdf (267 pages)
 # Technische Mechanik 1 Theorie.pdf (301 pages)
-# Technische Mechanik 1 Theorie (1).pdf - pymupdf cannot open it; likely a
-#   corrupt duplicate of the above. Diagnose before ingesting.
+# Technische Mechanik 1 Theorie (1).pdf - NOT a file: it is a DIRECTORY holding
+#   18 pre-cut slices of "Technische Mechanik 1 Theorie.pdf" (pages 004-301).
+#   Corrected 2026-08-25; the earlier "pymupdf cannot open it" note was wrong.
+#   Only the slice below has been ingested from it; the rest is still backlog.
+
+# --- single slice ingested on its own (ragkit S6 acceptance run, 2026-08-25) ---
+Technische Mechanik 1 Theorie-012-014.pdf
+# ^ pages 12-14 ("Einfuehrung") of Technische Mechanik 1 Theorie.pdf, taken from
+#   the FOUND\Technische Mechanik 1 Theorie (1).pdf\ slice folder. The SOURCE
+#   remains backlog - do not mark it done.

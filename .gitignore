@@ -9,9 +9,6 @@
 # upstream and must be fetched with `git clone`, not vendored.
 /lightrag/*
 !/lightrag/data/
-!/lightrag/rag_ingest.py
-!/lightrag/ingest_detached.ps1
-!/lightrag/check_vectors.py
 !/lightrag/.env.example
 !/lightrag/INGESTED_SOURCES.txt
 
