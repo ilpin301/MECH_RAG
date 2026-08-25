@@ -13,6 +13,7 @@
 !/lightrag/ingest_detached.ps1
 !/lightrag/check_vectors.py
 !/lightrag/.env.example
+!/lightrag/INGESTED_SOURCES.txt
 
 # --- run artifacts ---
 *.log
@@ -25,5 +26,7 @@ __pycache__/
 .obsidian/
 .trash/
 
-# RAG base itself is not versioned - it is backed up to Drive via rag_sync.ps1
+# RAG base itself is not versioned - it is backed up to Drive via rag_sync.ps1.
+# This rule comes AFTER the !/lightrag/data/ whitelist on purpose: that whitelist only
+# exists to keep tracked files under data/ reachable, and must never re-admit the store.
 /lightrag/data/rag_storage/

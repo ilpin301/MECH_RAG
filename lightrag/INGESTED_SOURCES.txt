@@ -1,0 +1,47 @@
+# INGESTED_SOURCES.txt - MECH_RAG
+#
+# One ORIGINAL source filename per line. Blank lines and lines starting with #
+# are ignored. This is the re-ingest guard: a slice family is often ingested
+# under renamed short names, so a filename check against the graph alone would
+# see the un-sliced source in IN\ or FOUND\ as new and ingest it a second time.
+#
+# Seeded 2026-08-25 from kv_store_doc_status.json with the container stopped
+# (47 documents, all status=processed). IN\ holds exactly those 47 files, 1:1.
+
+# --- ingested under their own name (source == document) ---
+Aufgabensammlung.pdf
+Aufgabensammlung_Loesung_Textlayer.md
+Aufgabensammlung_Lösung.pdf
+Formelsammlung Technische Mechanik II.pdf
+Kapitel10_Elastostatik_Zug_und_Druck_in_Stäben.pdf
+Kapitel11_Spannungszustand.pdf
+Kapitel12_Verzerrungszustand.pdf
+Kapitel13_Balkenbiegung.pdf
+Kapitel14_Torsion.pdf
+Kapitel15_Der Arbeitsbegriff_in_der_Elastostatik.pdf
+Kapitel16_Knickung.pdf
+Kapitel17_Bewegung_Massenpunkt.pdf
+Kapitel18_Bewegung eines starren Körpers.pdf
+
+# --- slice families: the source lives in FOUND\, the slices in IN\ ---
+Technische Mechanik 2 Theorie.pdf
+Technische Mechanik 3 Theorie.pdf
+
+# --- PARTIAL: do NOT treat as done ---
+# Technische Mechanik 2 Theorie.pdf - source 309 pages; 11 slices totalling 293
+#   pages are ingested. The first slice starts at page 015, so pages 1-14
+#   (cover / TOC / front matter) are NOT in the graph. Listed as done above
+#   anyway: the missing pages are front matter, and re-ingesting the whole
+#   309-page source would duplicate everything else.
+# Technische Mechanik 3 Theorie.pdf - source 343 pages; 23 slices totalling 328
+#   pages are ingested. ~15 pages are unaccounted for and the per-slice page
+#   ranges could not be reconciled against source page numbers (the -4-/-5-/-7-
+#   families are numbered chapter-relative, not source-relative). Listed as done
+#   above for the same reason. Verify per-page coverage before trusting this
+#   document for exhaustive retrieval.
+
+# --- in FOUND\ but NOT ingested; these are backlog, not done ---
+# Technische Mechanik 1 Aufgabenbuch.pdf (267 pages)
+# Technische Mechanik 1 Theorie.pdf (301 pages)
+# Technische Mechanik 1 Theorie (1).pdf - pymupdf cannot open it; likely a
+#   corrupt duplicate of the above. Diagnose before ingesting.
