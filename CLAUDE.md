@@ -32,8 +32,15 @@ lecture chapters, theory volumes, formula sheets and problem sets, so filenames 
   `lightrag\CLAUDE.md` - that one is upstream's.
 - The store (`lightrag\data\rag_storage\`) is NOT in git. It lives on disk and is backed up to
   Google Drive with `rag_sync.ps1`. Never `git add -A` here.
-- Baseline as of 2026-08-25: 47 documents, all `processed`. `IN\` holds exactly those 47 files.
+- Baseline as of 2026-08-25 (verified by `il-check-rag-base` after a BSOD): 52 documents, all
+  `processed`; 4472 chunks; 34563 graph nodes / 147166 edges; `vdb_chunks` 4472, `vdb_entities`
+  34564, `vdb_relationships` 147171, all rows==matrix, 0 nonfinite, 0 zero-vectors. `IN\` holds 51
+  PDFs plus `Aufgabensammlung_Loesung_Textlayer.md` - one doc per file, no gaps.
   `FOUND\` holds the original sources, including Technische Mechanik 1 Aufgabenbuch and Theorie,
   which are NOT ingested.
-- The container exited 137 (OOM-killed) on 2026-08-13 and has not run since, so the store may be
-  mid-write. It has not been audited - run `il-check-rag-base` before trusting counts.
+- Standing orphan population (accepted, not damage): ~2840 graph edges with no relationship vector
+  and ~2334 relationship vectors with no graph edge (~1.9%), left by entity-merge deletes. Compare
+  against this number before calling an orphan count a finding.
+- A BSOD (bugcheck 0x1E) killed the box on 2026-08-25 13:41 during the `Theorie-008-008.pdf` ingest.
+  Audited afterwards: no NULs, no truncation, no lost docs - the ingest had finished at 13:36. A
+  normal container stop yields Exited (137) here; that is not evidence of an OOM kill.

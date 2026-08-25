@@ -48,8 +48,23 @@ Technische Mechanik 3 Theorie.pdf
 #   Corrected 2026-08-25; the earlier "pymupdf cannot open it" note was wrong.
 #   Only the slice below has been ingested from it; the rest is still backlog.
 
-# --- single slice ingested on its own (ragkit S6 acceptance run, 2026-08-25) ---
+# --- individual slices ingested on their own, from the FOUND\Technische Mechanik 1
+#     Theorie (1).pdf\ slice folder (ragkit S6 acceptance run + follow-ups, 2026-08-25) ---
+Technische Mechanik 1 Theorie-004-004.pdf
+Technische Mechanik 1 Theorie-005-007.pdf
+Technische Mechanik 1 Theorie-008-008.pdf
+Technische Mechanik 1 Theorie-009-011.pdf
 Technische Mechanik 1 Theorie-012-014.pdf
-# ^ pages 12-14 ("Einfuehrung") of Technische Mechanik 1 Theorie.pdf, taken from
-#   the FOUND\Technische Mechanik 1 Theorie (1).pdf\ slice folder. The SOURCE
-#   remains backlog - do not mark it done.
+# ^ pages 4-14 of Technische Mechanik 1 Theorie.pdf, five separate slices, all
+#   status=processed (chunks: 1 / 2 / 5 / 2 / 2). Verified by il-check-rag-base on
+#   2026-08-25 after the BSOD; 008-008 was the file in flight when the machine
+#   crashed and it completed before the crash. The SOURCE (301 pages) remains
+#   backlog - do not mark it done.
+Technische Mechanik 1 Theorie-298-301.pdf
+# ^ pages 298-301 of Technische Mechanik 1 Theorie.pdf (Stichwortverzeichnis /
+#   index), ingested 2026-08-25, status=processed, 2 chunks, TEXT route (no
+#   MinerU). The SOURCE (301 pages) remains backlog - do not mark it done.
+Technische Mechanik 1 Theorie-015-026.pdf
+# ^ pages 15-26 of Technische Mechanik 1 Theorie.pdf (Kapitel 1 Grundbegriffe),
+#   ingested 2026-08-25 via ragkit -Merged -Pages 6, MinerU/VLM route,
+#   status=processed, 17 chunks. The SOURCE (301 pages) remains backlog.
