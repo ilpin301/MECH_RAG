@@ -5,6 +5,11 @@ lecture chapters, theory volumes, formula sheets and problem sets, so filenames 
 (`Stäben`, `Lösung`, `Körpers`) - every path must move through UTF-8, never the ANSI codepage.
 
 ## RAG Ingest Rules
+- **One SOURCE per ingest run.** If `IN\` has several new files, ingest them one at a time:
+  full cycle per source (probe, launch, verify, error-correction pass, cleanup, ledger, memory),
+  and only then start the next. Never batch several sources into one list file - a failure then
+  cannot be attributed and the delete/re-ingest repair costs minutes per document. Slices of ONE
+  source still go in ONE run. A failed or lossy source STOPS the queue; report and wait.
 - Always launch ingests via the ragkit launcher, detached, never inline:
   `& $env:RAGKIT_HOME\ingest.ps1 -Root <this base> -ListFile <utf8 list>`. It produces
   `lightrag\LOG\ingest_run.log`, which progress checks depend on, and it owns `docker compose
