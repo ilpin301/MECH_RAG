@@ -1,0 +1,16 @@
+/il-aufgabe 1.3 Try to make maximum use of RAG at every stage. Remember all issues and errors that arise during work and how to fix them to avoid them in the future.
+
+last session was ended with blue screen. Check up all.
+
+retry chkimg interactively
+
+write the vectors after dry run looks right
+
+1. Memtest86, one stick at a time, PAR mode, 4 passes each, at stock: 1333 MHz, DRAM 1.50V, VCCIO auto. Isolates stick vs IMC, and tells you whether the overvolt was masking or causing.
+2. Arm dump capture for the next hang — today produced no forensic evidence at all. CrashOnCtrlScroll reg key + reboot lets you force a real MEMORY.DMP from a frozen box with Ctrl+ScrollLock×2. One reg value, one reboot.
+3. Move the RAG store off the CX400 to the Samsung 980 (X:) or C:. The DRAM-less drive is the one throwing IO retries under exactly the write pattern the ingest generates.
+
+
+VRAM test + driver reinstall first
+
+ can i do the Qdrant migration first and then re-ingest TM2 Theorie-7.pdf with nwe Qdrant?

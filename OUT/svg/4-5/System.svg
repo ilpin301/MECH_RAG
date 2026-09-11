@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="530" viewBox="0 0 660 530">
+<rect width="660" height="530" fill="#ffffff"/>
+<defs>
+<marker id="ah" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto"><path d="M0,0 L9,4 L0,8 z" fill="#000000"/></marker>
+<marker id="ahs" markerWidth="10" markerHeight="8" refX="1" refY="4" orient="auto"><path d="M9,0 L0,4 L9,8 z" fill="#000000"/></marker>
+</defs>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="17" fill="#000000">
+<line x1="400" y1="120" x2="400" y2="440" stroke="#000000" stroke-width="6"/>
+<line x1="80" y1="280" x2="400" y2="280" stroke="#000000" stroke-width="6"/>
+<polygon points="400,280 400,304 376,280" fill="#000000"/>
+<polygon points="400,256 376,280 400,304" fill="#000000"/>
+<circle cx="400" cy="440" r="6" fill="#ffffff" stroke="#000000" stroke-width="1.8"/>
+<polygon points="400,446 376,482 424,482" fill="none" stroke="#000000" stroke-width="1.6"/>
+<g stroke="#000000" stroke-width="1.4" fill="none">
+<line x1="370" y1="482" x2="430" y2="482"/>
+<line x1="376" y1="482" x2="364" y2="494"/>
+<line x1="390" y1="482" x2="378" y2="494"/>
+<line x1="404" y1="482" x2="392" y2="494"/>
+<line x1="418" y1="482" x2="406" y2="494"/>
+</g>
+<circle cx="400" cy="120" r="6" fill="#ffffff" stroke="#000000" stroke-width="1.8"/>
+<polygon points="394,120 358,98 358,142" fill="none" stroke="#000000" stroke-width="1.6"/>
+<g stroke="#000000" stroke-width="1.6" fill="none">
+<line x1="352" y1="94" x2="352" y2="146"/>
+<line x1="346" y1="94" x2="346" y2="146"/>
+</g>
+<circle cx="80" cy="280" r="6" fill="#ffffff" stroke="#000000" stroke-width="1.8"/>
+<polygon points="80,286 56,320 104,320" fill="none" stroke="#000000" stroke-width="1.6"/>
+<g stroke="#000000" stroke-width="1.6" fill="none">
+<line x1="50" y1="326" x2="110" y2="326"/>
+<line x1="50" y1="332" x2="110" y2="332"/>
+</g>
+<g stroke="#000000" stroke-width="1.4" fill="none">
+<line x1="520" y1="120" x2="520" y2="440"/>
+<line x1="520" y1="120" x2="410" y2="120" marker-end="url(#ah)"/>
+<line x1="520" y1="200" x2="410" y2="200" marker-end="url(#ah)"/>
+<line x1="520" y1="280" x2="410" y2="280" marker-end="url(#ah)"/>
+<line x1="520" y1="360" x2="410" y2="360" marker-end="url(#ah)"/>
+<line x1="520" y1="440" x2="410" y2="440" marker-end="url(#ah)"/>
+</g>
+<text x="528" y="116" font-style="italic">q</text><text x="539" y="121" font-size="12">0</text>
+<g stroke="#000000" stroke-width="1.4" fill="none">
+<line x1="80" y1="190" x2="400" y2="280"/>
+<line x1="80" y1="190" x2="80" y2="272" marker-end="url(#ah)"/>
+<line x1="133" y1="205" x2="133" y2="272" marker-end="url(#ah)"/>
+<line x1="187" y1="220" x2="187" y2="272" marker-end="url(#ah)"/>
+<line x1="240" y1="235" x2="240" y2="272" marker-end="url(#ah)"/>
+<line x1="293" y1="250" x2="293" y2="272" marker-end="url(#ah)"/>
+</g>
+<text x="52" y="182" font-style="italic">q</text><text x="63" y="187" font-size="12">0</text>
+<g stroke="#000000" stroke-width="0.9" fill="none">
+<line x1="526" y1="120" x2="600" y2="120"/>
+<line x1="406" y1="280" x2="600" y2="280" stroke-dasharray="4 3"/>
+<line x1="526" y1="440" x2="600" y2="440"/>
+</g>
+<g stroke="#000000" stroke-width="1.3" fill="none">
+<line x1="592" y1="126" x2="592" y2="274" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<line x1="592" y1="286" x2="592" y2="434" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+</g>
+<text x="606" y="204" font-style="italic">l</text>
+<text x="606" y="364" font-style="italic">l</text>
+<g stroke="#000000" stroke-width="0.9" fill="none">
+<line x1="80" y1="338" x2="80" y2="506"/>
+<line x1="400" y1="488" x2="400" y2="506"/>
+</g>
+<line x1="86" y1="498" x2="394" y2="498" stroke="#000000" stroke-width="1.3" fill="none" marker-start="url(#ahs)" marker-end="url(#ah)"/>
+<text x="230" y="520" font-style="italic">2l</text>
+<text x="410" y="112" font-weight="bold" font-style="italic">B</text>
+<text x="410" y="460" font-weight="bold" font-style="italic">A</text>
+<text x="52" y="272" font-weight="bold" font-style="italic">C</text>
+<text x="352" y="252" font-style="italic">K</text>
+<text x="300" y="140" font-style="italic">EI</text>
+</g>
+</svg>

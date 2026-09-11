@@ -1,0 +1,80 @@
+=====================================================
+ MECH_RAG - How to start the server and query the RAG
+=====================================================
+
+The RAG web UI is the LightRAG WebUI, served by the LightRAG
+container. Port for this project is 9623 (set in lightrag/.env),
+NOT the LightRAG default 9621.
+
+
+-----------------------------------------------------
+1. START THE SERVER
+-----------------------------------------------------
+
+Existing container:
+
+    docker start mech_rag-lightrag-1
+
+Check it is up:
+
+    docker ps --filter name=mech_rag
+
+Fresh start / container missing:
+
+    cd X:\RAG_MAIN\MECH_RAG\lightrag
+    docker compose up -d
+
+Stop:
+
+    docker stop mech_rag-lightrag-1
+
+Logs (if it fails to come up):
+
+    docker logs --tail 50 mech_rag-lightrag-1
+
+Health check (PowerShell):
+
+    Invoke-WebRequest http://localhost:9623/health -UseBasicParsing
+
+Tip: inside Claude Code, prefix a command with "!" to run it in the
+session, e.g.   ! docker start mech_rag-lightrag-1
+
+
+-----------------------------------------------------
+2. OPEN THE WEB UI
+-----------------------------------------------------
+
+    http://localhost:9623/webui/
+
+Login: paste the API key from lightrag/.env  (key name: LIGHTRAG_API_KEY).
+
+
+-----------------------------------------------------
+3. ASK THE RAG
+-----------------------------------------------------
+
+Left sidebar -> "Retrieval" tab -> type the question.
+
+Query modes (selector above/near the chat box):
+
+    hybrid  - default; graph + vector. Best for most questions.
+    local   - entity-focused; specific detail about one thing.
+    global  - theme / summary / "what are the main ..." questions.
+    naive   - plain vector search, graph ignored.
+    mix     - combined graph + vector retrieval.
+
+Other tabs:
+
+    Documents       - upload files, watch ingestion status.
+    Knowledge Graph - browse the entity/relation graph visually.
+
+
+-----------------------------------------------------
+4. NOTES
+-----------------------------------------------------
+
+- Data lives in lightrag/data/ (rag_storage, inputs, mineru_output).
+  It is bind-mounted into the container, so it survives restarts.
+- Config: lightrag/.env  and  lightrag/config.ini
+- Podman instead of Docker: use lightrag/docker-compose.podman.yml
+      podman-compose -f docker-compose.podman.yml up -d

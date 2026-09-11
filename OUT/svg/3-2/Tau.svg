@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="420" viewBox="0 0 620 420">
+<rect width="620" height="420" fill="#ffffff"/>
+<defs>
+<marker id="arrowEnd" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+<path d="M0,0 L8,3 L0,6 Z" fill="#000000"/>
+</marker>
+</defs>
+<text x="20" y="30" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#000000">&#964;(s) = Q_z &#183; S_y(s) / (I_y &#183; t(s)),  Q_z = F</text>
+<polygon points="240,140 344,140 344,348 240,348" fill="none" stroke="#999999" stroke-width="2"/>
+<circle cx="344" cy="244" r="4" fill="#ffffff" stroke="#000000" stroke-width="1.2"/>
+<text x="356" y="240" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#000000">Schlitz, &#964; = 0</text>
+<path d="M 240,140 L 190,140 Q 172,244 190,348 L 240,348 Z" fill="#1a4fa0" fill-opacity="0.25" stroke="#999999" stroke-width="1.3"/>
+<path d="M 344,140 L 354,140 Q 341,244 354,348 L 344,348 Z" fill="#1a4fa0" fill-opacity="0.25" stroke="#999999" stroke-width="1.3"/>
+<polygon points="240,140 240,115 344,135 344,140" fill="#1a4fa0" fill-opacity="0.25" stroke="#999999" stroke-width="1.3"/>
+<polygon points="240,348 240,373 344,353 344,348" fill="#1a4fa0" fill-opacity="0.25" stroke="#999999" stroke-width="1.3"/>
+<text x="150" y="250" font-family="Georgia, 'Times New Roman', serif" font-size="12" text-anchor="end" fill="#000000">&#964;_max = 9F/(68t&#178;) &#8776; 0,1324 F/t&#178;</text>
+<text x="150" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12" text-anchor="end" fill="#000000">15F/(136t&#178;) &#8776; 0,1103 F/t&#178;</text>
+<text x="366" y="136" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#000000">3F/(136t&#178;) &#8776; 0,0221 F/t&#178;</text>
+<text x="240" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="12" text-anchor="middle" fill="#000000">15F/(272t&#178;) &#8776; 0,0551 F/t&#178;</text>
+<line x1="396" y1="128" x2="344" y2="136" stroke="#000000" stroke-width="1"/>
+<text x="400" y="132" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#000000">3F/(272t&#178;) &#8776; 0,0110 F/t&#178;</text>
+<text x="240" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="12" text-anchor="middle" fill="#000000">9F/(272t&#178;) &#8776; 0,0331 F/t&#178; (Gurtmitte, spiegelbildlich)</text>
+<line x1="120" y1="60" x2="60" y2="60" stroke="#000000" stroke-width="1.6" marker-end="url(#arrowEnd)"/>
+<text x="112" y="52" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#000000">y</text>
+<line x1="60" y1="60" x2="60" y2="110" stroke="#000000" stroke-width="1.6" marker-end="url(#arrowEnd)"/>
+<text x="66" y="118" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#000000">z</text>
+</svg>

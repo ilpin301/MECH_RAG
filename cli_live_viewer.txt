@@ -1,0 +1,1 @@
+Get-Content X:\RAG_MAIN\MECH_RAG\lightrag\LOG\ingest_run.log -Wait -Tail 20

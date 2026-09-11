@@ -32,15 +32,27 @@ lecture chapters, theory volumes, formula sheets and problem sets, so filenames 
   `lightrag\CLAUDE.md` - that one is upstream's.
 - The store (`lightrag\data\rag_storage\`) is NOT in git. It lives on disk and is backed up to
   Google Drive with `rag_sync.ps1`. Never `git add -A` here.
-- Baseline as of 2026-08-25 (verified by `il-check-rag-base` after a BSOD): 52 documents, all
-  `processed`; 4472 chunks; 34563 graph nodes / 147166 edges; `vdb_chunks` 4472, `vdb_entities`
-  34564, `vdb_relationships` 147171, all rows==matrix, 0 nonfinite, 0 zero-vectors. `IN\` holds 51
-  PDFs plus `Aufgabensammlung_Loesung_Textlayer.md` - one doc per file, no gaps.
-  `FOUND\` holds the original sources, including Technische Mechanik 1 Aufgabenbuch and Theorie,
-  which are NOT ingested.
-- Standing orphan population (accepted, not damage): ~2840 graph edges with no relationship vector
-  and ~2334 relationship vectors with no graph edge (~1.9%), left by entity-merge deletes. Compare
-  against this number before calling an orphan count a finding.
+- **This base lives at `X:\RAG_MAIN\MECH_RAG\` since 2026-09-05** (moved off F:, the
+  DRAM-less SSD that corrupted NTFS twice in August). `RAGKIT_HOME` is `X:\RAG_MAIN\RAG`.
+  The F: copy still exists as rollback and is STALE - never ingest into it.
+- Baseline verified 2026-09-05 directly from the store: 52 documents - 51 `processed` and
+  **1 stuck at `handling`** (`Technische Mechanik 1 Theorie-027-051.pdf`, 7 chunks,
+  `doc-7d0304f7883e5c11dc4100389a9b3497`), which must be deleted before it is re-ingested.
+  4223 chunks; 33405 graph nodes / 139068 edges; `vdb_chunks` 4223, `vdb_entities` 33730,
+  `vdb_relationships` 139068; all matrices present, 0 NUL bytes across all 15 store files.
+  These numbers are LOWER than the 2026-08-25 figures this file used to record (4472 chunks
+  / 34563 nodes / 147166 edges): the 29-Aug BSOD and the 02-Sep hang killed their ingests and
+  the store did not keep that work. Trust a fresh count over any recorded baseline after a crash.
+  `IN\` holds 54 PDFs plus `Aufgabensammlung_Loesung_Textlayer.md`; 3 of them never reached
+  the graph (`Kapitel12_Verzerrungszustand.pdf`, `Technische Mechanik 2 Theorie-7.pdf`,
+  `Technische Mechanik 3 Theorie--3.pdf`), so `IN\` is NOT one-doc-per-file any more.
+  `FOUND\` holds the original sources, including Technische Mechanik 1 Aufgabenbuch and
+  Theorie, which are NOT ingested.
+- Standing orphan population, re-measured 2026-09-05 (accepted, not damage): 251 graph edges
+  with no relationship vector and 251 relationship vectors with no graph edge, out of 139068
+  each - 0.18%, left by entity-merge deletes. This replaces the ~2840 / ~2334 (~1.9%) figures
+  recorded on 2026-08-25, which the killed ingests invalidated. Compare against 251 before
+  calling an orphan count a finding, and re-measure rather than trusting this line after a crash.
 - A BSOD (bugcheck 0x1E) killed the box on 2026-08-25 13:41 during the `Theorie-008-008.pdf` ingest.
   Audited afterwards: no NULs, no truncation, no lost docs - the ingest had finished at 13:36. A
   normal container stop yields Exited (137) here; that is not evidence of an OOM kill.

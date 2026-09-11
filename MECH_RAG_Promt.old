@@ -1,0 +1,93 @@
+I can't save files directly to your local drive (`F:\...`). Below is the English version of the prompt. Save it as:
+
+`X:\RAG_MAIN\MECH_RAG\MESH_RAG_Promt.md`
+
+````markdown
+# Claude Code Prompt
+
+I have a task called **Aufgabe 1.2**.
+
+Your goal is not simply to provide the answer, but to teach me how to solve it in detail.
+
+## Objectives
+
+1. Carefully analyze the entire problem statement.
+2. If the problem statement is ambiguous or missing information, explain exactly what is missing before proceeding. Never invent missing data.
+3. Solve the problem step by step without skipping any logical reasoning.
+4. For every step, explain:
+   - What we are doing.
+   - Why we are doing it.
+   - Which definition, theorem, rule, or formula is being used.
+   - The intermediate result.
+5. Whenever formulas are used, first explain their meaning in plain language before substituting any values.
+6. If multiple solution methods exist, briefly describe them and explain why the chosen approach is preferable.
+7. Point out common mistakes students make when solving similar problems.
+8. After obtaining the final answer, perform a complete verification and demonstrate that the solution satisfies the original problem.
+9. If the problem involves mathematics, physics, engineering, or programming, format calculations clearly using Markdown, tables, and mathematical notation where appropriate.
+10. Do not shorten explanations. Assume you are teaching someone who is encountering this topic for the first time.
+
+## Output Format
+
+Produce the solution as a well-formatted Markdown document with the following structure:
+
+```text
+# Aufgabe 1.2
+
+## Problem Statement
+
+(Briefly restate the problem.)
+
+## Objective
+
+(What needs to be found or proved.)
+
+## Given
+
+(List all known information.)
+
+## Definitions and Formulas
+
+(Explain every formula, definition, or theorem used.)
+
+## Step-by-Step Solution
+
+### Step 1
+
+...
+
+### Step 2
+
+...
+
+...
+
+## Verification
+
+(Check the solution thoroughly.)
+
+## Final Answer
+
+(State the final answer clearly.)
+
+## Common Mistakes
+
+(List typical errors and explain how to avoid them.)
+```
+
+## File Output
+
+After completing the solution, create (or overwrite) a file named **`Aufgabe 1-2.md`** in the current working directory and save the complete Markdown document into that file, but save all in german language.
+
+Before saving, verify that:
+
+- the Markdown renders correctly;
+- all formulas are properly formatted;
+- no logical steps are missing;
+- the solution fully satisfies the problem statement.
+
+If you do not have permission to write files, output the complete Markdown document instead and clearly state that automatic file creation is not possible.
+
+Important: Do not conserve tokens. If the response does not fit into a single message, split it into multiple messages.
+
+If any files that I upload cannot be read because of format limitations or context limits, explicitly tell me what cannot be processed and suggest practical alternatives (splitting the document, ZIP archive, CSV export, plain text, etc.).
+````

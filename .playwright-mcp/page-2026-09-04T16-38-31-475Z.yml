@@ -1,0 +1,292 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - navigation [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: "#"
+        - img "www.guru3d.com" [ref=e5]
+      - button "Toggle navigation" [ref=e6] [cursor=pointer]:
+        - generic [ref=e7]: 
+      - text: 
+  - main [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - navigation [ref=e11]:
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - generic [ref=e14]: 
+              - link "Home" [ref=e15] [cursor=pointer]:
+                - /url: https://www.guru3d.com/
+            - listitem [ref=e16]:
+              - text: »
+              - link "Archive" [ref=e17] [cursor=pointer]:
+                - /url: https://www.guru3d.com/archive/
+            - listitem [ref=e18]:
+              - text: »
+              - link "August 2026" [ref=e19] [cursor=pointer]:
+                - /url: https://www.guru3d.com/archive/202608
+            - listitem [ref=e20]:
+              - text: »
+              - link "Categories" [ref=e21] [cursor=pointer]:
+                - /url: https://www.guru3d.com/files/categories/
+            - listitem [ref=e22]:
+              - text: »
+              - link "Videocards - Handy Utilities" [ref=e23] [cursor=pointer]:
+                - /url: https://www.guru3d.com/files/category/videocards-handy-utilities/
+            - listitem [ref=e24]:
+              - text: »
+              - link "Display Driver Uninstaller (DDU) download version 18.1.5.7" [ref=e25] [cursor=pointer]:
+                - /url: https://www.guru3d.com/download/display-driver-uninstaller-download/
+        - article [ref=e26]:
+          - generic [ref=e27]:
+            - heading [level=2] [ref=e28]:
+              - link "Display Driver Uninstaller (DDU) download version 18.1.5.7" [ref=e29] [cursor=pointer]:
+                - /url: https://www.guru3d.com/download/display-driver-uninstaller-download/
+            - paragraph [ref=e30]:
+              - link " Videocards - Handy Utilities 87" [ref=e32] [cursor=pointer]:
+                - /url: https://www.guru3d.com/files/category/videocards-handy-utilities
+                - generic [ref=e33]: 
+                - text: Videocards - Handy Utilities
+                - generic [ref=e34]: "87"
+              - text: Updated
+              - time [ref=e35]: 2 weeks ago
+              - text: by Hilbert Hagedoorn
+          - list [ref=e37]:
+            - listitem [ref=e38]:
+              - link "Download" [ref=e39] [cursor=pointer]:
+                - /url: https://www.guru3d.com/download/display-driver-uninstaller-download/
+          - generic [ref=e40]:
+            - table [ref=e42]:
+              - rowgroup [ref=e43]:
+                - row [ref=e44]:
+                  - columnheader "About this file" [ref=e45]
+                  - columnheader [ref=e46]
+              - rowgroup [ref=e47]:
+                - row [ref=e48]:
+                  - cell "Developer" [ref=e49]
+                  - cell "Wagnard" [ref=e50]
+                - row [ref=e51]:
+                  - cell "File Size" [ref=e52]
+                  - cell "2MB" [ref=e53]
+                - row [ref=e54]:
+                  - cell "Date" [ref=e55]
+                  - cell [ref=e56]:
+                    - time [ref=e57]: 2 weeks ago
+                - row [ref=e58]:
+                  - cell "Operating Systems" [ref=e59]
+                  - cell [ref=e60]:
+                    - generic [ref=e61]: WindowsWindows 64bit
+                - row [ref=e62]:
+                  - cell "License" [ref=e63]
+                  - cell "Freeware" [ref=e64]
+                - row [ref=e66]:
+                  - cell "Price" [ref=e67]
+                  - cell "Free" [ref=e68]
+            - article [ref=e69]:
+              - generic [ref=e71]:
+                - button " Download Mirror (EU)" [ref=e72] [cursor=pointer]:
+                  - generic [ref=e73]: 
+                  - text: Download Mirror (EU)
+                - button " Download Mirror (USA)" [ref=e74] [cursor=pointer]:
+                  - generic [ref=e75]: 
+                  - text: Download Mirror (USA)
+              - generic [ref=e76]:
+                - text: Display Driver Uninstaller 18.1.5.7, a stable update to its graphics-driver removal utility. Published on August 18, 2026, the release replaces version 18.1.5.6 and introduces important safeguards for DDU’s Safe Mode process, alongside more complete removal of recent Intel graphics drivers. The primary changes concern the helper service responsible for returning Windows to its regular boot configuration after DDU has restarted the computer in Safe Mode. This service is now stored in a permanent location instead of a temporary directory. The earlier implementation could be disrupted when antivirus software or a cleanup utility deleted the service executable before the computer restarted. DDU now verifies that the Windows Safe Mode boot flag has actually been removed. If the first attempt fails, the service retries instead of assuming that the operation completed successfully. Should removal continue to fail while Windows is running in Safe Mode, the helper service remains installed so it can make another attempt during the following boot.
+                - paragraph [ref=e77]:
+                  - text: If you have a problem installing an older driver or newer one, give it a try as there are some reports that it fix those problems. Guru3D.com is an official download partner for this handy application. We have
+                  - link "AMD support thread over here" [ref=e78] [cursor=pointer]:
+                    - /url: https://forums.guru3d.com/forums/videocards-amd-radeon-drivers-section.46/
+                  - text: and an
+                  - link "NVIDIA over here" [ref=e79] [cursor=pointer]:
+                    - /url: https://forums.guru3d.com/forums/videocards-nvidia-geforce-drivers-section.21/
+                  - text: .
+                - paragraph [ref=e80]: DDU is designed to provide a clean system state by removing all traces of graphics drivers from NVIDIA, AMD, and Intel platforms. While typical uninstall routines remove the main driver package, they often leave behind supporting components that remain active in the operating system. These remnants can lead to driver conflicts, failed installations, or instability when upgrading to newer driver versions or switching between GPU vendors.
+                - paragraph [ref=e81]: This is particularly relevant when the user cannot sign in under Safe Mode. Windows Hello PIN authentication may be unavailable in that environment, potentially leaving users without access when they do not remember the corresponding account password. Version 18.1.5.7 cancels the restart into Safe Mode if the recovery service cannot be installed, reducing the risk of leaving the computer stuck in that configuration.
+                - paragraph [ref=e82]: DDU also removes service entries, registry keys and copied executables left behind by the Safe Mode helper. This cleanup includes remnants created by earlier DDU releases. A console window that previously appeared briefly while installing or removing the service should no longer be visible.
+                - paragraph [ref=e83]: Intel cleanup receives two notable corrections. The IGSDSserviceDiscrete service used by Intel Arc and other discrete graphics products, together with PmtChildDriver, can now be removed correctly. DDU also recognizes the newer filenames used by current integrated and discrete Intel display-driver packages, preventing obsolete packages from remaining in the Windows driver store.
+                - paragraph [ref=e84]: Logging has been improved as well. Attempting to stop a Windows service that does not accept stop requests no longer produces a misleading error. DDU now writes its log even when startup ends early because settings files are missing, Windows has a pending restart or administrator permission is refused.
+                - paragraph
+                - paragraph
+                - paragraph [ref=e85]: DDU 18.1.5.7 supports 32-bit and 64-bit editions of Windows 7 through Windows 11 and requires .NET Framework 4.8. No release-specific known issues are documented. Wagnardsoft continues to recommend creating a restore point and using Safe Mode when possible.
+                - paragraph
+                - paragraph
+                - paragraph [ref=e86]: DDU continues to serve as a specialized utility rather than a general-purpose uninstall tool. It is primarily intended for advanced users, system builders, and reviewers who require a fully clean driver environment. With ongoing updates to maintain compatibility with modern hardware and software, it remains a relevant tool for ensuring reliable GPU driver installations.
+                - paragraph [ref=e87]
+                - blockquote [ref=e88]:
+                  - link "Grab NVIDIA GeForce RTX graphics cards on Amazon." [ref=e89] [cursor=pointer]:
+                    - /url: https://amzn.to/46F3kbg
+                - paragraph [ref=e90]:
+                  - strong [ref=e91]: Recommended usage
+                - list [ref=e92]:
+                  - listitem [ref=e93]: The tool can be used in Normal mode but for absolute stability when using DDU, Safemode is always the best.
+                  - listitem [ref=e94]: Make a backup or a system restore (but it should normally be pretty safe).
+                  - listitem [ref=e95]: It is best to exclude the DDU folder completely from any security software to avoid issues.
+                - paragraph [ref=e96]: Keep note that NVIDIA/AMD did not have anything to do with this, I do not work at or for NVIDIA/AMD and they should not be held responsible for anything that may go wrong with this application.
+                - paragraph [ref=e97]:
+                  - strong [ref=e98]: "Requirement:"
+                - list [ref=e99]:
+                  - listitem [ref=e100]: Windows 7 up to Windows 11
+                  - listitem [ref=e101]: NVIDIA, AMD, Intel GPUs
+                  - listitem [ref=e102]: Also support basic Realtek audio driver cleanup.
+                  - listitem [ref=e103]: Microsoft .NET Framework 4.8 or higher
+                - paragraph [ref=e104]:
+                  - strong [ref=e106]: Recommended usage
+                - list [ref=e107]:
+                  - listitem [ref=e108]: You MUST disconnect your internet or completely block Windows Update when running DDU until you have re-installed your new drivers.
+                  - listitem [ref=e109]: DDU should be used when having a problem uninstalling/installing a driver or when switching GPU brand.
+                  - listitem [ref=e110]: DDU should not be used every time you install a new driver unless you know what you are doing.
+                  - listitem [ref=e111]: "DDU will not work on network drive. Please install in a local drive (C:, D: or else)."
+                  - listitem [ref=e112]: The tool can be used in Normal mode but for absolute stability when using DDU, Safemode is always the best.
+                  - listitem [ref=e113]: If you are using DDU in normal mode, Clean, reboot, clean again, reboot.
+                  - listitem [ref=e114]: Make a backup or a system restore (but it should normally be pretty safe).
+                  - listitem [ref=e115]: It is best to exclude the DDU folder completely from any security software to avoid issues.
+                - paragraph [ref=e116]
+                - paragraph [ref=e117]:
+                  - link [ref=e118] [cursor=pointer]:
+                    - /url: https://www.guru3d.com/data/publish/173/b0d2c6296adcaa52d672c4f2147d217f10bdec/2024_01_15_09_23_14_guru3d.webp
+                    - img "2024_01_15_09_23_14_guru3d" [ref=e119]
+                - paragraph:
+                  - link:
+                    - /url: https://www.guru3d.com/data/publish/173/b0d2c6296adcaa52d672c4f2147d217f10bdec/2024_01_15_09_23_14_guru3d.jpg
+                - paragraph:
+                  - link:
+                    - /url: https://www.guru3d.com/data/publish/173/b0d2c6296adcaa52d672c4f2147d217f10bdec/image3.png
+                  - link:
+                    - /url: https://www.guru3d.com/data/publish/173/b0d2c6296adcaa52d672c4f2147d217f10bdec/untitled-1.png
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: https://www.guru3d.com/data/publish/173/b0d2c6296adcaa52d672c4f2147d217f10bdec/image3.png
+                  - listitem:
+                    - link:
+                      - /url: https://www.guru3d.com/data/publish/173/b0d2c6296adcaa52d672c4f2147d217f10bdec/untitled-1.png
+                - strong [ref=e120]: "Change Info:"
+                - text: "Display Driver Uninstaller (DDU) V18.1.5.7 Released. Requirement: -Windows 7 up to Windows 11 -NVIDIA, AMD, Intel GPUs -Also support basic Realtek audio driver cleanup. -Microsoft .NET Framework 4.8 or higher Changelog: Safe Mode handler service - Improved : The helper service that brings the computer back out of Safe Mode is now stored in a permanent location instead of the temporary folder, where cleanup tools or antivirus could delete it before the reboot. - Improved : The service now verifies that the Safe Mode flag was really removed, and retries instead of assuming it worked. If it still fails while in Safe Mode, it stays installed so it can try again on the next boot. - Improved : The reboot into Safe Mode is now cancelled if that service could not be installed, instead of restarting anyway. This service is the only thing able to bring back a computer whose user cannot sign in while in Safe Mode (forgotten password, PIN not available there). - Added : DDU now removes the leftovers of that service on startup (service entry, registry keys and copied executable), including leftovers created by previous DDU versions. - Fixed : No more console window briefly flashing when the service is installed or removed. Intel cleanup - Fixed : Two Intel services were left behind after a cleanup: IGSDSserviceDiscrete (used by Arc / discrete graphics) and PmtChildDriver. - Fixed : Leftover display driver packages from recent Intel drivers could stay in the driver store. Only the older driver file name was recognized; the current integrated and discrete ones are now recognized as well, older drivers still are. Logs - Fixed : Trying to stop a service that does not accept stop requests no longer reports an error. It is now skipped with a clear message. - Fixed : The log file is now written when DDU exits early during startup (missing settings files, pending Windows reboot, administrator rights refused). Languages - Updated : Hungarian."
+            - paragraph
+            - heading " Share this content" [level=6] [ref=e121]:
+              - generic [ref=e122]: 
+              - text: Share this content
+            - link " Twitter" [ref=e123] [cursor=pointer]:
+              - /url: https://twitter.com/home?status=https%3A%2F%2Fwww.guru3d.com%2Fdownload%2Fdisplay-driver-uninstaller-download%2F
+              - generic [ref=e124]: 
+              - text: Twitter
+            - link " Facebook" [ref=e125] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.guru3d.com%2Fdownload%2Fdisplay-driver-uninstaller-download%2F
+              - generic [ref=e126]: 
+              - text: Facebook
+            - link " Reddit" [ref=e127] [cursor=pointer]:
+              - /url: https://www.reddit.com/submit?url=https%3A%2F%2Fwww.guru3d.com%2Fdownload%2Fdisplay-driver-uninstaller-download%2F&title=Display+Driver+Uninstaller+%28DDU%29+download+version+18.1.5.7
+              - generic [ref=e128]: 
+              - text: Reddit
+            - link " WhatsApp" [ref=e129] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?text=Display+Driver+Uninstaller+%28DDU%29+download+version+18.1.5.7%C2%A0https%3A%2F%2Fwww.guru3d.com%2Fdownload%2Fdisplay-driver-uninstaller-download%2F
+              - generic [ref=e130]: 
+              - text: WhatsApp
+            - link " Email" [ref=e131] [cursor=pointer]:
+              - /url: mailto:?subject=Display+Driver+Uninstaller+%28DDU%29+download+version+18.1.5.7&body=https%3A%2F%2Fwww.guru3d.com%2Fdownload%2Fdisplay-driver-uninstaller-download%2F
+              - generic [ref=e132]: 
+              - text: Email
+            - link " Print" [ref=e133] [cursor=pointer]:
+              - /url: https://www.guru3d.com/download/display-driver-uninstaller-download/?print
+              - generic [ref=e134]: 
+              - text: Print
+            - paragraph
+            - generic [ref=e135]:
+              - paragraph [ref=e137]:
+                - generic [ref=e138]: 
+                - link "AIDA64 Download Version 8.35" [ref=e139] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/aida64-download/
+              - paragraph [ref=e141]:
+                - link "AMD Radeon Software Adrenalin 26.8.1 driver download" [ref=e142] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/amd-radeon-software-adrenalin-2681-driver-download/
+                - generic [ref=e143]: 
+      - complementary [ref=e144]:
+        - textbox "search" [ref=e151]
+        - generic [ref=e152]:
+          - heading "Downloads" [level=4] [ref=e153]
+          - list [ref=e154]:
+            - listitem [ref=e155]:
+              - heading [level=6] [ref=e160]:
+                - link "7-Zip v26.03 Download" [ref=e161] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/7-zip-download/
+            - listitem [ref=e162]:
+              - heading [level=6] [ref=e167]:
+                - link "NVIDIA GeForce 616.64 WHQL driver download" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/nvidia-geforce-61664-whql-driver-download/
+            - listitem [ref=e169]:
+              - heading [level=6] [ref=e174]:
+                - link "Download Intel ARC graphics driver 32.0.101.8992 WHQL" [ref=e175] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/intel-arc-graphics-driver-download-version-30-101-1325/
+            - listitem [ref=e176]:
+              - heading [level=6] [ref=e181]:
+                - link "AMD Radeon Software Adrenalin 26.9.1 driver download" [ref=e182] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/amd-radeon-software-adrenalin-2691-driver-download/
+            - listitem [ref=e183]:
+              - heading [level=6] [ref=e188]:
+                - link "HWiNFO Download v8.53" [ref=e189] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/hwinfo64-download/
+            - listitem [ref=e190]:
+              - heading [level=6] [ref=e195]:
+                - link "Download Prime95 version 31.7 Build 1" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/prime95-download/
+            - listitem [ref=e197]:
+              - heading [level=6] [ref=e202]:
+                - link "WTools v1.0.9.4 Download" [ref=e203] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/wagnardsoft-tools-wtools-download/
+        - generic [ref=e207]:
+          - heading "Articles" [level=4] [ref=e208]
+          - list [ref=e209]:
+            - listitem [ref=e210]:
+              - link "NVIDIA DLSS 5 Review with NBA 2K27" [ref=e211] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/nvidia-dlss-5-review-with-nba-2k27/
+              - time [ref=e213]: 12 hours ago
+            - listitem [ref=e214]:
+              - link "Fractal Design Define One review" [ref=e215] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/fractal-design-define-one-review/
+              - time [ref=e217]: The day before yesterday
+            - listitem [ref=e218]:
+              - link "Fractal Design Radius 360 RGB (LCS CPU Cooler) Review" [ref=e219] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/fractal-design-radius-360-rgb-cpu-cooler-review/
+              - time [ref=e221]: The day before yesterday
+            - listitem [ref=e222]:
+              - link "NVIDIA DLSS 5 Technical Preview" [ref=e223] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/nvidia-dlss-5-technical-preview-review/
+              - time [ref=e225]: 3 days ago
+            - listitem [ref=e226]:
+              - link "be quiet! Dark Power Pro 14 IO PSU Review" [ref=e227] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/be-quiet-dark-power-pro-14-io-power-supply-review/
+              - time [ref=e229]: 3 days ago
+            - listitem [ref=e230]:
+              - link "be quiet! Light Mount TKL Review" [ref=e231] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/be-quiet-light-mount-tkl-keyboard-review/
+              - time [ref=e233]: One week ago
+            - listitem [ref=e234]:
+              - link "ColorFul iGame X870E VULCAN W OC V14 review" [ref=e235] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/colorful-igame-x870e-vulcan-w-oc-v14-review/
+              - time [ref=e237]: One week ago
+        - generic [ref=e241]:
+          - heading "News" [level=4] [ref=e242]
+          - list [ref=e243]:
+            - listitem [ref=e244]:
+              - link "ASUS ROG Rapture GT-BN98 WiFi 8 Router Reaches Retail With 30 Gbps Rating" [ref=e245] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/asus-rog-rapture-gtbn98-wifi-8-router-reaches-retail-with-30-gbps-rating/
+              - time [ref=e247]: 56 minutes ago
+            - listitem [ref=e248]:
+              - link "Motherboard Production Costs Rise at Least 10%, PCB Prices Climb Up to 50%" [ref=e249] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/motherboard-production-costs-rise-at-least-pcb-prices-climb-up-to/
+              - time [ref=e251]: 8 hours ago
+            - listitem [ref=e252]:
+              - link "Lenovo Project AeroBlade Uses Four AirJet Modules in a Sub-10mm Laptop" [ref=e253] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/lenovo-project-aeroblade-uses-four-airjet-modules-in-a-sub10mm-laptop/
+              - time [ref=e255]: 9 hours ago
+  - contentinfo [ref=e256]:
+    - generic [ref=e258]:
+      - paragraph [ref=e260]:
+        - text: Copyright ©1997-2026 guru3dPowered by
+        - link "Contentteller® CMS System" [ref=e261] [cursor=pointer]:
+          - /url: https://www.contentteller.com
+      - generic [ref=e262]:
+        - link "" [ref=e263] [cursor=pointer]:
+          - /url: https://www.guru3d.com/files/atom.xml
+        - link "" [ref=e265] [cursor=pointer]:
+          - /url: https://www.guru3d.com/files/rss.xml
+  - text: 

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="700" viewBox="0 0 740 700">
+<rect width="740" height="700" fill="#ffffff"/>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#000000">
+
+<g>
+<text x="80" y="52" font-size="17" font-weight="bold">a) M</text><text x="118" y="57" font-size="12" font-weight="bold">0</text><text x="127" y="52" font-size="17" font-weight="bold">  (Last q0)</text>
+<line x1="80" y1="90" x2="180" y2="90" stroke="#999999" stroke-width="5"/>
+<line x1="180" y1="90" x2="180" y2="240" stroke="#999999" stroke-width="5"/>
+<polygon points="80,90 180,90 180,50 80,50" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<path d="M 180 240 Q 180 165 220 90 L 180 90 Z" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<text x="196" y="80" font-size="13" fill="#1a4fa0">9/8·q0a²</text>
+<text x="80" y="272" font-size="13">Zugseite aussen; Riegel konstant, Stiel quadr. Parabel</text>
+</g>
+
+<g transform="translate(360,0)">
+<text x="80" y="52" font-size="17" font-weight="bold">b) M</text><text x="120" y="57" font-size="12" font-weight="bold">1</text><text x="129" y="52" font-size="17" font-weight="bold">  (Einheitslast fuer w)</text>
+<line x1="80" y1="90" x2="180" y2="90" stroke="#999999" stroke-width="5"/>
+<line x1="180" y1="90" x2="180" y2="240" stroke="#999999" stroke-width="5"/>
+<polygon points="80,90 180,90 180,50 80,50" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<polygon points="180,240 180,90 220,90" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<text x="196" y="80" font-size="13" fill="#1a4fa0">3a/2</text>
+<text x="80" y="272" font-size="13">Zugseite aussen; Riegel konstant, Stiel linear</text>
+</g>
+
+<g transform="translate(0,340)">
+<text x="80" y="52" font-size="17" font-weight="bold">c) M</text><text x="118" y="57" font-size="12" font-weight="bold">F</text><text x="129" y="52" font-size="17" font-weight="bold">  (Kraft F, System 1)</text>
+<line x1="80" y1="90" x2="180" y2="90" stroke="#999999" stroke-width="5"/>
+<line x1="180" y1="90" x2="180" y2="240" stroke="#999999" stroke-width="5"/>
+<polygon points="80,90 80,130 180,90" fill="#b03030" fill-opacity="0.25" stroke="#b03030" stroke-width="1.6"/>
+<text x="86" y="150" font-size="13" fill="#b03030">Fa/√2</text>
+<text x="80" y="272" font-size="13">Zugseite innen (Gegensinn zu M0); Stiel momentenfrei</text>
+</g>
+
+<g transform="translate(360,340)">
+<text x="80" y="52" font-size="17" font-weight="bold">d) M</text><text x="120" y="57" font-size="12" font-weight="bold">1</text><text x="129" y="52" font-size="17" font-weight="bold">  (Einheits-Stabkraft X=1)</text>
+<line x1="80" y1="90" x2="180" y2="90" stroke="#999999" stroke-width="5"/>
+<line x1="180" y1="90" x2="180" y2="240" stroke="#999999" stroke-width="5"/>
+<polygon points="80,90 80,50 180,90" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<text x="86" y="42" font-size="13" fill="#1a4fa0">a/√2</text>
+<text x="80" y="272" font-size="13">Zugseite aussen (gleichsinnig zu M0); Stiel momentenfrei</text>
+</g>
+
+</g>
+</svg>

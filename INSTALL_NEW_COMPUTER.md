@@ -2,7 +2,7 @@
 
 **Audience: Claude Code running on the target machine.** Follow the steps in order. Every step has a verification command — do not continue until it passes. Report the failing output instead of guessing if a check fails.
 
-This is a hardware-adaptive port of `F:\____IL_AI\RAG\REPLICATE.md` Scenario B. The source install is Windows 11 + Quadro P2000 (5 GB VRAM) + 32 GB RAM; steps 4 and 8 branch on the target hardware.
+This is a hardware-adaptive port of `X:\RAG_MAIN\RAG\REPLICATE.md` Scenario B. The source install is Windows 11 + Quadro P2000 (5 GB VRAM) + 32 GB RAM; steps 4 and 8 branch on the target hardware.
 
 ---
 
@@ -21,7 +21,7 @@ Consequence of the shared storage: **the container must be stopped while the hos
 
 Ask for these before starting; they cannot be derived:
 
-1. **Z.ai Coding Plan API key** (format `<32 hex>.<16 alnum>`). On the source machine it lives in `F:\____IL_AI\MECH_RAG\lightrag\.env` as `LLM_BINDING_API_KEY` / `VLM_LLM_BINDING_API_KEY`, and also in the user-level env var `ZAI_API_KEY`. Never commit it to a repo.
+1. **Z.ai Coding Plan API key** (format `<32 hex>.<16 alnum>`). On the source machine it lives in `X:\RAG_MAIN\MECH_RAG\lightrag\.env` as `LLM_BINDING_API_KEY` / `VLM_LLM_BINDING_API_KEY`, and also in the user-level env var `ZAI_API_KEY`. Never commit it to a repo.
 2. **Install folder** on the new machine, e.g. `D:\MECH_RAG` (this doc writes `<ROOT>` for it).
 3. **Port** for the web UI (default `9621`; use another only if taken).
 4. Whether the machine has an **NVIDIA GPU** (step 4 branches on it).
@@ -201,7 +201,7 @@ Open the UI at `http://localhost:<PORT>` and paste `LIGHTRAG_API_KEY` when promp
 
 ## Step 7 — ingest scripts
 
-Copy two files from the source install (`F:\____IL_AI\MECH_RAG\lightrag\`) into `<ROOT>\lightrag\`:
+Copy two files from the source install (`X:\RAG_MAIN\MECH_RAG\lightrag\`) into `<ROOT>\lightrag\`:
 
 - **`rag_ingest.py`** — do not rewrite it from scratch. It carries two mandatory monkeypatches for the `raganything 1.3.1` + `lightrag-hku 1.5.4` combination, both fixing `KeyError: 'role_llm_funcs'`:
   1. redirects `raganything.modalprocessors.asdict` to LightRAG's `_build_global_config()`;
@@ -371,6 +371,6 @@ Re-ingestion costs GLM tokens and hours. To move an already-built graph, copy `<
 
 ## Reference: the source install
 
-- Instances on the source machine: `F:\____IL_AI\RAG` (port 9621), `F:\____IL_AI\PCM_RAG` (9622), `F:\____IL_AI\MECH_RAG` (9623).
+- Instances on the source machine: `X:\RAG_MAIN\RAG` (port 9621), `X:\RAG_MAIN\PCM_RAG` (9622), `X:\RAG_MAIN\MECH_RAG` (9623).
 - Source hardware: Windows 11 Pro, Quadro P2000 5 GB (Pascal, driver 582.16), 32 GB RAM, Python 3.13.13.
-- Related docs: `F:\____IL_AI\RAG\INSTALL.md` (original as-built), `F:\____IL_AI\RAG\REPLICATE.md` (same-machine replication).
+- Related docs: `X:\RAG_MAIN\RAG\INSTALL.md` (original as-built), `X:\RAG_MAIN\RAG\REPLICATE.md` (same-machine replication).

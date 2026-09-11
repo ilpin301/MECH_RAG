@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300">
+<rect width="720" height="300" fill="#ffffff"/>
+<g font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#000000">
+
+<g transform="translate(80,30)">
+<text x="20" y="16" font-size="17" font-weight="bold">M</text><text x="40" y="21" font-size="12" font-weight="bold">0</text><text x="50" y="16" font-size="17" font-weight="bold">  (Last q0)</text>
+<line x1="120" y1="60" x2="120" y2="200" stroke="#999999" stroke-width="5"/>
+<line x1="120" y1="60" x2="190" y2="60" stroke="#999999" stroke-width="5"/>
+<path d="M 190 60 Q 155 60 120 25 L 120 60 Z" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<polygon points="120,60 85,60 85,200 120,200" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<text x="126" y="20" font-size="13" fill="#1a4fa0">q0·l²/2</text>
+<text x="20" y="232" font-size="13">Riegel: quadr. Parabel; Stiel: konstant</text>
+<text x="20" y="252" font-size="13">Zugseite aussen (Riegel oben, Stiel links)</text>
+</g>
+
+<g transform="translate(420,30)">
+<text x="20" y="16" font-size="17" font-weight="bold">M</text><text x="42" y="21" font-size="12" font-weight="bold">1</text><text x="52" y="16" font-size="17" font-weight="bold">  (Einheits-Stabkraft X=1)</text>
+<line x1="120" y1="60" x2="120" y2="200" stroke="#999999" stroke-width="5"/>
+<line x1="120" y1="60" x2="190" y2="60" stroke="#999999" stroke-width="5"/>
+<polygon points="190,60 120,60 120,25" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<polygon points="120,60 85,60 15,200 120,200" fill="#1a4fa0" fill-opacity="0.25" stroke="#1a4fa0" stroke-width="1.6"/>
+<text x="126" y="20" font-size="13" fill="#1a4fa0">l/√2</text>
+<text x="4" y="218" font-size="13" fill="#1a4fa0">3l/√2</text>
+<text x="20" y="240" font-size="13">Riegel: Dreieck; Stiel: Trapez</text>
+<text x="20" y="260" font-size="13">gleiche Zugseite wie M0  →  Druck im Stab</text>
+</g>
+
+</g>
+</svg>

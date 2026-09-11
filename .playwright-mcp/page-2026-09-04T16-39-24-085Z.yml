@@ -1,0 +1,146 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - navigation [ref=f3e3]:
+      - link [ref=f3e4] [cursor=pointer]:
+        - /url: "#"
+        - img "www.guru3d.com" [ref=f3e5]
+      - button "Toggle navigation" [ref=f3e6] [cursor=pointer]:
+        - generic [ref=f3e7]: 
+      - text: 
+  - main [ref=f3e8]:
+    - generic [ref=f3e9]:
+      - generic [ref=f3e10]:
+        - navigation [ref=f3e11]:
+          - list [ref=f3e12]:
+            - listitem [ref=f3e13]:
+              - generic [ref=f3e14]: 
+              - link "Home" [ref=f3e15] [cursor=pointer]:
+                - /url: https://www.guru3d.com/
+        - generic [ref=f3e16]:
+          - heading "Thanks for downloading Display Driver Uninstaller (DDU) download version 18.1.5.7" [level=4] [ref=f3e17]
+          - text: Your download will automatically start in 4 seconds. Please wait while we transfer you to the requested download or
+          - link "click here if it does not" [ref=f3e18] [cursor=pointer]:
+            - /url: https://www.guru3d.com/getdownload/2c1b2414f56a6594ffef91236a87c0e976d52e0519bd313846bab016c2f20c7c4d6ce7dfe19a0bc843da8d448bbb670058b0c9ee9a26f5cf49bc39c97da070e6eb314629af3da2d24ab0413917f73b946419b5af447da45cefb517a0840ad3003abff4f9d5fe7828bbbb910ee270b704333a0283584211b2623dc4ca585fe82d4774d04b4af4b257b930215e13b2364fde129ef8d1f274e01f97997bd9cd142bafb48194bda792eb320cab99
+        - table [ref=f3e20]:
+          - rowgroup [ref=f3e21]:
+            - row [ref=f3e22]:
+              - columnheader "About this file" [ref=f3e23]
+              - columnheader [ref=f3e24]
+          - rowgroup [ref=f3e25]:
+            - row [ref=f3e26]:
+              - cell "Program Name" [ref=f3e27]
+              - cell "Display Driver Uninstaller (DDU) download version 18.1.5.7" [ref=f3e28]
+            - row [ref=f3e29]:
+              - cell "Version" [ref=f3e30]
+              - cell [ref=f3e31]
+            - row [ref=f3e32]:
+              - cell "Developer" [ref=f3e33]
+              - cell "Wagnard" [ref=f3e34]
+            - row [ref=f3e35]:
+              - cell "File Size" [ref=f3e36]
+              - cell "2MB" [ref=f3e37]
+            - row [ref=f3e38]:
+              - cell "Date" [ref=f3e39]
+              - cell [ref=f3e40]:
+                - time [ref=f3e41]: 2026-08-19 10:44
+            - row [ref=f3e42]:
+              - cell "Operating Systems" [ref=f3e43]
+              - cell [ref=f3e44]:
+                - generic [ref=f3e45]: WindowsWindows 64bit
+            - row [ref=f3e46]:
+              - cell "License" [ref=f3e47]
+              - cell "Freeware" [ref=f3e48]
+            - row [ref=f3e50]:
+              - cell "Price" [ref=f3e51]
+              - cell "Free" [ref=f3e52]
+      - complementary [ref=f3e53]:
+        - textbox "search" [ref=f3e60]
+        - generic [ref=f3e61]:
+          - heading "Downloads" [level=4] [ref=f3e62]
+          - list [ref=f3e63]:
+            - listitem [ref=f3e64]:
+              - heading [level=6] [ref=f3e69]:
+                - link "7-Zip v26.03 Download" [ref=f3e70] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/7-zip-download/
+            - listitem [ref=f3e71]:
+              - heading [level=6] [ref=f3e76]:
+                - link "NVIDIA GeForce 616.64 WHQL driver download" [ref=f3e77] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/nvidia-geforce-61664-whql-driver-download/
+            - listitem [ref=f3e78]:
+              - heading [level=6] [ref=f3e83]:
+                - link "Download Intel ARC graphics driver 32.0.101.8992 WHQL" [ref=f3e84] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/intel-arc-graphics-driver-download-version-30-101-1325/
+            - listitem [ref=f3e85]:
+              - heading [level=6] [ref=f3e90]:
+                - link "AMD Radeon Software Adrenalin 26.9.1 driver download" [ref=f3e91] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/amd-radeon-software-adrenalin-2691-driver-download/
+            - listitem [ref=f3e92]:
+              - heading [level=6] [ref=f3e97]:
+                - link "HWiNFO Download v8.53" [ref=f3e98] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/hwinfo64-download/
+            - listitem [ref=f3e99]:
+              - heading [level=6] [ref=f3e104]:
+                - link "Download Prime95 version 31.7 Build 1" [ref=f3e105] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/prime95-download/
+            - listitem [ref=f3e106]:
+              - heading [level=6] [ref=f3e111]:
+                - link "WTools v1.0.9.4 Download" [ref=f3e112] [cursor=pointer]:
+                  - /url: https://www.guru3d.com/download/wagnardsoft-tools-wtools-download/
+        - generic [ref=f3e116]:
+          - heading "Articles" [level=4] [ref=f3e117]
+          - list [ref=f3e118]:
+            - listitem [ref=f3e119]:
+              - link "NVIDIA DLSS 5 Review with NBA 2K27" [ref=f3e120] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/nvidia-dlss-5-review-with-nba-2k27/
+              - time [ref=f3e122]: 12 hours ago
+            - listitem [ref=f3e123]:
+              - link "Fractal Design Define One review" [ref=f3e124] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/fractal-design-define-one-review/
+              - time [ref=f3e126]: The day before yesterday
+            - listitem [ref=f3e127]:
+              - link "Fractal Design Radius 360 RGB (LCS CPU Cooler) Review" [ref=f3e128] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/fractal-design-radius-360-rgb-cpu-cooler-review/
+              - time [ref=f3e130]: The day before yesterday
+            - listitem [ref=f3e131]:
+              - link "NVIDIA DLSS 5 Technical Preview" [ref=f3e132] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/nvidia-dlss-5-technical-preview-review/
+              - time [ref=f3e134]: 3 days ago
+            - listitem [ref=f3e135]:
+              - link "be quiet! Dark Power Pro 14 IO PSU Review" [ref=f3e136] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/be-quiet-dark-power-pro-14-io-power-supply-review/
+              - time [ref=f3e138]: 3 days ago
+            - listitem [ref=f3e139]:
+              - link "be quiet! Light Mount TKL Review" [ref=f3e140] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/be-quiet-light-mount-tkl-keyboard-review/
+              - time [ref=f3e142]: One week ago
+            - listitem [ref=f3e143]:
+              - link "ColorFul iGame X870E VULCAN W OC V14 review" [ref=f3e144] [cursor=pointer]:
+                - /url: https://www.guru3d.com/review/colorful-igame-x870e-vulcan-w-oc-v14-review/
+              - time [ref=f3e146]: One week ago
+        - generic [ref=f3e150]:
+          - heading "News" [level=4] [ref=f3e151]
+          - list [ref=f3e152]:
+            - listitem [ref=f3e153]:
+              - link "ASUS ROG Rapture GT-BN98 WiFi 8 Router Reaches Retail With 30 Gbps Rating" [ref=f3e154] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/asus-rog-rapture-gtbn98-wifi-8-router-reaches-retail-with-30-gbps-rating/
+              - time [ref=f3e156]: 57 minutes ago
+            - listitem [ref=f3e157]:
+              - link "Motherboard Production Costs Rise at Least 10%, PCB Prices Climb Up to 50%" [ref=f3e158] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/motherboard-production-costs-rise-at-least-pcb-prices-climb-up-to/
+              - time [ref=f3e160]: 8 hours ago
+            - listitem [ref=f3e161]:
+              - link "Lenovo Project AeroBlade Uses Four AirJet Modules in a Sub-10mm Laptop" [ref=f3e162] [cursor=pointer]:
+                - /url: https://www.guru3d.com/story/lenovo-project-aeroblade-uses-four-airjet-modules-in-a-sub10mm-laptop/
+              - time [ref=f3e164]: 9 hours ago
+  - contentinfo [ref=f3e165]:
+    - generic [ref=f3e167]:
+      - paragraph [ref=f3e169]:
+        - text: Copyright ©1997-2026 guru3dPowered by
+        - link "Contentteller® CMS System" [ref=f3e170] [cursor=pointer]:
+          - /url: https://www.contentteller.com
+      - generic [ref=f3e171]:
+        - link "" [ref=f3e172] [cursor=pointer]:
+          - /url: https://www.guru3d.com/atom.xml
+        - link "" [ref=f3e174] [cursor=pointer]:
+          - /url: https://www.guru3d.com/rss.xml
+  - text: 

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pwsh -NoProfile -File X:/RAG_MAIN/MECH_RAG/lightrag/delete_doc.ps1:*)",
+      "PowerShell(Remove-Item F:\\____IL_AI\\MECH_RAG\\lightrag\\data\\rag_storage\\kv_store_llm_response_cache.json:*)",
+      "Bash(rm -f X:/RAG_MAIN/MECH_RAG/lightrag/data/rag_storage/kv_store_llm_response_cache.json:*)",
+      "PowerShell(docker ps:*)",
+      "PowerShell(docker stop mech_rag-lightrag-1:*)",
+      "PowerShell(docker compose --project-directory F:\\____IL_AI\\MECH_RAG\\lightrag start:*)",
+      "Bash(docker ps:*)",
+      "Bash(docker stop mech_rag-lightrag-1:*)",
+      "Bash(docker compose --project-directory X:/RAG_MAIN/MECH_RAG/lightrag start:*)"
+    ]
+  }
+}
