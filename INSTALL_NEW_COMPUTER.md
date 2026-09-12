@@ -145,7 +145,7 @@ Create `<ROOT>\lightrag\.env`:
 LLM_BINDING=openai
 LLM_BINDING_HOST=https://api.z.ai/api/coding/paas/v4
 LLM_BINDING_API_KEY=<ZAI KEY FROM STEP 0>
-LLM_MODEL=glm-5.2
+LLM_MODEL=glm-5.3
 VLM_PROCESS_ENABLE=true
 VLM_LLM_BINDING=openai
 VLM_LLM_BINDING_HOST=https://api.z.ai/api/coding/paas/v4
@@ -193,7 +193,7 @@ docker compose up -d
 ```powershell
 (Invoke-RestMethod http://localhost:<PORT>/health -Headers @{'X-API-Key'='<LIGHTRAG_API_KEY>'}).status
 ```
-Must print `healthy`. The same response echoes the bindings — confirm `llm_model=glm-5.2`, `embedding_binding=ollama`, `embedding_model=bge-m3`.
+Must print `healthy`. The same response echoes the bindings — confirm `llm_model=glm-5.3`, `embedding_binding=ollama`, `embedding_model=bge-m3`.
 
 Open the UI at `http://localhost:<PORT>` and paste `LIGHTRAG_API_KEY` when prompted (`auth_mode` is `disabled` — the API key is the only credential).
 
