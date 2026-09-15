@@ -27,3 +27,8 @@ __pycache__/
 # This rule comes AFTER the !/lightrag/data/ whitelist on purpose: that whitelist only
 # exists to keep tracked files under data/ reachable, and must never re-admit the store.
 /lightrag/data/rag_storage/
+
+# --- editor / script backups ---
+*.bak
+*.bak-*
+*.bak.*
